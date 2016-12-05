@@ -9,7 +9,27 @@ Welcome to Signals User Guide's documentation!
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
+* :ref:`Welcome`
+* :ref:`FAQ`
+* :ref:`Quick Start Guide`
+* :ref:`Data Connectors`
+** :ref:`3rd Party Connectors`
+** :ref:`Public Data Connectors`
+** :ref:`Enterprise Data Connectors`
+* :ref:`Signals Analytics Engine`
+** :ref:`Buzzword Generation`
+** :ref:`Topic Discovery`
+** :ref:`Contributor Analysis`
+** :ref:`Temporal Analysis`
+** :ref:`Joining Structured with Unstructured`
+* :ref:`Building Dashboards`
+** :ref:`Default Widgets`
+** :ref:`Creating Tabs`
+** :ref:`Creating Custom Widgets`
+* :ref:`Analyzing Data`
+* :ref:`Sharing Insights`
+* :ref:`Administration`
 
 
 
