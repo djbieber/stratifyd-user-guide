@@ -1,22 +1,14 @@
 Welcome to the Signals User Guide!
 ==================================
 
+Signals is an advanced analytics platform designed to empower users of all backgrounds to get from data to insight to **revenue** faster.
+
+
 Contents:
 =========
 .. toctree::
-	:maxdepth: 1
+	:maxdepth: 2
 
 	FAQ
 	quickstartguide
 	dataconnectors
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
-
-this is the first line of documentation ~ more to come :) 1
