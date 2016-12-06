@@ -1,11 +1,19 @@
 Welcome to the Signals User Guide!
 ==================================
 
-Signals is an advanced analytics platform designed to empower users of all backgrounds to get from data --> insight --> **revenue** faster.
+Signals is an advanced analytics platform designed to empower users of all backgrounds to get from data >> insight >> **revenue** faster.
+
 
 
 Quick Start Guide
 =================
+
+1. Once you've created an account, check out some of the public dashboards in the folders on the homepage.
+2. To create your own dashboard, click "Create a new Dashboard" on the right under the folders.
+3.
+4.
+5.
+
 
 
 Chapters
@@ -21,6 +29,7 @@ Chapters
 	miscellaneous
 
 
+
 FAQ
 ===
 
@@ -34,4 +43,4 @@ FAQ
 
   Trial accounts are limited to 30MB uploads.
 
-  While there is no limit on Enterprise accounts, the web interface only supports up to 500MB files. Larger Files should be uploaded via the :ref:`Signals SDK <signalssdk>`_
+  While there is no limit on Enterprise accounts, the web interface only supports up to 500MB files. Larger Files should be uploaded via the :ref:`Signals SDK <signalssdk>`
