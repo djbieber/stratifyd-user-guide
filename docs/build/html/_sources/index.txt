@@ -6,7 +6,7 @@ Signals is an advanced analytics platform designed to empower users of all backg
 Chapters
 =========
 .. toctree::
-	:maxdepth: 3
+	:maxdepth: 2
 
 	dataconnectors
 	signalsanalyticsengine
@@ -20,8 +20,10 @@ Quick Start Guide
 =================
 
 
+
 FAQ
 ===
+
 
 **Where Does the "Signals" name come from?**
 
