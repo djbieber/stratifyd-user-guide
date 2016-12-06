@@ -1,16 +1,30 @@
-.. Signals User Guide documentation master file, created by
-   sphinx-quickstart on Mon Dec  5 14:43:33 2016.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-Welcome to Signals User Guide's documentation!
-==============================================
+Welcome to the Signals User Guide!
+==================================
 
 Contents:
 
 .. toctree::
    :maxdepth: 2
-
+* `Welcome`
+* `FAQ`
+* `quickstartguide`
+* `dataconnectors`
+	* `3rdpartydataconnectors`
+	* `Public Data Connectors`
+	* `Enterprise Data Connectors`
+* :ref:`Signals Analytics Engine`
+	* :ref:`Buzzword Generation`
+	* :ref:`Topic Discovery`
+	* :ref:`Contributor Analysis`
+	* :ref:`Temporal Analysis`
+	* :ref:`Joining Structured with Unstructured`
+* :ref:`Building Dashboards`
+	* :ref:`Default Widgets`
+	* :ref:`Creating Tabs`
+	* :ref:`Creating Custom Widgets`
+* :ref:`Analyzing Data`
+* :ref:`Sharing Insights`
+* :ref:`Administration`
 
 
 Indices and tables
@@ -21,4 +35,4 @@ Indices and tables
 * :ref:`search`
 
 
-this is the first line of documentation ~ more to come :)
+this is the first line of documentation ~ more to come :) 1

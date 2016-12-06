@@ -4,14 +4,14 @@ Welcome to the Signals User Guide!
 Contents:
 
 .. toctree::
-   :maxdepth: 3
-* :ref:`Welcome`
-* :ref:`FAQ`
-* :ref:`quickstartguide`
-* :ref:`dataconnectors`
-	* :ref:`3rdpartydataconnectors`
-	* :ref:`Public Data Connectors`
-	* :ref:`Enterprise Data Connectors`
+   :maxdepth: 2
+* `Welcome`
+* `FAQ`
+* `quickstartguide`
+* `dataconnectors`
+	* `3rdpartydataconnectors`
+	* `Public Data Connectors`
+	* `Enterprise Data Connectors`
 * :ref:`Signals Analytics Engine`
 	* :ref:`Buzzword Generation`
 	* :ref:`Topic Discovery`
