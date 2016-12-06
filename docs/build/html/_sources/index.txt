@@ -2,11 +2,12 @@ Welcome to the Signals User Guide!
 ==================================
 
 Contents:
+=========
 
 .. toctree::
 :maxdepth: 2
    
-FAQ
+:ref:`FAQ <FAQ>`
 quickstartguide
 dataconnectors
   3rdpartydataconnectors
