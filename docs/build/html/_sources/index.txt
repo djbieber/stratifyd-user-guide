@@ -2,7 +2,9 @@ Welcome to the Signals User Guide!
 ==================================
 
 Signals is an advanced analytics platform designed to empower users of all backgrounds to get from data >> insight >> **revenue** faster.
+
 This guide is intended to be a reference as you navigate through your analysis journey.
+
 Should you come across any question not covered in this guide, you can always chat with the Stratifyd support team online in Signals or email us at :ref:`info@stratifyd.com <mailto:info@stratifyd.com`
 
 
@@ -10,10 +12,10 @@ Quick Start Guide
 =================
 
 1. Once you've created an account, check out some of the public dashboards in the folders on the homepage.
-  2. To create your own dashboard, click "Create a new Dashboard" on the right under the folders.
-    3.
-      4.
-        5.
+2. To create your own dashboard, click "Create a new Dashboard" on the right under the folders.
+3.
+4.
+5.
 
 
 
