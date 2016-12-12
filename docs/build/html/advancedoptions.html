@@ -145,6 +145,14 @@
 <h1>Advanced Options<a class="headerlink" href="#advanced-options" title="Permalink to this headline">¶</a></h1>
 <p>Advanced options allow users to customize the way data is processed. These options are not always needed, but there are some scenarios in which they are very useful. For example:</p>
 <p>In Twitter data if there is any spam, it will quickly be identified through the visualization. Users can choose to filter out the spam and reprocess the data, indicating to the <a class="reference internal" href="signalsanalyticsengine.html"><em>Signals Analytics Engine</em></a> that the matching documents should be ignored when processing (generating buzzwords and categories).</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>Spam is typically identified in two ways:</p>
+<ol class="last arabic simple">
+<li>A specific user in your dataset is posting junk content - in this case, you can simply select the user to ignore.</li>
+<li>A specific message has gotten picked up and re-posted by many different users - in this case, you can select the text that is unique to that message and it will be filtered out based on the content.</li>
+</ol>
+</div>
 <div class="section" id="stopwords">
 <h2>Stopwords<a class="headerlink" href="#stopwords" title="Permalink to this headline">¶</a></h2>
 </div>
