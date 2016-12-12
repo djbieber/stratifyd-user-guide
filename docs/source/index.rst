@@ -3,10 +3,12 @@ Welcome to the Signals User Guide!
 
 This guide covers every feature and function within signals.
 
-If you're a new user follow the steps in the *`Quick Start Guide`_* below to get up and running in a matter of minutes.
+If you're a new user follow the steps in the `Quick Start Guide`_ below to get up and running in a matter of minutes.
 
-If you're looking for information about a specific topic, jump to a chapter in the table of contents.
+If you're looking for information about a specific topic, jump to a chapter in the `table of contents`_.
 
+
+.. _table of contents:
 
 Chapters
 =========
@@ -23,8 +25,6 @@ Chapters
   miscellaneous
 
 
-
-.. _Quick Start Guide:
 
 Quick Start Guide
 =================
