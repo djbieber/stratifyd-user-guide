@@ -11,27 +11,35 @@ Should you come across any question not covered in this guide, you can always ch
 Quick Start Guide
 =================
 
-1. Once you've created an account, check out some of the public dashboards in the folders on the homepage.
-2. To create your own dashboard, click "Create a new Dashboard" on the right under the folders.
-3. If you have your own data you wish to analyze in CSV or Excel file, you can select the CSV or excel icon and upload your data. Check out the :doc:`mapdata` guide for details.
+1. First, :doc:`createaccount`. Once you've logged in successfully, check out some of the public dashboards in the folders on the homepage. Each dashboard will have a brief walkthrough explaining the analysis.
+
+2. To create your first dashboard, click "Create a new Dashboard" on the right below the folders.
+
+3. If you have your own data you wish to analyze in a CSV or Excel file, you can select the CSV or excel icon and upload your data. Check out the :doc:`mapdata` guide for details.
+
 4. If you don't have data, you can use one of our :doc:`dataconnectors` to connect to a variety of sources both public and private (if you have credentials for the service). Click on the connector you wish to use and follow the instructions for that connector. You can continue adding as many files or data connector sources as you want to a single dashboard. Keep in mind that additional sources can always be added to your dashboard later.
+
 5. When you're ready to start analyzing, click "Create Dashboard" and your data will begin streaming into our analytics engine. You'll get notifications as the data progresses as well as when your data processing is complete.
+
 6. Enter your dashboard by clicking on the dashboard icon. You'll see some default visualizations based on the type of data in your analysis. See the guide on our :doc:`signalsanalyticsengine` for information on how to interpret these visualizations. Every visualization is clickable. Clicking will apply a filter on your data based on your selection.
+
 7. To get back to a view of your raw data, navigate to the "Data" tab. This will show your raw documents. If you have any filters applied, you'll only see the documents that match your filter.
+
 8. Now you're ready to :doc:`widgeteditor` using your other datapoints to hone in on interesting segments within your data and discover topics and themes within your textual data.
 
 
 Chapters
 =========
 .. toctree::
-	:maxdepth: 2
-
-	dataconnectors
-	signalsanalyticsengine
-	dashboard
-	analysis
-	administration
-	miscellaneous
+  :maxdepth: 2
+  
+  createaccount
+  dataconnectors
+  signalsanalyticsengine
+  dashboard
+  analysis
+  administration
+  miscellaneous
 
 
 
