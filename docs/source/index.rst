@@ -1,6 +1,19 @@
 Welcome to the Signals User Guide!
 ==================================
 
+Introduction
+=============
+
+Signals is a powerful, yet easy-to-use *augmented intelligence* platform.
+
+
+The :doc:`signalsanalyticsengine` leverages unsupervised deep machine learning to identify statistically significant topics within any unstructured data.
+
+
+Signals is also completely web-based, meaning the only installation required is a web-browser. The entire platform is point-and-click, meaning that no programming knowledge required.
+
+
+
 This guide covers every feature and function within signals.
 
 If you're a new user follow the steps in the `Quick Start Guide`_ below to get up and running in a matter of minutes.
@@ -10,8 +23,8 @@ If you're looking for information about a specific topic, jump to a chapter in t
 
 .. _table of contents:
 
-Chapters
-=========
+User Manual
+=============
 .. toctree::
   :maxdepth: 2
   

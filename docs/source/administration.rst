@@ -2,9 +2,13 @@ Administration
 ==============
 
 
+Implementing Signals
+^^^^^^^^^^^^^^^^^^^^
+
+
 Account Info
 ^^^^^^^^^^^^
 
 
-Groups and Sharing
-^^^^^^^^^^^^^^^^^^
+User Groups
+^^^^^^^^^^^
