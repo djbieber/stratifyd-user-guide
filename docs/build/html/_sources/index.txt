@@ -40,6 +40,7 @@ Chapters
   dashboard
   analysis
   administration
+  advancedoptions
   miscellaneous
 
 
