@@ -11,21 +11,22 @@ Should you come across any question not covered in this guide, you can always ch
 Quick Start Guide
 =================
 
-1. First, :doc:`createaccount`. Once you've logged in successfully, check out some of the public dashboards in the folders on the homepage. Each dashboard will have a brief walkthrough explaining the analysis.
+1. :doc:`createaccount`, log in, and check out some of the pre-built public dashboards in the folders on the homepage. 
 
-2. To create your first dashboard, click "Create a new Dashboard" on the right below the folders.
 
-3. If you have your own data you wish to analyze in a CSV or Excel file, you can select the CSV or excel icon and upload your data. Check out the :doc:`mapdata` guide for details.
+2. To create your own dashboard, click "Create a new Dashboard". Connect to your database, upload a CSV or Excel file, or use one of our :doc:`dataconnectors` for easy access to a wealth of publicly available data. Add as many data source to your dashboard as needed.
 
-4. If you don't have data, you can use one of our :doc:`dataconnectors` to connect to a variety of sources both public and private (if you have credentials for the service). Click on the connector you wish to use and follow the instructions for that connector. You can continue adding as many files or data connector sources as you want to a single dashboard. Keep in mind that additional sources can always be added to your dashboard later.
 
-5. When you're ready to start analyzing, click "Create Dashboard" and your data will begin streaming into our analytics engine. You'll get notifications as the data progresses as well as when your data processing is complete.
+3. If you're bringing your own data, specify which fields contain Textual, Temporal, or Geographical information for analysis and normalization. All other fields will be brought in as pivot points and additional visualizations. See the :doc:`mapdata` guide for more details.
 
-6. Enter your dashboard by clicking on the dashboard icon. You'll see some default visualizations based on the type of data in your analysis. See the guide on our :doc:`signalsanalyticsengine` for information on how to interpret these visualizations. Every visualization is clickable. Clicking will apply a filter on your data based on your selection.
 
-7. To get back to a view of your raw data, navigate to the "Data" tab. This will show your raw documents. If you have any filters applied, you'll only see the documents that match your filter.
+6. Your dashboard will contain visualizations based on the type of data in your analysis by default. See the guide on our :doc:`signalsanalyticsengine` for information on how to interpret these visualizations. Every visualization is clickable, and clicking will apply a filter on your data based on your selection.
+
 
 8. Now you're ready to :doc:`widgeteditor` using your other datapoints to hone in on interesting segments within your data and discover topics and themes within your textual data.
+
+
+7. Click on the "Data" tab to view the original documents. If you've filtered down to a subset of your data in your dashboard, you'll see only those documents.
 
 
 Chapters
@@ -46,7 +47,7 @@ Chapters
 FAQ
 ===
 
-**Where Does the "Signals" name come from?**
+**Where Does the name "Stratifyd" come from?**
 
   Stratifyd is a unique way of spelling Stratified Sampling, which is a statistical method that illustrates the peeling of layers and layers of data to derive a proper statistical result. We took the name Stratifyd to emphasize on the next-gen Data Analytics that will be mathematically sound and interpretable by human. This truly reflects our company mission on provideing an Augmented Intelligence environment that leverages Artificial Intelligence to Augment Human's Decision Making process. 
 
