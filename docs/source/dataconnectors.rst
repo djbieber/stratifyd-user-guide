@@ -3,7 +3,7 @@ Data Connectors
 
 
 This chapter discusses the different options available to access data.
-Enterprise data and *some* 3rd party data sources need to be :ref:`Mapped <mapdata>` prior to uploading.
+
 
 The three categories of data in Signals are:
 
@@ -13,6 +13,15 @@ The three categories of data in Signals are:
 	3rdpartydataconnectors
 	publicdataconnectors
 	enterprisedataconnectors
+
+
+Enterprise data and *some* 3rd party data sources need to be mapped prior to uploading:
+
+.. toctree::
+  :maxdepth: 1
+
+  mapdata
+
 
 
 **3rd party data connectors** are ways to access data owned by your organization but stored in 3rd party systems.
