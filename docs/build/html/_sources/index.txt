@@ -1,11 +1,27 @@
 Welcome to the Signals User Guide!
 ==================================
 
-Signals is an advanced analytics platform designed to empower users of all backgrounds to get from data >> insight >> **revenue** faster.
+This guide covers every feature and function within signals.
 
-This guide is intended to be a reference as you navigate through your analysis journey.
+If you're a new user follow the steps in the *:ref:`Quick Start Guide <Quick Start Guide>`* below to get up and running in a matter of minutes.
 
-Should you come across any question not covered in this guide, you can always chat with the Stratifyd support team online in Signals or email us at info@stratifyd.com . 
+If you're looking for information about a specific topic, jump to a chapter in the table of contents.
+
+
+Chapters
+=========
+.. toctree::
+  :maxdepth: 2
+  
+  createaccount
+  dataconnectors
+  signalsanalyticsengine
+  dashboard
+  analysis
+  advancedoptions
+  administration
+  miscellaneous
+
 
 
 Quick Start Guide
@@ -35,21 +51,6 @@ Quick Start Guide
 
 
 
-Chapters
-=========
-.. toctree::
-  :maxdepth: 2
-  
-  createaccount
-  dataconnectors
-  signalsanalyticsengine
-  dashboard
-  analysis
-  administration
-  advancedoptions
-  miscellaneous
-
-
 
 FAQ
 ===
@@ -65,3 +66,7 @@ FAQ
   Trial accounts are limited to 30MB uploads.
 
   While there is no limit on Enterprise accounts, the web interface only supports up to 500MB files. Larger iles should be uploaded via the _`Signals SDK`
+
+**How many languages does Signals support?**
+  
+  Signals supports all NLP and Text Analytics functions natively in 25 languages including English, Chinese, Japanese, Spanish, Italian, German, and French.

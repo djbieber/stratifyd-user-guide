@@ -1,5 +1,5 @@
-Data Connectors
-===============
+Connecting to Data
+==================
 
 
 This chapter discusses the different options available to access data.
