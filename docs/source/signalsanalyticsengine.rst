@@ -26,6 +26,8 @@ The Signals Analytics Engine leverages Machine Learning and Deep Learning algori
 
 2. The engine runs a Multi-Model approach on top of the N-Gram-based content network. This includes using our proprietary text analytics algorithms extended from *Bayesian Neural Network*, *Generative Model*, *LSTM (Long Short Term Memory)*, and *Seq2Seq NLU*. In this step, data input is clustered into semantically meaningful groups. The groups are generated and visualized by statistical significance (e.g., the % attributed to each topic category in the Semantic Topic Visualization). Each topic is tagged with top representative terms in Buzzwords.
 
+
+
 3. Signals automatically processes all spatial (Where), temporal (When), contributor (Who), as well as any other structured data. It joins the data with the N-Gram-based content network for you to pivot and construct analytics questions against your dataset.
 
 
