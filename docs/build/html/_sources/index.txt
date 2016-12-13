@@ -2,7 +2,7 @@ Welcome to the Signals User Guide!
 ==================================
 
 Introduction
-=============
+^^^^^^^^^^^^
 
 Signals is a powerful, yet easy-to-use *augmented intelligence* platform.
 
@@ -24,7 +24,7 @@ If you're looking for information about a specific topic, jump to a chapter in t
 .. _table of contents:
 
 User Manual
-=============
+^^^^^^^^^^^
 .. toctree::
   :maxdepth: 2
   
@@ -40,7 +40,7 @@ User Manual
 
 
 Quick Start Guide
-=================
+^^^^^^^^^^^^^^^^^
 
 1. :doc:`createaccount`, log in, and check out some of the pre-built public dashboards in the folders on the homepage. 
 
@@ -68,7 +68,7 @@ Quick Start Guide
 
 
 FAQ
-===
+^^^
 
 **Where Does the name "Stratifyd" come from?**
 
