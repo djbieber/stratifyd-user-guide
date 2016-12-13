@@ -6,6 +6,7 @@ The Enterprise Data Connector application allows users to connect with a variety
 
 
 Examples include:
+
 + mySQL
 + Microsoft SQL Server
 + PostgreSQL
@@ -14,3 +15,13 @@ Examples include:
 
 Instructions:
 ~~~~~~~~~~~~~
+
+Download the Enterprise Data Connector here:
+
+<link to download>
+
+
+Step 1: Install
+
+
+Step 2: Use it

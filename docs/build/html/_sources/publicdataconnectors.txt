@@ -3,7 +3,7 @@ Public Data Connectors
 
 
 Product/App Reviews
-~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^
 
 + `iOS Store Reviews`_
 + `Google Play Store Reviews`_
@@ -17,7 +17,7 @@ Product/App Reviews
 
 
 Social Media
-~~~~~~~~~~~~~
+^^^^^^^^^^^^^^
 
 + `Twitter`_ (with twitter account credentials)
 + `Facebook`_ (with facebook account credentials)
@@ -27,7 +27,7 @@ Social Media
 
 
 Customer/HR Feedback
-~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^
 
 + `Consumer Financial Protection Bureau`_
 + `Indeed`_

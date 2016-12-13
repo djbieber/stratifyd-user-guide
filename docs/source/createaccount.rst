@@ -1,7 +1,7 @@
 Creating an Account
 ===================
 
-If you want to register for an account on Signals, go to https://signals.stratifyd.com and chat with our specialist who will help you sign up online.
+To register for a trial account on Signals, go to https://signals.stratifyd.com and chat with a support specialist who will help you start your trial period.
 
 If your organization already purchased Signals, you can simply go to https://[your-organization-name].stratifyd.com and create an account with your company e-mail and password. 
 
