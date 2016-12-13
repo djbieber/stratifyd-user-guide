@@ -93,4 +93,6 @@ Contact
 ~~~~~~~~
 
 email: info@stratifyd.com
+
+
 chat: 

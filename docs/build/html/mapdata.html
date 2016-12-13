@@ -88,7 +88,13 @@
 <li class="toctree-l2"><a class="reference internal" href="3rdpartydataconnectors.html">3rd Party Data Connectors</a></li>
 <li class="toctree-l2"><a class="reference internal" href="publicdataconnectors.html">Public Data Connectors</a></li>
 <li class="toctree-l2"><a class="reference internal" href="enterprisedataconnectors.html">Enterprise Data Connectors</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="">Mapping Data</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="">Mapping Data</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#textual">Textual</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#temporal">Temporal</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#spatial">Spatial</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#contributor">Contributor</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="signalsanalyticsengine.html">Signals Analytics Engine</a></li>
@@ -97,6 +103,7 @@
 <li class="toctree-l1"><a class="reference internal" href="advancedoptions.html">Advanced Options</a></li>
 <li class="toctree-l1"><a class="reference internal" href="administration.html">Administration</a></li>
 <li class="toctree-l1"><a class="reference internal" href="miscellaneous.html">Misc.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="glossary.html">Glossary</a></li>
 </ul>
 
             
@@ -145,6 +152,40 @@
             
   <div class="section" id="mapping-data">
 <h1>Mapping Data<a class="headerlink" href="#mapping-data" title="Permalink to this headline">¶</a></h1>
+<p>Signals can be used to analyze any type of data; structured or unstructured.</p>
+<p>However, there are 4 types of data that Signals treats differently to give users more information. Those data types are:</p>
+<ol class="arabic simple">
+<li><a class="reference internal" href="#textual">Textual</a> - e.g. product review, customer feedback, news article text, etc.</li>
+<li><a class="reference internal" href="#temporal">Temporal</a> - a date, time, timestamp etc.</li>
+<li><a class="reference internal" href="#spatial">Spatial</a> (or Geographical) - location, lat/lon, ip address, etc.</li>
+<li><a class="reference internal" href="#contributor">Contributor</a> - a 1:1 identifier for the creator of the textual data e.g. name, email, GUID, etc.</li>
+</ol>
+<p>Data mapping occurs when a new data source is introduced to the platform. CSV, Excel files, <a class="reference internal" href="enterprisedataconnectors.html"><em>Enterprise Data Connectors</em></a> and <em>certain</em> <a class="reference internal" href="3rdpartydataconnectors.html"><em>3rd Party Data Connectors</em></a> require this before analysis.</p>
+<p>On the left side of the Map Fields menu, you&#8217;ll see every field from your data source.
+Click on the &#8216;+&#8217; icon to identify any of the 4 data types mentioned earlier.</p>
+<img alt="_images/mapdata2.png" src="_images/mapdata2.png" />
+<p>When you&#8217;ve identified the fields, click next and this configuration will be used during processing in the Signals Analytics Engine.</p>
+<img alt="_images/mapdata3.png" src="_images/mapdata3.png" />
+<div class="section" id="textual">
+<h2>Textual<a class="headerlink" href="#textual" title="Permalink to this headline">¶</a></h2>
+<p>The textual data is the data that you want to run unsupervised machine learning to generate buzzwords, a topic model, and sentiment analysis upon.</p>
+</div>
+<div class="section" id="temporal">
+<h2>Temporal<a class="headerlink" href="#temporal" title="Permalink to this headline">¶</a></h2>
+<p>Temporal data can be represented in many different formats.</p>
+<p>Identifying where you temporal data is within your dataset allows the Signals Analytics Engine to normalize dates, allowing you the flexibility to roll-up data on different granularities like yearly, monthly, daily, hourly, etc.</p>
+<p>If your data has a field that contains Day, Month, Year, and/or time in any order, you can simply select the &#8220;Date&#8221; option in the Map Fields menu.</p>
+<p>If your Day, Month and Year are all contained in separate columns, use the corresponding Map Fields menu items for each to indicate this.</p>
+<p>If your date is represented in some other format, select &#8220;Date&#8221; and the Signals Analytics Engine will do a best-guess to normalize the data.</p>
+</div>
+<div class="section" id="spatial">
+<h2>Spatial<a class="headerlink" href="#spatial" title="Permalink to this headline">¶</a></h2>
+<p>The Signals Analytics Engine will create a geographical hierarchy based on the input you provide, giving you access to compare your data at any level, whether it&#8217;s by country, region, or zip code.</p>
+<p>If your data contains multiple geographical or spatial data points, you can indicate where that data resides using the Map Fields menu</p>
+</div>
+<div class="section" id="contributor">
+<h2>Contributor<a class="headerlink" href="#contributor" title="Permalink to this headline">¶</a></h2>
+</div>
 </div>
 
 

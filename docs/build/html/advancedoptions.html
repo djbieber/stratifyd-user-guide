@@ -97,6 +97,7 @@
 </li>
 <li class="toctree-l1"><a class="reference internal" href="administration.html">Administration</a></li>
 <li class="toctree-l1"><a class="reference internal" href="miscellaneous.html">Misc.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="glossary.html">Glossary</a></li>
 </ul>
 
             
@@ -144,6 +145,11 @@
   <div class="section" id="advanced-options">
 <h1>Advanced Options<a class="headerlink" href="#advanced-options" title="Permalink to this headline">¶</a></h1>
 <p>Advanced options allow users to customize the way data is processed. These options are not always needed, but there are some scenarios in which they are very useful. For example:</p>
+<div class="section" id="stopwords">
+<h2>Stopwords<a class="headerlink" href="#stopwords" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="junk-spam">
+<h2>Junk/Spam<a class="headerlink" href="#junk-spam" title="Permalink to this headline">¶</a></h2>
 <p>In Twitter data if there is any spam, it will quickly be identified through the visualization. Users can choose to filter out the spam and reprocess the data, indicating to the <a class="reference internal" href="signalsanalyticsengine.html"><em>Signals Analytics Engine</em></a> that the matching documents should be ignored when processing (generating buzzwords and categories).</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
@@ -153,14 +159,13 @@
 <li>A specific message has gotten picked up and re-posted by many different users - in this case, you can select the text that is unique to that message and it will be filtered out based on the content.</li>
 </ol>
 </div>
-<div class="section" id="stopwords">
-<h2>Stopwords<a class="headerlink" href="#stopwords" title="Permalink to this headline">¶</a></h2>
-</div>
-<div class="section" id="junk-spam">
-<h2>Junk/Spam<a class="headerlink" href="#junk-spam" title="Permalink to this headline">¶</a></h2>
+<p>This is just one example, but as you can see it is generalizable to many other data-types.</p>
 </div>
 <div class="section" id="sentiment">
 <h2>Sentiment<a class="headerlink" href="#sentiment" title="Permalink to this headline">¶</a></h2>
+<p>Customizations may be needed is in sentiment scoring in some scenarios.</p>
+<p>Signals Provides an out-of-the-box sentiment package that is trained on a breadth of data sources.</p>
+<p>Certain terms are generally neutral, but when used in the context of a specific data-set or industry, always have a sentiment associatd with them. Or vise-versa, some terms are very negative generally, but are actually commonly used industry lingo among certain data-sets.</p>
 </div>
 <div class="section" id="taxonomy">
 <h2>Taxonomy<a class="headerlink" href="#taxonomy" title="Permalink to this headline">¶</a></h2>

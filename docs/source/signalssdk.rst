@@ -9,4 +9,4 @@ This API key will be generated and downloaded in JSON format to be included in y
 
 After the API key has been generated, you can always download it again from the Settings page.
 
-..image:: apikey.png
+.. image:: apikey.png
