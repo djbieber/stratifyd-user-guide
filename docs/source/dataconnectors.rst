@@ -16,6 +16,8 @@ We collect data from Amazon, Facebook, the Google Play store, consumeraffairs.co
 The :doc:`enterprisedataconnectors` are used to connect to internal databases or other 1st party data platforms in your organization.
 
 
+
+
 .. Note:: Enterprise Data Connectors and some 3rd Party Data Sources require you to map fields in your data prior to uploading. See :doc:`mapdata` to learn about this process.
 
 
