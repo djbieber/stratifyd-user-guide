@@ -6,7 +6,11 @@ The Enterprise Data Connector application allows users to connect with a variety
 
 
 Examples include:
-+mySQL
-+Microsoft SQL Server
-+PostgreSQL
-+Oracle SQL
++ mySQL
++ Microsoft SQL Server
++ PostgreSQL
++ Oracle SQL
+
+
+Instructions:
+~~~~~~~~~~~~~

@@ -36,6 +36,7 @@ User Manual
   advancedoptions
   administration
   miscellaneous
+  glossary
 
 
 
@@ -85,3 +86,11 @@ FAQ
 **How many languages does Signals support?**
   
   Signals supports all NLP and Text Analytics functions natively in 25 languages including English, Chinese, Japanese, Spanish, Italian, German, and French.
+
+
+
+Contact
+~~~~~~~~
+
+email: info@stratifyd.com
+chat: 
