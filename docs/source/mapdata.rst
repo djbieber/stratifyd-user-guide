@@ -17,8 +17,9 @@ Data mapping occurs when a new data source is introduced to the platform. CSV, E
 
 
 On the left side of the Map Fields menu, you'll see every field from your data source.
-Click on the '+' icon to identify any of the 4 data types mentioned earlier.
+Click on the |+| icon to identify any of the 4 data types mentioned earlier.
 
+.. |+| image:: plus.png
 
 .. image:: mapdata2.png
 

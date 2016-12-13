@@ -1,13 +1,25 @@
 Glossary
 ========
 
-**Dashboard**
-
-
 **Data Connector**
 
 
-**Reprocess**
+**Data Source**
+
+
+**Dashboard**
+
+
+**Dataset**
+
+
+**Dimension**
 
 
 **Field-mapping Menu**
+
+
+**Metric**
+
+
+**Reprocess**

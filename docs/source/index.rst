@@ -10,16 +10,21 @@ Introduction
 + The :doc:`signalsanalyticsengine` leverages unsupervised deep machine learning to identify statistically significant topics within any unstructured data.
 
 
-+ Signals is also completely web-based, meaning the only installation required is a web-browser. The entire platform is point-and-click, meaning that no programming knowledge required.
++ Signals is also completely web-based, meaning the only installation required is a web-browser.
+
++ The entire platform is point-and-click, meaning that no programming knowledge required.
 
 
-.. Note:: Follow the *`Quick Start Guide`_* below to get up and running in a matter of minutes.
+.. New Users:: Follow the `Quick Start Guide`_ below to get up and running in a matter of minutes.
 
 
 This guide covers every feature and function within signals.
 
 
 If you're looking for information about a specific topic, jump to a chapter in the `table of contents`_.
+
+
+.. image:: signalsgif1.gif
 
 
 .. _table of contents:
