@@ -8,7 +8,7 @@ This chapter describes the processing that happens when new data is brought into
 The sections below discuss how the output of the Signals Analytics Engine can be accessed and used.
 
 
-See the :doc:`advancedoptions` page to learn how to tune the analytics engine for custom applications.
+.. Note:: See the :doc:`advancedoptions` page to learn how to tune the analytics engine for custom applications.
 
 
 Data Processing
@@ -40,7 +40,7 @@ Built on top of our proprietary Bayesian Neural Network and Generative Model, Si
 
 
 
-3. Signals automatically processes all spatial (Where), temporal (When), contributor (Who), as well as any other structured data.
+3. Signals automatically processes all geographical (Where), temporal (When), contributor (Who), as well as any other structured data.
 
 
   It joins the data with the N-Gram-based content network for you to pivot and construct analytics questions against your dataset.
@@ -50,16 +50,33 @@ Buzzwords
 ~~~~~~~~~
 The Buzzwords visualization is made of of every statistically significant N-Gram found in the textual data. In order for an N-Gram to be deemed statistically significant, we look at how often they are ocurring together in the dataset vs. how often they are ocurring individually.
 
+.. figure:: cloud.png
+  
+  A word-cloud view of N-Grams
+
+.. figure:: buzzwordlist.png
+
+  N-Grams in a detail list visualization
+
 
 Topics
 ~~~~~~
 The Semantic Topics visualization can be represented in a donut chart or a network graph. Each topic is represented by the N-Grams that make up the topic (which is generated using the process outlined above). We typically show the top two N-Grams for each topic because they often indicate what kind of content is in the topic.
 Any document can occur in more than one topic, therefore the % of documents contained in each topic will add up to > 100%
 
+.. figure:: topics.png
+
+  Semantic Topics from Jamba Juice Yelp Reviews
+
 
 Temporal Trends
 ~~~~~~~~~~~~~~~
-description of temporal trends
+
+Temporal information accompanying structured and unstructured data is paramount in understanding quantitative events and their potential underlying relationships across disparate data sets. Signals utilizes time-series predictive analysis, deep learning, and event analysis to identify unexpected trends and patterns across structured and unstructured data.
+
+.. figure:: temporal.png
+
+  Topic Model trended over time. Each smaller bar represents a topic while the bar groups represent a time period.
 
 
 Contributors
