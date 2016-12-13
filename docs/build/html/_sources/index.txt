@@ -15,7 +15,7 @@ Introduction
 + The entire platform is point-and-click, meaning that no programming knowledge required.
 
 
-.. Note:: For new users: Follow the `Quick Start Guide`_ below to get up and running in a matter of minutes.
+.. Note:: For new users: Follow the `Quick Start Guide`_ to get up and running in a matter of minutes.
 
 
 This guide covers every feature and function within signals.

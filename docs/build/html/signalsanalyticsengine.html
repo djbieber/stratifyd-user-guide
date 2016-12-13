@@ -32,7 +32,7 @@
   
     <link rel="top" title="Signals User Guide 2.4 documentation" href="index.html"/>
         <link rel="next" title="Creating a Dashboard" href="dashboard.html"/>
-        <link rel="prev" title="Enterprise Data Connectors" href="enterprisedataconnectors.html"/> 
+        <link rel="prev" title="Mapping Data" href="mapdata.html"/> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -144,11 +144,11 @@
             
   <div class="section" id="signals-analytics-engine">
 <h1>Signals Analytics Engine<a class="headerlink" href="#signals-analytics-engine" title="Permalink to this headline">¶</a></h1>
-<p>This chapter describes the processing that happens when new data is brought into Signals.</p>
+<p>This chapter describes what happens when new data is brought into Signals.</p>
 <p>The sections below discuss how the output of the Signals Analytics Engine can be accessed and used.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">See the <a class="reference internal" href="advancedoptions.html"><em>Advanced Options</em></a> page to learn how to tune the analytics engine for custom applications.</p>
+<p class="last">To learn how to tune the analytics engine, see the <a class="reference internal" href="advancedoptions.html"><em>Advanced Options</em></a> page.</p>
 </div>
 <div class="section" id="data-processing">
 <h2>Data Processing<a class="headerlink" href="#data-processing" title="Permalink to this headline">¶</a></h2>
@@ -156,22 +156,23 @@
 <p>Built on top of our proprietary Bayesian Neural Network and Generative Model, Signals dynamically identifies semantic topic groups based on the context in your input data.</p>
 <p><strong>This is all done in a three-step process:</strong></p>
 <ol class="arabic simple">
-<li>The engine starts by performing NLP in over 24 languages.</li>
+<li><strong>The engine starts by performing NLP in over 24 languages.</strong></li>
 </ol>
 <blockquote>
 <div>In this step, your input documents are <em>tokenized</em> into corresponding <a class="reference external" href="https://en.wikipedia.org/wiki/N-gram">N-Grams</a> (N&gt;=2), <em>lemmatized</em> (words with the same root are grouped together e.g. run &amp; ran), <em>stemmed</em>, spam/junk and stop words are filtered out, and <em>part-of-speech</em> tagging and <em>named entity extraction</em> are performed. A large N-Gram-based content network is then created based on your input data files.</div></blockquote>
 <ol class="arabic simple" start="2">
-<li>The engine runs a Multi-Model approach on top of the N-Gram-based content network.</li>
+<li><strong>The engine runs a Multi-Model approach on top of the N-Gram-based content network.</strong></li>
 </ol>
 <blockquote>
 <div><p>This includes using our proprietary text analytics algorithms extended from <em>Bayesian Neural Network</em>, <em>Generative Model</em>, <em>LSTM (Long Short Term Memory)</em>, and <em>Seq2Seq NLU</em>. In this step, data input is clustered into semantically meaningful groups.</p>
 <p>The groups are generated and visualized by statistical significance (e.g., the % attributed to each topic category in the Semantic Topic Visualization). Each topic is tagged with top representative terms in Buzzwords.</p>
 </div></blockquote>
 <ol class="arabic simple" start="3">
-<li>Signals automatically processes all geographical (Where), temporal (When), contributor (Who), as well as any other structured data.</li>
+<li><strong>Signals automatically processes all geographical (Where), temporal (When), contributor (Who), as well as any other structured data.</strong></li>
 </ol>
 <blockquote>
 <div>It joins the data with the N-Gram-based content network for you to pivot and construct analytics questions against your dataset.</div></blockquote>
+<p>As a result, these data types are generated for use in visualizations and analysis:</p>
 </div>
 <div class="section" id="buzzwords">
 <h2>Buzzwords<a class="headerlink" href="#buzzwords" title="Permalink to this headline">¶</a></h2>
@@ -222,7 +223,7 @@ Any document can occur in more than one topic, therefore the % of documents cont
         <a href="dashboard.html" class="btn btn-neutral float-right" title="Creating a Dashboard" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="enterprisedataconnectors.html" class="btn btn-neutral" title="Enterprise Data Connectors" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="mapdata.html" class="btn btn-neutral" title="Mapping Data" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

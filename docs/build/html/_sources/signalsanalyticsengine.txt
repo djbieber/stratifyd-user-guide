@@ -2,13 +2,13 @@ Signals Analytics Engine
 ========================
 
 
-This chapter describes the processing that happens when new data is brought into Signals.
+This chapter describes what happens when new data is brought into Signals.
 
 
 The sections below discuss how the output of the Signals Analytics Engine can be accessed and used.
 
 
-.. Note:: See the :doc:`advancedoptions` page to learn how to tune the analytics engine for custom applications.
+.. Note:: To learn how to tune the analytics engine, see the :doc:`advancedoptions` page.
 
 
 Data Processing
@@ -22,7 +22,7 @@ Built on top of our proprietary Bayesian Neural Network and Generative Model, Si
 
 **This is all done in a three-step process:**
 
-1. The engine starts by performing NLP in over 24 languages.
+1. **The engine starts by performing NLP in over 24 languages.**
 
 
   In this step, your input documents are *tokenized* into corresponding `N-Grams`_ (N>=2), *lemmatized* (words with the same root are grouped together e.g. run & ran), *stemmed*, spam/junk and stop words are filtered out, and *part-of-speech* tagging and *named entity extraction* are performed. A large N-Gram-based content network is then created based on your input data files. 
@@ -30,7 +30,7 @@ Built on top of our proprietary Bayesian Neural Network and Generative Model, Si
 .. _N-Grams: https://en.wikipedia.org/wiki/N-gram
 
 
-2. The engine runs a Multi-Model approach on top of the N-Gram-based content network.
+2. **The engine runs a Multi-Model approach on top of the N-Gram-based content network.**
 
 
   This includes using our proprietary text analytics algorithms extended from *Bayesian Neural Network*, *Generative Model*, *LSTM (Long Short Term Memory)*, and *Seq2Seq NLU*. In this step, data input is clustered into semantically meaningful groups.
@@ -40,10 +40,13 @@ Built on top of our proprietary Bayesian Neural Network and Generative Model, Si
 
 
 
-3. Signals automatically processes all geographical (Where), temporal (When), contributor (Who), as well as any other structured data.
+3. **Signals automatically processes all geographical (Where), temporal (When), contributor (Who), as well as any other structured data.**
 
 
   It joins the data with the N-Gram-based content network for you to pivot and construct analytics questions against your dataset.
+
+
+As a result, these data types are generated for use in visualizations and analysis:
 
 
 Buzzwords

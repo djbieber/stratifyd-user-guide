@@ -2,6 +2,9 @@ Analyzing Data
 ==============
 
 
+This chapter covers everything from interacting with your data once you've built a dashboard, to sharing out insights in multiple formats.
+
+
 Sharing Insights
 ~~~~~~~~~~~~~~~~
 
