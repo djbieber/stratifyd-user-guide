@@ -1,6 +1,9 @@
 Creating a Dashboard
 ====================
 
+.. image:: signalsgif1.gif
+
+
 The dashboard interface is extremely flexible, allowing them to be used for both passive monitoring as well as active deep-dive or root-cause analysis.
 
 

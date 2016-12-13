@@ -13,7 +13,10 @@ Stopwords
 Junk/Spam
 ~~~~~~~~~
 
-In Twitter data if there is any spam, it will quickly be identified through the visualization. Users can choose to filter out the spam and reprocess the data, indicating to the :doc:`signalsanalyticsengine` that the matching documents should be ignored when processing (generating buzzwords and categories).
+Creating a Junk/Spam list can be useful in many different datasets
+
+
+For example in Twitter data if there is any spam, it will quickly be identified through the visualization. Users can choose to filter out the spam and reprocess the data, indicating to the :doc:`signalsanalyticsengine` that the matching documents should be ignored when processing (generating buzzwords and categories).
 
 .. Note:: Spam is typically identified in two ways:
           

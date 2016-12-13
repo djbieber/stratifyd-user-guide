@@ -23,7 +23,7 @@ The :doc:`enterprisedataconnectors` are used to connect to internal databases or
 .. toctree::
   :maxdepth: 1
 
-  mapdata
   3rdpartydataconnectors
   publicdataconnectors
   enterprisedataconnectors
+  mapdata

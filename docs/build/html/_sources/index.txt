@@ -15,16 +15,13 @@ Introduction
 + The entire platform is point-and-click, meaning that no programming knowledge required.
 
 
-.. New Users:: Follow the `Quick Start Guide`_ below to get up and running in a matter of minutes.
+.. Note:: For new users: Follow the `Quick Start Guide`_ below to get up and running in a matter of minutes.
 
 
 This guide covers every feature and function within signals.
 
 
 If you're looking for information about a specific topic, jump to a chapter in the `table of contents`_.
-
-
-.. image:: signalsgif1.gif
 
 
 .. _table of contents:
@@ -49,7 +46,7 @@ User Manual
 Quick Start Guide
 ^^^^^^^^^^^^^^^^^
 
-1. :doc:`createaccount`, log in, and check out some of the pre-built public dashboards in the folders on the homepage. 
+1. Begin by :doc:`createaccount`, next, log in and check out some of the pre-built public dashboards in the folders on the homepage. 
 
 
 
