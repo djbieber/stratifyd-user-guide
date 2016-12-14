@@ -14,15 +14,13 @@ Signals provides an out-of-the-box list of stopwords that include the main commo
 Additional stopwords can be added on a per-data-source level to cut through some of the noise in the text.
 
 
-For example, RSS news feeds typically contain the same few sentences at the end of every article.
+For example, RSS news feeds typically contain the same few sentences at the end of every article::
 
-For example::
-
-   "(Reporting By Laila Bassam in Aleppo and Tom Perry, John Davison and Lisa Barrington in Beirut; Writing by Angus McDowall in Beirut, editing by Peter Millership)" 
+   Reporting By Laila Bassam in Aleppo and Tom Perry, John Davison and Lisa Barrington in Beirut; Writing by Angus McDowall in Beirut, editing by Peter Millership
 
 Appears at the end of every news article in some publications. "Reporting By" and "Writing By" will likely get picked up as Buzzwords.
 
-To suppress 
+To suppress the noise caused by these terms, 
 
 
 Junk/Spam
@@ -56,12 +54,11 @@ Signals Provides an out-of-the-box sentiment package that is trained on a breadt
 Certain terms are generally neutral, but when used in the context of a specific data-set or industry, always have a sentiment associatd with them. Or vise-versa, some terms are very negative generally, but are actually commonly used industry lingo among certain data-sets.
 
 
-
-
-
-
 Taxonomy
 ~~~~~~~~
+
+
+
 
 
 Chinese Dictionary
