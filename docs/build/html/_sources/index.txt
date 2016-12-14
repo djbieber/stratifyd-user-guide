@@ -36,7 +36,7 @@ FAQ
 
   Trial accounts are limited to 30MB uploads.
 
-  While there is no limit on Enterprise accounts, the web interface supports up to 500MB files. Larger files should be uploaded via the :doc:`signalssdk`
+  While there is no limit on Enterprise accounts, the web interface supports up to 500MB files. Larger files should be uploaded via the :ref:`Signals SDK`.
 
 **How many languages does Signals support?**
   
