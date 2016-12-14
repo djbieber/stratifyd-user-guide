@@ -40,20 +40,34 @@ Customer/HR Feedback
 iOS Store Reviews
 ~~~~~~~~~~~~~~~~~
 
+.. image:: iosstore.png
+
 Google Play Store Reviews
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Home Depot Product Reviews
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. image:: homedepot.png
+
+
 Lowes Product Reviews
 ~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: lowes.png
+
 
 Best Buy Product Reviews
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. image:: bestbuy.png
+
+
 Wal Mart Product Reviews
 ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: walmart.png
+
 
 Etsy Shop Reviews
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -64,11 +78,23 @@ Etsy Product Reviews
 Amazon Product Reviews
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. image:: amazon.png
+
+
 Twitter
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. image:: twittersearch.png
+
+
+.. image:: twitteruser.png
+
+
 Facebook
 ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: facebook.png
+
 
 Weibo search
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -79,11 +105,22 @@ Youku
 YouTube Comments
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. image:: youtube.png
+
+
 Consumer Financial Protection Bureau
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: cfpb.png
+
 
 Indeed
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. image:: indeed.png
+
+
 Consumer Affairs
 ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: consumeraffairs.png
