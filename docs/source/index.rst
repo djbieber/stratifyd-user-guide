@@ -19,7 +19,7 @@ Introduction
 + The entire platform is point-and-click, meaning that no programming knowledge required.
 
 
-.. Note:: For new users: Follow the :doc:quickstartguide to get up and running in a matter of minutes.
+.. Note:: For new users: Follow the :doc:`quickstartguide` to get up and running in a matter of minutes.
 
 
 
