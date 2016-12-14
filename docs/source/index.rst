@@ -1,6 +1,10 @@
 Welcome to the Signals User Guide!
 ==================================
 
+
+This guide covers every feature and function within signals, if you're looking for information about a specific topic, jump to a chapter in the `table of contents`_.
+
+
 Introduction
 ^^^^^^^^^^^^
 
@@ -16,12 +20,6 @@ Introduction
 
 
 .. Note:: For new users: Follow the :doc:quickstartguide to get up and running in a matter of minutes.
-
-
-This guide covers every feature and function within signals.
-
-
-If you're looking for information about a specific topic, jump to a chapter in the `table of contents`_.
 
 
 
