@@ -1,6 +1,10 @@
 Signals SDK
 ===========
 
+We offer a node.js wrapper for our SDK.
+https://www.npmjs.com/package/signals-api
+
+
 To generate an API key associated with your account, go to Settings in the left-hand menu from the Signals homepage.
 
 In the Settings page, you will see a button to generate an api key towards the bottom.
