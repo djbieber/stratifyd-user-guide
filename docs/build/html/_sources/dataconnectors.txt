@@ -21,6 +21,15 @@ The :doc:`enterprisedataconnectors` are used to connect to internal databases or
 .. Note:: Enterprise Data Connectors and some 3rd Party Data Sources require you to map fields in your data prior to uploading. See :doc:`mapdata` to learn about this process.
 
 
+.. toctree::
+  :maxdepth: 1
+
+  3rdpartydataconnectors
+  publicdataconnectors
+  enterprisedataconnectors
+  mapdata
+
+
 .. _Signals SDK:
 
 Signals SDK
@@ -45,12 +54,3 @@ This API key will be generated and downloaded in JSON format to be included in y
 After the API key has been generated, you can always download it again from the Settings page.
 
 .. image:: apikey.png
-
-
-.. toctree::
-  :maxdepth: 1
-
-  3rdpartydataconnectors
-  publicdataconnectors
-  enterprisedataconnectors
-  mapdata
