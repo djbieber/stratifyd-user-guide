@@ -39,6 +39,8 @@ Tab-Level Filters
 
 Tab level filters can be applied on a per-tab basis. To do this, click the |taboptions| icon and select one of the two methods:
 
+.. |taboptions| image:: taboptions.png
+
 1. Merge with the current query will allow you to set a permanent filter, but still interact with the data. Interactions with other tabs can still affect the data.
 2. Override the current query will apply the filter selections you make and freeze the visualizations so that the tab is no longer interactive. Selections on other tabs will not affect the data.
 
@@ -56,7 +58,7 @@ Widget-Level Filters
 
 Widget-level filters will override all other filters for that widget.
 
-To apply a widget-level filter, you can either click on the funnel icon in the widget settings menu from your dashboard view, or you can apply a filter from the :doc:widgeteditor in the Options tab.
+To apply a widget-level filter, you can either click on the funnel icon in the widget settings menu from your dashboard view, or you can apply a filter from the :doc:`widgeteditor` in the Options tab.
 
 .. figure:: filterwidget.png
   

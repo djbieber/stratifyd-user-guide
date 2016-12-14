@@ -18,11 +18,12 @@ For example, RSS news feeds typically contain the same few sentences at the end 
 
    Reporting By Laila Bassam in Aleppo and Tom Perry, John Davison and Lisa Barrington in Beirut; Writing by Angus McDowall in Beirut, editing by Peter Millership
 
-Appears at the end of every news article in some publications. "Reporting By" and "Writing By" will likely get picked up as Buzzwords.
+Appears at the end of every news article in some publications. "Reporting By" and "Writing By" will likely be identified as Buzzwords. These terms could potentially link unlrelated documents since they aren't related to the article topics.
 
 To suppress the noise caused by these terms, 
 
-!TODO
+
+
 
 
 Junk/Spam
@@ -60,7 +61,7 @@ Taxonomy
 ~~~~~~~~
 
 
-!TODO
+
 
 
 Chinese Dictionary

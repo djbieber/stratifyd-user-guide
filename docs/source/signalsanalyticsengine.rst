@@ -36,7 +36,7 @@ Built on top of our proprietary Bayesian Neural Network and Generative Model, Si
   This includes using our proprietary text analytics algorithms extended from *Bayesian Neural Network*, *Generative Model*, *LSTM (Long Short Term Memory)*, and *Seq2Seq NLU*. In this step, data input is clustered into semantically meaningful groups.
 
 
-  The groups are generated and visualized by statistical significance (e.g., the % attributed to each topic category in the Semantic Topic Visualization). Each topic is tagged with top representative terms in Buzzwords.
+  The groups are generated and visualized by statistical significance (i.e. the percentage attributed to each topic category in the Semantic Topic Visualization). Each topic is tagged with top representative terms in Buzzwords.
 
 
 
@@ -51,7 +51,7 @@ As a result, these data types are generated for use in visualizations and analys
 
 Buzzwords
 ~~~~~~~~~
-The Buzzwords visualization is made of of every statistically significant N-Gram found in the textual data. In order for an N-Gram to be deemed statistically significant, we look at how often they are ocurring together in the dataset vs. how often they are ocurring individually.
+The Buzzwords visualization is made of of every statistically significant N-Gram found in the textual data. In order for an N-Gram to be deemed statistically significant, we look at how often they occur together in the dataset vs. how often they occur individually.
 
 
 .. figure:: cloud.png
@@ -83,7 +83,7 @@ Any document can occur in more than one topic, therefore the % of documents cont
 Temporal Trends
 ~~~~~~~~~~~~~~~
 
-Temporal information accompanying structured and unstructured data is paramount in understanding quantitative events and their potential underlying relationships across disparate data sets. Signals utilizes time-series predictive analysis, deep learning, and event analysis to identify unexpected trends and patterns across structured and unstructured data.
+Temporal information accompanying structured and unstructured data is paramount in understanding quantitative events and their potential underlying relationships across disparate data sets. Signals utilizes time-series predictive analysis, deep learning, and event analysis to uncover trends and patterns across structured and unstructured data.
 
 .. figure:: temporal.png
 

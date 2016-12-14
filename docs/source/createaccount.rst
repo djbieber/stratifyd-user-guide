@@ -8,7 +8,7 @@ To register for a trial account on Signals, go to https://signals.stratifyd.com 
 
 
 **Existing Customers:**
-If your organization already purchased Signals, you can simply go to
+If your organization has already purchased Signals, you can simply go to
 
 
 https://[your-organization-name].stratifyd.com
