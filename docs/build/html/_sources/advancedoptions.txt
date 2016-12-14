@@ -9,6 +9,21 @@ Advanced options allow users to customize the way data is processed. These optio
 Stopwords
 ~~~~~~~~~
 
+Signals provides an out-of-the-box list of stopwords that include the main commonly used non-informative words such as: "the", "an", "I", etc.
+
+Additional stopwords can be added on a per-data-source level to cut through some of the noise in the text.
+
+
+For example, RSS news feeds typically contain the same few sentences at the end of every article.
+
+For example::
+
+   "(Reporting By Laila Bassam in Aleppo and Tom Perry, John Davison and Lisa Barrington in Beirut; Writing by Angus McDowall in Beirut, editing by Peter Millership)" 
+
+Appears at the end of every news article in some publications. "Reporting By" and "Writing By" will likely get picked up as Buzzwords.
+
+To suppress 
+
 
 Junk/Spam
 ~~~~~~~~~

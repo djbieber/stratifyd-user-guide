@@ -24,24 +24,6 @@ This guide covers every feature and function within signals.
 If you're looking for information about a specific topic, jump to a chapter in the `table of contents`_.
 
 
-.. _table of contents:
-
-User Manual
-^^^^^^^^^^^
-.. toctree::
-  :maxdepth: 2
-  
-  createaccount
-  dataconnectors
-  signalsanalyticsengine
-  dashboard
-  analysis
-  advancedoptions
-  administration
-  miscellaneous
-  glossary
-
-
 
 Quick Start Guide
 ^^^^^^^^^^^^^^^^^
@@ -92,6 +74,24 @@ FAQ
 
 
 Comprehensive FAQ page at http://help.stratifyd.com
+
+
+.. _table of contents:
+
+User Manual
+^^^^^^^^^^^
+.. toctree::
+  :maxdepth: 2
+  
+  createaccount
+  dataconnectors
+  signalsanalyticsengine
+  dashboard
+  analysis
+  advancedoptions
+  administration
+  miscellaneous
+  glossary
 
 
 Contact

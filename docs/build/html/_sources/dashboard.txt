@@ -4,7 +4,7 @@ Creating a Dashboard
 .. image:: signalsgif1.gif
 
 
-The dashboard interface is extremely flexible, allowing them to be used for both passive monitoring as well as active deep-dive or root-cause analysis.
+The dashboard interface is extremely flexible, allowing dashboards to be used for both passive monitoring as well as for active deep-dive or root-cause analysis.
 
 
 Dashboards are interactive and allow you to visualize and pivot on your data from multiple facets, analyzing them holistically or granularly. A Dashboard can hold multiple datasets for disparate data sources.
@@ -26,3 +26,27 @@ To create a new dashboard, from the homepage, click on the New Dashboard icon:
   widgeteditor
   tabs
   styleguide
+
+
+Once you've created a dashboard, you can modify some of the properties by clicking on info in the dashboard menu:
+
+.. image:: dashboardmenupermission.png
+
+
+This is where you can add tags, an image, or even a video, as well as see who else has access.
+
+
+.. figure:: dashboardproperties.png
+  
+  Dashboard Properties menu
+
+
+
+
+If a dashboard has been shared with you, you might see a dashboard menu that looks like this:
+
+
+.. figure:: dashboardmenunopermission.png
+
+
+This means you do not have permission to share. For more on permissions, see :doc:`administration`

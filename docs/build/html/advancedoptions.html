@@ -147,6 +147,15 @@
 <p>Advanced options allow users to customize the way data is processed. These options are not always needed, but there are some scenarios in which they are very useful. For example:</p>
 <div class="section" id="stopwords">
 <h2>Stopwords<a class="headerlink" href="#stopwords" title="Permalink to this headline">¶</a></h2>
+<p>Signals provides an out-of-the-box list of stopwords that include the main commonly used non-informative words such as: &#8220;the&#8221;, &#8220;an&#8221;, &#8220;I&#8221;, etc.</p>
+<p>Additional stopwords can be added on a per-data-source level to cut through some of the noise in the text.</p>
+<p>For example, RSS news feeds typically contain the same few sentences at the end of every article.</p>
+<p>For example:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="s2">&quot;(Reporting By Laila Bassam in Aleppo and Tom Perry, John Davison and Lisa Barrington in Beirut; Writing by Angus McDowall in Beirut, editing by Peter Millership)&quot;</span>
+</pre></div>
+</div>
+<p>Appears at the end of every news article in some publications. &#8220;Reporting By&#8221; and &#8220;Writing By&#8221; will likely get picked up as Buzzwords.</p>
+<p>To suppress</p>
 </div>
 <div class="section" id="junk-spam">
 <h2>Junk/Spam<a class="headerlink" href="#junk-spam" title="Permalink to this headline">¶</a></h2>

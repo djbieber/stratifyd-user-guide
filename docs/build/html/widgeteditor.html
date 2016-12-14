@@ -154,24 +154,47 @@
 <h1>Create Your Own Widgets<a class="headerlink" href="#create-your-own-widgets" title="Permalink to this headline">¶</a></h1>
 <p>The widget editor is where you will create the building blocks of your dashboard.</p>
 <p>To begin creating a new widget, click on the new widget button: <img alt="newwidget" src="_images/newwidget.png" /></p>
-<p>There are two entry points to begin creating a widget:
-1. You can start by choosing the Dimension or Metric you wish to visualize, or
-2. You can start by choosing the Visualization type you want to use.</p>
+<p>There are two entry points to begin creating a widget:</p>
+<ol class="arabic simple">
+<li>You can start by choosing the Dimension or Metric you wish to visualize, or</li>
+<li>You can start by choosing the Visualization type you want to use.</li>
+</ol>
 <img alt="_images/blankeditor.png" src="_images/blankeditor.png" />
 <div class="section" id="visualizations">
 <h2>Visualizations<a class="headerlink" href="#visualizations" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><img alt="statistics" src="_images/statistics.png" /> - the statistics widget shows &#8220;vanity metrics&#8221; or high level aggregations on a metric.</li>
+<li><img alt="gauge" src="_images/gauge.png" /> - the gauge widget shows a sentiment gauge</li>
+<li><img alt="area" src="_images/area.png" /> - the area graph can be used with one metric and at least one dimension</li>
+</ul>
 </div>
 <div class="section" id="options">
 <h2>Options<a class="headerlink" href="#options" title="Permalink to this headline">¶</a></h2>
+<p>The options tab will change based on your current visualization.</p>
+<p>This is where you can do aggregations, sorting, filtering, and other operations on the data you&#8217;ve selected.</p>
+<p>Widget-specific options will also be here, such as the style of map on a geographical widget.</p>
 </div>
 <div class="section" id="color">
 <h2>Color<a class="headerlink" href="#color" title="Permalink to this headline">¶</a></h2>
+<p>The color tab lets you choose what conditions to color the visualization on.</p>
+<p>Select the dimension or metric you want to separate by color, and then choose a method.</p>
+<p>Options are:</p>
+<ul class="simple">
+<li>Single Color</li>
+<li>Gradient Color (diverging colors based on a range of metrics)</li>
+<li>Palette (pick a color for each dimension)</li>
+<li>Range Palette (pack a color for a range of metrics)</li>
+</ul>
+<img alt="_images/rangepalette.png" src="_images/rangepalette.png" />
 </div>
 <div class="section" id="font">
 <h2>Font<a class="headerlink" href="#font" title="Permalink to this headline">¶</a></h2>
+<p>If there is text in your widget, you can specify a custom font in the font tab</p>
 </div>
 <div class="section" id="style">
 <h2>Style<a class="headerlink" href="#style" title="Permalink to this headline">¶</a></h2>
+<p>The style of an individual widget can be changed here. This will override any customizations on style you&#8217;ve made at the dashboard level.</p>
+<p>To see how to change style at the dashboard level, see the <a class="reference internal" href="styleguide.html"><em>Dashboard Styles</em></a> page.</p>
 </div>
 </div>
 
