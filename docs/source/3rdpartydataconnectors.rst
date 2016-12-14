@@ -25,13 +25,18 @@
 salesforce
 ~~~~~~~~~~
 
+.. image:: salesforce.png
 
 Foresee
 ~~~~~~~~
 
+.. image:: foresee.png
+
 
 Surveymonkey
 ~~~~~~~~~~~~~~
+
+.. image:: surveymonkey.png
 
 
 Gmail
@@ -58,6 +63,8 @@ Intercom
 
 JIRA
 ~~~~~~
+
+.. image:: jira.png
 
 
 UserVoice
