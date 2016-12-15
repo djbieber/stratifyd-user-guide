@@ -1,3 +1,5 @@
+.. _Data Connector:
+
 Connecting to Data
 ==================
 

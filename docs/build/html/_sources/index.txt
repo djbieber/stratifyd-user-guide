@@ -2,7 +2,7 @@ Welcome to the Signals User Guide!
 ==================================
 
 
-This guide covers every feature and function within signals, if you're looking for information about a specific topic, jump to a chapter in the `table of contents`_.
+This guide covers every feature and function within Signals, if you're looking for information about a specific topic, jump to a chapter in the `table of contents`_.
 
 
 Introduction
@@ -14,9 +14,9 @@ Introduction
 + The :doc:`signalsanalyticsengine` leverages unsupervised deep machine learning to identify statistically significant topics within any unstructured data.
 
 
-+ Signals is also completely web-based, meaning the only installation required is a web-browser.
++ Signals is also completely web-based. The only installation required is a web-browser.
 
-+ The entire platform is point-and-click, meaning that no programming knowledge is required.
++ The entire platform is point-and-click. No programming knowledge is required.
 
 
 .. Note:: **For new users**: Follow the :doc:`quickstartguide` to get up and running in a matter of minutes.
@@ -26,7 +26,7 @@ Introduction
 FAQ
 ^^^
 
-**Where Does the name "Stratifyd" come from?**
+**Where does the name "Stratifyd" come from?**
 
   Stratifyd is a unique way of spelling Stratified Sampling, which is a statistical method that illustrates the peeling of layers and layers of data to derive a proper statistical result. We took the name Stratifyd to emphasize next-gen Data Analytics that will be mathematically sound and interpretable by humans. This truly reflects our company mission on providing an Augmented Intelligence environment that leverages Artificial Intelligence to Augment Human's Decision Making process. 
 
@@ -36,7 +36,7 @@ FAQ
 
   Trial accounts are limited to 30MB uploads.
 
-  While there is no limit on Enterprise accounts, the web interface supports up to 500MB files. Larger files should be uploaded via the :ref:`Signals SDK`.
+  While there is no limit on Enterprise accounts, the web interface supports up to 500MB of data. Larger files should be uploaded using a :ref:`Data Connector` or via the :ref:`Signals SDK`.
 
 **How many languages does Signals support?**
   
