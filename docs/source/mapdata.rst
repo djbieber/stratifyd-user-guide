@@ -76,3 +76,6 @@ Contributor
 ~~~~~~~~~~~~
 
 Contributor data is used to tie all the insights back to an individual to help organizations close the loop with their customers.
+
+
+This field should represent the person or entity that generated the record or document in your data.

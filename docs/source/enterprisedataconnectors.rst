@@ -12,16 +12,3 @@ Examples include:
 + PostgreSQL
 + Oracle SQL
 
-
-Instructions:
-~~~~~~~~~~~~~
-
-Download the Enterprise Data Connector here:
-
-<link to download>
-
-
-Step 1: Install
-
-
-Step 2: Use it

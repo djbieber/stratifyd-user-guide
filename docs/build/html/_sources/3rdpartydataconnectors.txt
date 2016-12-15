@@ -79,10 +79,6 @@ The UserVoice data connector requires a login and api key to connect to your use
 Users can specify which objects you want to analyze.
 
 
-Tickets, Ideas, Feedback, ...
-
-
-<image of uservoice options>
 
 Zendesk
 ~~~~~~~~

@@ -5,14 +5,22 @@ Analyzing Data
 This chapter covers everything from interacting with your data once you've built a dashboard, to sharing out insights in multiple formats.
 
 
-Sharing Insights
-~~~~~~~~~~~~~~~~
-
 
 Filters
 ~~~~~~~
 
-Filters can be set on one of three levels:
+Every interaction in the dashboard essentially applies a filter on your data.
+This method is designed to help you access insights learned from your unstructured or structured data, and tie it to other dimensions.
+
+When interacting, the filters you've applied will appear at the bottom of the page next to the name of the dataset the filter is applied to.
+
+.. image:: filterbreadcrumb.png
+
+
+Clicking on the name of the filter will remove it.
+
+
+Filters can also be saved to a dashboard and can be set on one of three levels:
 
 1. `Dashboard`_
 2. `Tab`_
