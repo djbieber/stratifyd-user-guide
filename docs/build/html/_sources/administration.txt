@@ -20,6 +20,8 @@ Your account info and management console is all available on the Settings page.
 .. image:: settings.png
 
 
+.. _share:
+
 User Groups
 ~~~~~~~~~~~~~~~~~~~~
 

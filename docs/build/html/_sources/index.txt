@@ -62,7 +62,6 @@ User Manual
   advancedoptions
   administration
   miscellaneous
-  glossary
 
 
 Contact

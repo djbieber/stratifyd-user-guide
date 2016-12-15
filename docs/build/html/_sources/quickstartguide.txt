@@ -57,4 +57,4 @@ Share your results
 ~~~~~~~~~~~~~~~~~~~~~
 
 
-Make your dashboard public or share with a colleague.
+Make your dashboard public or :ref:`share` with colleagues.

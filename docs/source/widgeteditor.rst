@@ -21,15 +21,11 @@ There are two entry points to begin creating a widget:
 Visualizations
 ~~~~~~~~~~~~~~
 
-+ |statistics| - the statistics widget shows "vanity metrics" or high level aggregations on a metric.
-+ |gauge| - the gauge widget shows a sentiment gauge
-+ |area| - the area graph can be used with one metric and at least one dimension
+.. image:: vizzes.png
 
-.. |statistics| image:: statistics.png
 
-.. |gauge| image:: gauge.png
+Each visualization supports certain combinations of data types. By selecting a viz first, your available dimensions and metrics will be highlighted.
 
-.. |area| image:: area.png
 
 
 Options

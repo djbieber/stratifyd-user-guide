@@ -2,7 +2,10 @@ Signals Analytics Engine
 ========================
 
 
-This chapter describes what happens when new data is brought into Signals.
+When a dashboard is created with new data, the data goes through the Signals Analytics Engine for processing.
+
+
+.. image:: journey.png
 
 
 The sections below discuss how the output of the Signals Analytics Engine can be accessed and used.
@@ -92,4 +95,11 @@ Temporal information accompanying structured and unstructured data is paramount 
 
 Contributors
 ~~~~~~~~~~~~
-description of contributors
+
+Contributors help to identify an individual's influence in a data set.
+
+Name: a list of unique identifiers mapped as "name" 
+Count: the # of feedback from an individual or unique ID. 
+Sentiment: The aggregated sentiment score on all the documents contributed by a contributor. 
+
+.. image:: contributors.png

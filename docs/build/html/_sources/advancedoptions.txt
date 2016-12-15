@@ -60,11 +60,8 @@ Certain terms are generally neutral, but when used in the context of a specific 
 Taxonomy
 ~~~~~~~~
 
+Signals supports importing existing taxonomies you have, or you can easily build your own from the ground up. The in-dashboard taxonomy editor allows you to tweak your taxonomy as you analyze your data. Drag and drop buzzwords into your label logic to increase your coverage of existing categories, or as you find new categories.
 
 
+.. image:: taxonomyeditor.png
 
-
-Chinese Dictionary
-~~~~~~~~~~~~~~~~~~
-
-!TODO
