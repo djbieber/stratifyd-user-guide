@@ -20,8 +20,12 @@ For example, RSS news feeds typically contain the same few sentences at the end 
 
 Appears at the end of every news article in some publications. "Reporting By" and "Writing By" will likely be identified as Buzzwords. These terms could potentially link unlrelated documents since they aren't related to the article topics.
 
-To suppress the noise caused by these terms, 
+To suppress the noise caused by these terms, in the edit menu, click "Tune up data" and select the terms that are non-informative.
 
+.. image:: stopwordeditor.gif
+
+
+When finished click submit and your data will begin reprocessing with the feedback you've provided.
 
 
 
