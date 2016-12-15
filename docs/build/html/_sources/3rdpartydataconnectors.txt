@@ -5,7 +5,7 @@
 3rd Party Data Connectors usually have a pop-up window that allows you to enter your credentials with the 3rd party in order to authenticate with Signals.
 
 
-.. Note:: Make sure you have pop-ups disabled when connecting with a 3rd Party Data Connector
+.. Note:: Make sure you have pop-up blocking disabled when connecting with a 3rd Party Data Connector
 
 
 - `salesforce`_
