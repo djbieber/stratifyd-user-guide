@@ -5,6 +5,10 @@ Welcome to the Signals User Guide!
 This guide covers every feature and function within Signals, if you're looking for information about a specific topic, jump to a chapter in the `table of contents`_.
 
 
+For more information about Signals or Stratifyd, please visit `our website`_.
+
+.. _our website: http://www.stratifyd.com
+
 Introduction
 ^^^^^^^^^^^^
 
@@ -20,6 +24,8 @@ Introduction
 
 
 .. Note:: **For new users**: Follow the :doc:`quickstartguide` to get up and running in a matter of minutes.
+
+
 
 
 
@@ -44,7 +50,6 @@ FAQ
 
 
 **Comprehensive FAQ page at** http://help.stratifyd.com
-
 
 .. _table of contents:
 
@@ -73,7 +78,7 @@ United States
 - North Carolina
 - 1431 W. Morehead Street
 - Charlotte, NC 28208
-- P.704-215-4955 
+- P.704-215-4955
 - webcontact@stratifyd.com
 
 
@@ -88,7 +93,7 @@ China
 ~~~~~~~~~~~~~~~
 - 9th, Guanghua road
 - Chaoyang District, Beijing SOHO 2
-- P. 1 3466 390016 
+- P. 1 3466 390016
 - paul@tasteanalytics.cn
 
 
@@ -96,5 +101,5 @@ London
 ~~~~~~~~~~~~~~~
 - 24 Cornwall Rd
 - Dorchester, Dorset DR1 1RX
-- P. +44 (0) 7944 724920 
+- P. +44 (0) 7944 724920
 - o.bayliss@stratifyd.com
