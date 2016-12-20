@@ -67,6 +67,9 @@ JIRA
 .. image:: jira.png
 
 
+With the JIRA Data Connector, you can select which projects you want to analyze. You can also specify a ticket type if desired. If nothing is specified, Signals will pull all of your JIRA data.
+
+
 UserVoice
 ~~~~~~~~~~
 
