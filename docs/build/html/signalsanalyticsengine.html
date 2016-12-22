@@ -87,10 +87,6 @@
 <li class="toctree-l1"><a class="reference internal" href="dataconnectors.html">Connecting to Data</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="">Signals Analytics Engine</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#data-processing">Data Processing</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#buzzwords">Buzzwords</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#topics">Topics</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#temporal-trends">Temporal Trends</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#contributors">Contributors</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="dashboard.html">Creating a Dashboard</a></li>
@@ -98,6 +94,7 @@
 <li class="toctree-l1"><a class="reference internal" href="advancedoptions.html">Advanced Options</a></li>
 <li class="toctree-l1"><a class="reference internal" href="administration.html">Administration</a></li>
 <li class="toctree-l1"><a class="reference internal" href="miscellaneous.html">Misc.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="releasenotes.html">Release Notes</a></li>
 </ul>
 
             
@@ -173,48 +170,6 @@
 </ol>
 <blockquote>
 <div>It joins the data with the N-Gram-based content network for you to pivot and construct analytics questions against your dataset.</div></blockquote>
-<p>As a result, these data types are generated for use in visualizations and analysis:</p>
-</div>
-<div class="section" id="buzzwords">
-<h2>Buzzwords<a class="headerlink" href="#buzzwords" title="Permalink to this headline">¶</a></h2>
-<p>The Buzzwords visualization is made of of every statistically significant N-Gram found in the textual data. In order for an N-Gram to be deemed statistically significant, we look at how often they occur together in the dataset vs. how often they occur individually.</p>
-<div class="figure" id="id1">
-<img alt="_images/cloud.png" src="_images/cloud.png" />
-<p class="caption"><span class="caption-text">A word-cloud view of N-Grams</span></p>
-</div>
-<div class="figure" id="id2">
-<img alt="_images/buzzwordlist.png" src="_images/buzzwordlist.png" />
-<p class="caption"><span class="caption-text">N-Grams in a detail list visualization</span></p>
-</div>
-</div>
-<div class="section" id="topics">
-<h2>Topics<a class="headerlink" href="#topics" title="Permalink to this headline">¶</a></h2>
-<p>The Semantic Topics visualization can be represented in a donut chart or a network graph. Each topic is represented by the N-Grams that make up the topic (which is generated using the process outlined above). We typically show the top two N-Grams for each topic because they often indicate what kind of content is in the topic.
-Any document can occur in more than one topic, therefore the % of documents contained in each topic will add up to &gt; 100%</p>
-<div class="figure" id="id3">
-<img alt="_images/topics.png" src="_images/topics.png" />
-<p class="caption"><span class="caption-text">Semantic Topics from Jamba Juice Yelp Reviews</span></p>
-</div>
-<div class="figure" id="id4">
-<img alt="_images/topicnetwork.png" src="_images/topicnetwork.png" />
-<p class="caption"><span class="caption-text">Semantic Topics represented in a network graph of related N-Grams</span></p>
-</div>
-</div>
-<div class="section" id="temporal-trends">
-<h2>Temporal Trends<a class="headerlink" href="#temporal-trends" title="Permalink to this headline">¶</a></h2>
-<p>Temporal information accompanying structured and unstructured data is paramount in understanding quantitative events and their potential underlying relationships across disparate data sets. Signals utilizes time-series predictive analysis, deep learning, and event analysis to uncover trends and patterns across structured and unstructured data.</p>
-<div class="figure" id="id5">
-<img alt="_images/temporal.png" src="_images/temporal.png" />
-<p class="caption"><span class="caption-text">Topic Model trended over time. Each smaller bar represents a topic while the bar groups represent a time period.</span></p>
-</div>
-</div>
-<div class="section" id="contributors">
-<h2>Contributors<a class="headerlink" href="#contributors" title="Permalink to this headline">¶</a></h2>
-<p>Contributors help to identify an individual&#8217;s influence in a data set.</p>
-<p>Name: a list of unique identifiers mapped as &#8220;name&#8221;
-Count: the # of feedback from an individual or unique ID.
-Sentiment: The aggregated sentiment score on all the documents contributed by a contributor.</p>
-<img alt="_images/contributors.png" src="_images/contributors.png" />
 </div>
 </div>
 
