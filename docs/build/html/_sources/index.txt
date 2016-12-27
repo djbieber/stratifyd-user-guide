@@ -18,9 +18,9 @@ Introduction
 + The :doc:`signalsanalyticsengine` leverages unsupervised deep machine learning to identify statistically significant topics within any unstructured data.
 
 
-+ Signals is also completely web-based. The only installation required is a web-browser.
++ Signals is completely web-based. The only software required is a web browser.
 
-+ The entire platform is point-and-click. No programming knowledge is required.
++ Signals' web interface is point-and-click. No programming knowledge is required, allowing you to be up and running in a matter of minutes.
 
 
 .. Note:: **For new users**: Follow the :doc:`quickstartguide` to get up and running in a matter of minutes.
@@ -30,7 +30,7 @@ Introduction
 
 
 FAQ
-^^^
+~~~~
 
 **Where does the name "Stratifyd" come from?**
 
@@ -54,7 +54,7 @@ FAQ
 .. _table of contents:
 
 User Manual
-^^^^^^^^^^^
+~~~~~~~~~~~~
 .. toctree::
   :maxdepth: 2
   
@@ -74,32 +74,31 @@ Contact Us:
 ~~~~~~~~~~~~
 
 United States
-~~~~~~~~~~~~~~~
-- North Carolina
+--------------
 - 1431 W. Morehead Street
-- Charlotte, NC 28208
-- P.704-215-4955
+  Charlotte, NC 28208
+- P: 704-215-4955
 - webcontact@stratifyd.com
 
 
 Silicon Valley
-~~~~~~~~~~~~~~~
+---------------
 - 4500 Great America Pkwy
-- Santa Clara, CA 95054
+  Santa Clara, CA 95054
 - webcontact@stratifyd.com
 
 
 China
-~~~~~~~~~~~~~~~
+-------
 - 9th, Guanghua road
-- Chaoyang District, Beijing SOHO 2
-- P. 1 3466 390016
+  Chaoyang District, Beijing SOHO 2
+- P: 1-3466-390016
 - paul@tasteanalytics.cn
 
 
 London
-~~~~~~~~~~~~~~~
+---------
 - 24 Cornwall Rd
-- Dorchester, Dorset DR1 1RX
-- P. +44 (0) 7944 724920
+  Dorchester, Dorset DR1 1RX
+- P: +44-(0)-7944-724920
 - o.bayliss@stratifyd.com
