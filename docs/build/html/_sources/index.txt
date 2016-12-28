@@ -75,12 +75,10 @@ Contact Us:
 
 United States
 --------------
-Paragraph::
-
-  - 1431 W. Morehead Street
-    Charlotte, NC 28208
-  - P: 704-215-4955
-  - webcontact@stratifyd.com
+- 1431 W. Morehead Street
+  Charlotte, NC 28208
+- P: 704-215-4955
+- webcontact@stratifyd.com
 
 
 Silicon Valley
