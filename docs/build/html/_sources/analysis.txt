@@ -12,6 +12,7 @@ Analytics Engine Output
 The Signals Analytics Engine generates new datapoints based on your unstructured data.
 This information is represented in the following way.
 
+.. _Buzzwords:
 
 Buzzwords
 ^^^^^^^^^^^
@@ -30,6 +31,7 @@ The Buzzwords visualization is made of every statistically significant N-Gram fo
 
   N-Grams in a detail list visualization
 
+.. _Topics:
 
 Topics
 ^^^^^^^^^^^

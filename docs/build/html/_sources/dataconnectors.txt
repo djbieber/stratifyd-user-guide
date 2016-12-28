@@ -1,4 +1,4 @@
-.. _Data Connector:
+.. __Data Connector:
 
 Connecting to Data
 ==================
@@ -47,11 +47,13 @@ We offer a node.js wrapper for our SDK.
 https://www.npmjs.com/package/signals-api
 
 
-To generate an API key associated with your account, go to Settings in the left-hand menu from the Signals homepage.
+To generate an API key:
 
-In the Settings page, you will see a button to generate an api key towards the bottom.
+1. go to Settings in the left-hand menu from the Signals homepage.
 
-This API key will be generated and downloaded in JSON format to be included in your application.
+2. In the Settings page, click the button to generate an api key towards the bottom.
+
+3. This API key will be generated and downloaded in JSON format to be included in your application.
 
 After the API key has been generated, you can always download it again from the Settings page.
 
