@@ -97,6 +97,7 @@
 </li>
 <li class="toctree-l1"><a class="reference internal" href="administration.html">Administration</a></li>
 <li class="toctree-l1"><a class="reference internal" href="miscellaneous.html">Misc.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="releasenotes.html">Release Notes</a></li>
 </ul>
 
             
@@ -147,9 +148,11 @@
 <div class="section" id="stopwords">
 <h2>Stopwords<a class="headerlink" href="#stopwords" title="Permalink to this headline">¶</a></h2>
 <p>Signals provides an out-of-the-box list of stopwords that include the main commonly used non-informative words such as: &#8220;the&#8221;, &#8220;an&#8221;, &#8220;I&#8221;, etc.</p>
-<p>Additional stopwords can be added on a per-data-source level to cut through some of the noise in the text.</p>
+<p>You can filter out additional words on a per-data-source level to cut through some of the noise in the text by adding them to a stopword list as outlined below.</p>
 <p>For example, RSS news feeds typically contain the same few sentences at the end of every article:</p>
-<div class="highlight-python"><div class="highlight"><pre>Reporting By Laila Bassam in Aleppo and Tom Perry, John Davison and Lisa Barrington in Beirut; Writing by Angus McDowall in Beirut, editing by Peter Millership
+<div class="highlight-python"><div class="highlight"><pre>Reporting By Laila Bassam in Aleppo and Tom Perry, John Davison and Lisa Barrington in Beirut;
+
+Writing by Angus McDowall in Beirut, editing by Peter Millership
 </pre></div>
 </div>
 <p>Appears at the end of every news article in some publications. &#8220;Reporting By&#8221; and &#8220;Writing By&#8221; will likely be identified as Buzzwords. These terms could potentially link unlrelated documents since they aren&#8217;t related to the article topics.</p>

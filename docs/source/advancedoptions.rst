@@ -11,12 +11,14 @@ Stopwords
 
 Signals provides an out-of-the-box list of stopwords that include the main commonly used non-informative words such as: "the", "an", "I", etc.
 
-Additional stopwords can be added on a per-data-source level to cut through some of the noise in the text.
+You can filter out additional words on a per-data-source level to cut through some of the noise in the text by adding them to a stopword list as outlined below.
 
 
 For example, RSS news feeds typically contain the same few sentences at the end of every article::
 
-   Reporting By Laila Bassam in Aleppo and Tom Perry, John Davison and Lisa Barrington in Beirut; Writing by Angus McDowall in Beirut, editing by Peter Millership
+   Reporting By Laila Bassam in Aleppo and Tom Perry, John Davison and Lisa Barrington in Beirut;
+
+   Writing by Angus McDowall in Beirut, editing by Peter Millership
 
 Appears at the end of every news article in some publications. "Reporting By" and "Writing By" will likely be identified as Buzzwords. These terms could potentially link unlrelated documents since they aren't related to the article topics.
 
