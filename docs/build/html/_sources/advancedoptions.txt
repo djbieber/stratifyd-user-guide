@@ -11,7 +11,14 @@ Stopwords
 
 Signals provides an out-of-the-box list of stopwords that include the main commonly used non-informative words such as: "the", "an", "I", etc.
 
-You can filter out additional words on a per-data-source level to cut through some of the noise in the text by adding them to a stopword list as outlined below.
+
+You can create additional lists that can be applied as needed to cut through noise in your textual data on a per-data-source basis.
+
+
+Typically a brand new data-source is run with the default stopword list, noisy signals can be easily identified in the dashboard and our in-dashboard editor (below) allows you to select N-Grams, topics, contributors, or other features to suppress.
+
+
+.. image:: stopwordeditor.gif
 
 
 For example, RSS news feeds typically contain the same few sentences at the end of every article::
@@ -22,11 +29,10 @@ For example, RSS news feeds typically contain the same few sentences at the end 
 
 Appears at the end of every news article in some publications. "Reporting By" and "Writing By" will likely be identified as Buzzwords. These terms could potentially link unlrelated documents since they aren't related to the article topics.
 
+
 To suppress the noise caused by these terms, in the edit menu, click "Tune up data" and select the terms that are non-informative.
 
 .. image:: tunedata.png
-
-.. image:: stopwordeditor.gif
 
 
 When finished, click submit and your data will begin reprocessing with the feedback you've provided.

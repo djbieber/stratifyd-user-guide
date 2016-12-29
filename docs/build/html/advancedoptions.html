@@ -148,7 +148,9 @@
 <div class="section" id="stopwords">
 <h2>Stopwords<a class="headerlink" href="#stopwords" title="Permalink to this headline">¶</a></h2>
 <p>Signals provides an out-of-the-box list of stopwords that include the main commonly used non-informative words such as: &#8220;the&#8221;, &#8220;an&#8221;, &#8220;I&#8221;, etc.</p>
-<p>You can filter out additional words on a per-data-source level to cut through some of the noise in the text by adding them to a stopword list as outlined below.</p>
+<p>You can create additional lists that can be applied as needed to cut through noise in your textual data on a per-data-source basis.</p>
+<p>Typically a brand new data-source is run with the default stopword list, noisy signals can be easily identified in the dashboard and our in-dashboard editor (below) allows you to select N-Grams, topics, contributors, or other features to suppress.</p>
+<img alt="_images/stopwordeditor.gif" src="_images/stopwordeditor.gif" />
 <p>For example, RSS news feeds typically contain the same few sentences at the end of every article:</p>
 <div class="highlight-python"><div class="highlight"><pre>Reporting By Laila Bassam in Aleppo and Tom Perry, John Davison and Lisa Barrington in Beirut;
 
@@ -158,7 +160,6 @@ Writing by Angus McDowall in Beirut, editing by Peter Millership
 <p>Appears at the end of every news article in some publications. &#8220;Reporting By&#8221; and &#8220;Writing By&#8221; will likely be identified as Buzzwords. These terms could potentially link unlrelated documents since they aren&#8217;t related to the article topics.</p>
 <p>To suppress the noise caused by these terms, in the edit menu, click &#8220;Tune up data&#8221; and select the terms that are non-informative.</p>
 <img alt="_images/tunedata.png" src="_images/tunedata.png" />
-<img alt="_images/stopwordeditor.gif" src="_images/stopwordeditor.gif" />
 <p>When finished, click submit and your data will begin reprocessing with the feedback you&#8217;ve provided.</p>
 </div>
 <div class="section" id="junk-spam">
