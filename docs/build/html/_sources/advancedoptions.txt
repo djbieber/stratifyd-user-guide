@@ -24,10 +24,12 @@ Appears at the end of every news article in some publications. "Reporting By" an
 
 To suppress the noise caused by these terms, in the edit menu, click "Tune up data" and select the terms that are non-informative.
 
+.. image:: tunedata.png
+
 .. image:: stopwordeditor.gif
 
 
-When finished click submit and your data will begin reprocessing with the feedback you've provided.
+When finished, click submit and your data will begin reprocessing with the feedback you've provided.
 
 
 
