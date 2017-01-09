@@ -1,4 +1,4 @@
-.. __Data Connector:
+.. _dataconnector:
 
 Connecting to Data
 ==================
