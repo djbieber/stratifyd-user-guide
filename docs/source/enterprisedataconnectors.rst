@@ -7,6 +7,7 @@ The Enterprise Data Connector application allows users to connect with a variety
 
 Examples include:
 
++ Hive
 + mySQL
 + Microsoft SQL Server
 + PostgreSQL

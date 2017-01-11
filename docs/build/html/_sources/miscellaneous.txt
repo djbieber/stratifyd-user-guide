@@ -5,7 +5,7 @@ Misc.
 Signals for Students
 ^^^^^^^^^^^^^^^^^^^^
 
-We are group of data scientists and PhDs from universities, thus we support students expanding their analytics horizon by providing free access to advanced technologies.
+We are a group of data scientists and PhDs from universities, thus we support students expanding their analytics horizon by providing free access to advanced technologies.
 
 Feel free to drop us a line with your EDU account at clientsupport@stratifyd.com. Our specialists will be more than happy to create an account for you.
 
