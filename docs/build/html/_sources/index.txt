@@ -1,8 +1,10 @@
+.. _home:
+
 Welcome to the Signals User Guide!
 ==================================
 
 
-This guide covers every feature and function within Signals, if you're looking for information about a specific topic, jump to a chapter in the `table of contents`_.
+This guide covers every feature and function within Signals, if you're looking for information about a specific topic, jump to a chapter in the left nav bar.
 
 
 For more information about Signals or Stratifyd, please visit `our website`_.
@@ -25,25 +27,26 @@ Introduction
 
 .. Note:: **For new users**: Follow the :doc:`quickstartguide` to get up and running in a matter of minutes.
 
+..
+  .. _table of contents:
 
-.. _table of contents:
-
-User Manual
-~~~~~~~~~~~~
-.. toctree::
-  :maxdepth: 2
+  User Manual
+  ~~~~~~~~~~~~
+  .. toctree::
+    :maxdepth: 2
   
-  quickstartguide
-  createaccount
-  dataconnectors
-  signalsanalyticsengine
-  dashboard
-  analysis
-  advancedoptions
-  administration
-  miscellaneous
-  releasenotes
-  faq
+    home
+    quickstartguide
+    createaccount
+    dataconnectors
+    signalsanalyticsengine
+    dashboard
+    analysis
+    advancedoptions
+    administration
+    miscellaneous
+    releasenotes
+    faq
 
 
 Contact Us:
