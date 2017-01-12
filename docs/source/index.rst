@@ -1,5 +1,3 @@
-.. _home:
-
 Welcome to the Signals User Guide!
 ==================================
 
@@ -27,26 +25,24 @@ Introduction
 
 .. Note:: **For new users**: Follow the :doc:`quickstartguide` to get up and running in a matter of minutes.
 
-..
-  .. _table of contents:
+.. _table of contents:
 
-  User Manual
-  ~~~~~~~~~~~~
-  .. toctree::
-    :maxdepth: 2
-  
-    home
-    quickstartguide
-    createaccount
-    dataconnectors
-    signalsanalyticsengine
-    dashboard
-    analysis
-    advancedoptions
-    administration
-    miscellaneous
-    releasenotes
-    faq
+User Manual
+~~~~~~~~~~~~
+.. toctree::
+  :maxdepth: 2
+
+  quickstartguide
+  createaccount
+  dataconnectors
+  signalsanalyticsengine
+  dashboard
+  analysis
+  advancedoptions
+  administration
+  miscellaneous
+  releasenotes
+  faq
 
 
 Contact Us:
