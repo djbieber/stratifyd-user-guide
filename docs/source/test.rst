@@ -3,7 +3,7 @@ test
 
 
 .. list-table::
-  :widths: 200
+  :widths: 80
 
   * - The :doc:`signalsanalyticsengine` leverages unsupervised deep machine learning to identify statistically significant topics within any unstructured data.
 
