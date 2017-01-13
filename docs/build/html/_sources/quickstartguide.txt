@@ -59,4 +59,4 @@ Share your results
 ~~~~~~~~~~~~~~~~~~~~~
 
 
-Make your dashboard public or :ref:`share` with colleagues.
+Make your dashboard public or :ref:`share <share>` with colleagues.
