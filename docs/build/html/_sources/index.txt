@@ -30,7 +30,7 @@ Introduction
 User Manual
 ~~~~~~~~~~~~
 .. toctree::
-  :maxdepth: 2
+  :maxdepth: 1
 
   quickstartguide
   createaccount
