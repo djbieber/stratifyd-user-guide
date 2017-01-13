@@ -1,6 +1,5 @@
 
 
-
 <!DOCTYPE html>
 <!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
@@ -9,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Index &mdash; Signals User Guide 2.4 documentation</title>
+  <title>Processing Data &mdash; Signals User Guide 2.4 documentation</title>
   
 
   
@@ -84,7 +83,6 @@
 <li class="toctree-l1"><a class="reference internal" href="quickstartguide.html">Quick Start Guide</a></li>
 <li class="toctree-l1"><a class="reference internal" href="createaccount.html">Creating an Account</a></li>
 <li class="toctree-l1"><a class="reference internal" href="dataconnectors.html">Connecting to Data</a></li>
-<li class="toctree-l1"><a class="reference internal" href="processingdata.html">Processing Data</a></li>
 <li class="toctree-l1"><a class="reference internal" href="dashboard.html">Creating a Dashboard</a></li>
 <li class="toctree-l1"><a class="reference internal" href="analysis.html">Analyzing Data</a></li>
 <li class="toctree-l1"><a class="reference internal" href="advancedoptions.html">Advanced Options</a></li>
@@ -115,7 +113,7 @@
         <div class="rst-content">
           
 
-
+ 
 
 
 
@@ -123,9 +121,11 @@
   <ul class="wy-breadcrumbs">
     <li><a href="index.html">Docs</a> &raquo;</li>
       
-    <li></li>
+    <li>Processing Data</li>
       <li class="wy-breadcrumbs-aside">
         
+          
+            <a href="_sources/processingdata.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -135,11 +135,38 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-
-<h1 id="index">Index</h1>
-
-<div class="genindex-jumpbox">
- 
+  <div class="section" id="processing-data">
+<span id="id1"></span><h1>Processing Data<a class="headerlink" href="#processing-data" title="Permalink to this headline">¶</a></h1>
+<p>When a dashboard is created with new data, the data goes through the Signals Analytics Engine for processing. This chapter describes what occurs as the engine is processing data. The output is described in the <a class="reference internal" href="analysis.html#analyzing-data"><span>Analyzing Data</span></a> chapter.</p>
+<img alt="_images/journey.png" src="_images/journey.png" />
+<p>The sections below discuss how the output of the Signals Analytics Engine can be accessed and used.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">To learn how to tune the analytics engine, see the <a class="reference internal" href="advancedoptions.html"><em>Advanced Options</em></a> page.</p>
+</div>
+<div class="section" id="data-processing">
+<h2>Data Processing<a class="headerlink" href="#data-processing" title="Permalink to this headline">¶</a></h2>
+<p>The Signals Analytics Engine leverages Machine Learning and Deep Learning algorithms to help navigate and pivot a large set of textual data.</p>
+<p>Built on top of our proprietary Bayesian Neural Network and Generative Model, Signals dynamically identifies semantic topic groups based on the context in your input data.</p>
+<p><strong>This is all done in a three-step process:</strong></p>
+<ol class="arabic simple">
+<li><strong>The engine starts by performing NLP in over 24 languages.</strong></li>
+</ol>
+<blockquote>
+<div>In this step, your input documents are <em>tokenized</em> into corresponding <a class="reference external" href="https://en.wikipedia.org/wiki/N-gram">N-Grams</a> (N&gt;=2), <em>lemmatized</em> (words with the same root are grouped together e.g. run &amp; ran), <em>stemmed</em>, spam/junk and stop words are filtered out, and <em>part-of-speech</em> tagging and <em>named entity extraction</em> are performed. A large N-Gram-based content network is then created based on your input data files.</div></blockquote>
+<ol class="arabic simple" start="2">
+<li><strong>The engine runs a Multi-Model approach on top of the N-Gram-based content network.</strong></li>
+</ol>
+<blockquote>
+<div><p>This includes using our proprietary text analytics algorithms extended from <em>Bayesian Neural Network</em>, <em>Generative Model</em>, <em>LSTM (Long Short Term Memory)</em>, and <em>Seq2Seq NLU</em>. In this step, data input is clustered into semantically meaningful groups.</p>
+<p>The groups are generated and visualized by statistical significance (i.e. the percentage attributed to each topic category in the Semantic Topic Visualization). Each topic is tagged with top representative terms in Buzzwords.</p>
+</div></blockquote>
+<ol class="arabic simple" start="3">
+<li><strong>Signals automatically processes all geographical (Where), temporal (When), contributor (Who), as well as any other structured data.</strong></li>
+</ol>
+<blockquote>
+<div>It joins the data with the N-Gram-based content network for you to pivot and construct analytics questions against your dataset.</div></blockquote>
+</div>
 </div>
 
 

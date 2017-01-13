@@ -36,7 +36,7 @@ If you're bringing your own data, specify which fields contain Textual, Temporal
 
 Create visualizations
 ^^^^^^^^^^^^^^^^^^^^^^^
-Your dashboard will contain visualizations based on the type of data in your analysis by default. See the guide on our :doc:`signalsanalyticsengine` for information on how to interpret these visualizations. Every visualization is clickable, and clicking will apply a filter on your data based on your selection.
+Your dashboard will contain visualizations based on the type of data in your analysis by default. See the guide on :ref:`processing data` for information on how to interpret these visualizations. Every visualization is clickable, and clicking will apply a filter on your data based on your selection.
 
 .. image:: signalsgif1.gif
 
