@@ -29,9 +29,12 @@ Connect to your database, upload a CSV or Excel file, or use one of our :doc:`da
   :scale: 50
 
 
-If you're bringing your own data, specify which fields contain Textual, Temporal, or Geographical information for analysis and normalization. All other fields will be brought in as pivot points and additional visualizations. See the :doc:`mapdata` guide for more details.
+If you're bringing your own data, specify which fields contain Textual, Temporal, or Geographical information for analysis and normalization. All other fields will be brought in as pivot points and additional visualizations. 
 
 .. image:: csvorexcel.png
+
+.. Note:: See the :doc:`mapdata` guide for more details when uploading CSV or Excel Files
+
 
 
 Create visualizations
@@ -59,4 +62,4 @@ Share your results
 ~~~~~~~~~~~~~~~~~~~~~
 
 
-Make your dashboard public or :ref:`share` with colleagues.
+Make your dashboard public or :ref:`share <share>` with colleagues.
