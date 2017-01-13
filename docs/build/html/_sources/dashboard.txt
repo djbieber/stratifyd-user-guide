@@ -51,4 +51,4 @@ This is where you can add tags, an image, or even a video, as well as see who el
   .. figure:: dashboardmenunopermission.png
 
 
-  This means you do not have permission to share. For more on permissions, see :doc:`administration`
+  This means you do not have permission to share with others. For more on permissions, see :doc:`administration`
