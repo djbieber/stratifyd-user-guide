@@ -5,11 +5,9 @@ Administration
 Implementing Signals
 ~~~~~~~~~~~~~~~~~~~~
 
-A **Cloud Deployment** is our most common method of deployment. We use Amazon Web Services S3 and EC2 to provide an optimal experience in computing and visualization.
+A **Cloud Deployment** is our most common method of deployment. Among other services, Amazon Web Services S3 and EC2 are used to provide an optimal experience in computing and visualization.
 
-`Contact us`_ for information on Virtual Private Cloud or On-Premise deployments.
-
-.. _Contact us: info@stratifyd.com
+:ref:`Contact us <contact>` for information on Virtual Private Cloud or On-Premise deployments.
 
 
 Account Info

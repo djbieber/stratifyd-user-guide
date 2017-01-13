@@ -48,7 +48,7 @@ This is where you can add tags, an image, or even a video, as well as see who el
 .. Note:: If a dashboard has been shared with you, you might see a dashboard menu that looks like this:
 
 
-.. figure:: dashboardmenunopermission.png
+  .. figure:: dashboardmenunopermission.png
 
 
-This means you do not have permission to share. For more on permissions, see :doc:`administration`
+  This means you do not have permission to share. For more on permissions, see :doc:`administration`
