@@ -33,7 +33,7 @@ When you've identified the fields, click next and this configuration will be use
 Textual
 ~~~~~~~~~~
 
-The textual data is the data that you want to run unsupervised machine learning to generate buzzwords, a topic model, and sentiment analysis upon. The next section :doc:`signalsanalyticsengine` discusses the outputs of this process.
+The textual data is the data that you want to run unsupervised machine learning to generate buzzwords, a topic model, and sentiment analysis upon. The next section, on :ref:`processing data`, discusses the outputs of this process.
 
 
 Temporal
