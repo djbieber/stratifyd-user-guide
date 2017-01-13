@@ -80,8 +80,8 @@ Sentiment: The aggregated sentiment score on all the documents contributed by a 
 .. image:: contributors.png
 
 
-Filters
-~~~~~~~
+Interactions and Filters
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Every interaction in the dashboard essentially applies a filter on your data.
 This method is designed to help you access insights learned from your unstructured or structured data, and tie it to other dimensions.

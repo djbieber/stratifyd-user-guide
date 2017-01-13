@@ -1,3 +1,5 @@
+.. _advanced options:
+
 Advanced Options
 ================
 

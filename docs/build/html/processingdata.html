@@ -30,7 +30,9 @@
   
 
   
-    <link rel="top" title="Signals User Guide 2.4 documentation" href="index.html"/> 
+    <link rel="top" title="Signals User Guide 2.4 documentation" href="index.html"/>
+        <link rel="next" title="Creating a Dashboard" href="dashboard.html"/>
+        <link rel="prev" title="Mapping Data" href="mapdata.html"/> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -79,18 +81,24 @@
           
             
             
-                <ul>
+                <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="quickstartguide.html">Quick Start Guide</a></li>
 <li class="toctree-l1"><a class="reference internal" href="createaccount.html">Creating an Account</a></li>
 <li class="toctree-l1"><a class="reference internal" href="dataconnectors.html">Connecting to Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mapdata.html">Mapping Data</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">Processing Data</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#signals-analytics-engine">Signals Analytics Engine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#reprocessing">Reprocessing</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="dashboard.html">Creating a Dashboard</a></li>
 <li class="toctree-l1"><a class="reference internal" href="analysis.html">Analyzing Data</a></li>
 <li class="toctree-l1"><a class="reference internal" href="advancedoptions.html">Advanced Options</a></li>
 <li class="toctree-l1"><a class="reference internal" href="administration.html">Administration</a></li>
-<li class="toctree-l1"><a class="reference internal" href="miscellaneous.html">Misc.</a></li>
 <li class="toctree-l1"><a class="reference internal" href="releasenotes.html">Release Notes</a></li>
 <li class="toctree-l1"><a class="reference internal" href="faq.html">FAQ</a></li>
-<li class="toctree-l1"><a class="reference internal" href="contact.html">Contact Us:</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contact.html">Contact</a></li>
+<li class="toctree-l1"><a class="reference internal" href="miscellaneous.html">Misc.</a></li>
 </ul>
 
             
@@ -139,13 +147,13 @@
 <span id="id1"></span><h1>Processing Data<a class="headerlink" href="#processing-data" title="Permalink to this headline">¶</a></h1>
 <p>When a dashboard is created with new data, the data goes through the Signals Analytics Engine for processing. This chapter describes what occurs as the engine is processing data. The output is described in the <a class="reference internal" href="analysis.html#analyzing-data"><span>Analyzing Data</span></a> chapter.</p>
 <img alt="_images/journey.png" src="_images/journey.png" />
-<p>The sections below discuss how the output of the Signals Analytics Engine can be accessed and used.</p>
+<p>The sections below discuss how the output of the <a class="reference internal" href="#signalsanalyticsengine"><span>Signals Analytics Engine</span></a> can be accessed and used.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
 <p class="last">To learn how to tune the analytics engine, see the <a class="reference internal" href="advancedoptions.html"><em>Advanced Options</em></a> page.</p>
 </div>
-<div class="section" id="data-processing">
-<h2>Data Processing<a class="headerlink" href="#data-processing" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="signals-analytics-engine">
+<span id="signalsanalyticsengine"></span><h2>Signals Analytics Engine<a class="headerlink" href="#signals-analytics-engine" title="Permalink to this headline">¶</a></h2>
 <p>The Signals Analytics Engine leverages Machine Learning and Deep Learning algorithms to help navigate and pivot a large set of textual data.</p>
 <p>Built on top of our proprietary Bayesian Neural Network and Generative Model, Signals dynamically identifies semantic topic groups based on the context in your input data.</p>
 <p><strong>This is all done in a three-step process:</strong></p>
@@ -167,12 +175,25 @@
 <blockquote>
 <div>It joins the data with the N-Gram-based content network for you to pivot and construct analytics questions against your dataset.</div></blockquote>
 </div>
+<div class="section" id="reprocessing">
+<h2>Reprocessing<a class="headerlink" href="#reprocessing" title="Permalink to this headline">¶</a></h2>
+<p>There are a number of <a class="reference internal" href="advancedoptions.html#advanced-options"><span>Advanced Options</span></a> that can be applied to customize the output of the Analytics Engine. When applying advanced options your data will need to be reprocessed. This can either be done directly through Edit Mode, or through clicking the reprocess button on your dataset under Manage Data.</p>
+</div>
 </div>
 
 
            </div>
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="dashboard.html" class="btn btn-neutral float-right" title="Creating a Dashboard" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="mapdata.html" class="btn btn-neutral" title="Mapping Data" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
   
 
   <hr/>

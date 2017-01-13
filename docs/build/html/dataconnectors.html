@@ -31,7 +31,7 @@
 
   
     <link rel="top" title="Signals User Guide 2.4 documentation" href="index.html"/>
-        <link rel="next" title="Enterprise Data Connectors" href="enterprisedataconnectors.html"/>
+        <link rel="next" title="Mapping Data" href="mapdata.html"/>
         <link rel="prev" title="Creating an Account" href="createaccount.html"/> 
 
   
@@ -85,9 +85,41 @@
 <li class="toctree-l1"><a class="reference internal" href="quickstartguide.html">Quick Start Guide</a></li>
 <li class="toctree-l1"><a class="reference internal" href="createaccount.html">Creating an Account</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="">Connecting to Data</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="enterprisedataconnectors.html">Enterprise Data Connectors</a></li>
-<li class="toctree-l2"><a class="reference internal" href="3rdpartydataconnectors.html">3rd Party Data Connectors</a></li>
-<li class="toctree-l2"><a class="reference internal" href="publicdataconnectors.html">Public Data Connectors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#enterprise-data-connectors">Enterprise Data Connectors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#rd-party-data-connectors">3rd Party Data Connectors</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#salesforce">salesforce</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#foresee">Foresee</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#surveymonkey">Surveymonkey</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#gmail">Gmail</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#livechat">Livechat</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#intercom">Intercom</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jira">JIRA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#uservoice">UserVoice</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#zendesk">Zendesk</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#google-analytics">Google Analytics</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#trello">Trello</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#public-data-connectors">Public Data Connectors</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#ios-store-reviews">iOS Store Reviews</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#google-play-store-reviews">Google Play Store Reviews</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#home-depot-product-reviews">Home Depot Product Reviews</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#lowes-product-reviews">Lowes Product Reviews</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#best-buy-product-reviews">Best Buy Product Reviews</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#wal-mart-product-reviews">Wal Mart Product Reviews</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#etsy-shop-reviews">Etsy Shop Reviews</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#etsy-product-reviews">Etsy Product Reviews</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#amazon-product-reviews">Amazon Product Reviews</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#twitter">Twitter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#facebook">Facebook</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#weibo-search">Weibo search</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#youku">Youku</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#youtube-comments">YouTube Comments</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#consumer-financial-protection-bureau">Consumer Financial Protection Bureau</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#indeed">Indeed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#consumer-affairs">Consumer Affairs</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="#signals-sdk">Signals SDK</a></li>
 </ul>
 </li>
@@ -148,13 +180,6 @@
   <div class="section" id="connecting-to-data">
 <span id="dataconnector"></span><h1>Connecting to Data<a class="headerlink" href="#connecting-to-data" title="Permalink to this headline">¶</a></h1>
 <p>There are three categories of Data Connectors in Signals:</p>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="enterprisedataconnectors.html">Enterprise Data Connectors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="3rdpartydataconnectors.html">3rd Party Data Connectors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="publicdataconnectors.html">Public Data Connectors</a></li>
-</ul>
-</div>
 <p><a class="reference internal" href="enterprisedataconnectors.html"><em>Enterprise Data Connectors</em></a> are used to connect to internal databases or other 1st party data platforms in your organization.</p>
 <p><a class="reference internal" href="3rdpartydataconnectors.html"><em>3rd Party Data Connectors</em></a> provide access to data owned by your organization but stored in 3rd party systems.
 Examples include salesforce, Google Analytics, and Zendesk among many others.</p>
@@ -165,6 +190,174 @@ We collect data from Amazon, Facebook, the Google Play store, consumeraffairs.co
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
 <p class="last">Enterprise Data Connectors and some 3rd Party Data Sources require you to map fields in your data prior to uploading. See <a class="reference internal" href="mapdata.html"><em>Mapping Data</em></a> to learn about this process.</p>
+</div>
+<div class="section" id="enterprise-data-connectors">
+<h2>Enterprise Data Connectors<a class="headerlink" href="#enterprise-data-connectors" title="Permalink to this headline">¶</a></h2>
+<p>The Enterprise Data Connector application allows users to connect with a variety of internal data sources.</p>
+<p>Examples include:</p>
+<ul class="simple">
+<li>Hive</li>
+<li>mySQL</li>
+<li>Microsoft SQL Server</li>
+<li>PostgreSQL</li>
+<li>Oracle SQL</li>
+</ul>
+</div>
+<div class="section" id="rd-party-data-connectors">
+<h2>3rd Party Data Connectors<a class="headerlink" href="#rd-party-data-connectors" title="Permalink to this headline">¶</a></h2>
+<p>3rd Party Data Connectors usually have a pop-up window that allows you to enter your credentials with the 3rd party in order to authenticate with Signals.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Make sure you have pop-up blocking disabled when connecting with a 3rd Party Data Connector</p>
+</div>
+<ul class="simple">
+<li><a class="reference internal" href="#salesforce">salesforce</a></li>
+<li><a class="reference internal" href="#foresee">Foresee</a></li>
+<li><a class="reference internal" href="#surveymonkey">Surveymonkey</a></li>
+<li><a class="reference internal" href="#gmail">Gmail</a></li>
+<li><a class="reference internal" href="#livechat">Livechat</a></li>
+<li><a class="reference internal" href="#intercom">Intercom</a></li>
+<li><a class="reference internal" href="#jira">JIRA</a></li>
+<li><a class="reference internal" href="#uservoice">UserVoice</a></li>
+<li><a class="reference internal" href="#zendesk">Zendesk</a></li>
+<li><a class="reference internal" href="#google-analytics">Google Analytics</a></li>
+<li><a class="reference internal" href="#trello">Trello</a></li>
+</ul>
+<div class="section" id="salesforce">
+<h3>salesforce<a class="headerlink" href="#salesforce" title="Permalink to this headline">¶</a></h3>
+<img alt="_images/salesforce.png" src="_images/salesforce.png" />
+</div>
+<div class="section" id="foresee">
+<h3>Foresee<a class="headerlink" href="#foresee" title="Permalink to this headline">¶</a></h3>
+<img alt="_images/foresee.png" src="_images/foresee.png" />
+</div>
+<div class="section" id="surveymonkey">
+<h3>Surveymonkey<a class="headerlink" href="#surveymonkey" title="Permalink to this headline">¶</a></h3>
+<img alt="_images/surveymonkey.png" src="_images/surveymonkey.png" />
+</div>
+<div class="section" id="gmail">
+<h3>Gmail<a class="headerlink" href="#gmail" title="Permalink to this headline">¶</a></h3>
+<p>Gmail allows you to connect with a Gmail account and enter a query that will pull data matching the query.</p>
+<img alt="_images/gmail.png" src="_images/gmail.png" />
+</div>
+<div class="section" id="livechat">
+<h3>Livechat<a class="headerlink" href="#livechat" title="Permalink to this headline">¶</a></h3>
+<p>The LiveChat connector allows you to select a date range and the type of user you want to analyze chats for: Agent, Visitor, or both.</p>
+<img alt="_images/livechat.png" src="_images/livechat.png" />
+</div>
+<div class="section" id="intercom">
+<h3>Intercom<a class="headerlink" href="#intercom" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jira">
+<h3>JIRA<a class="headerlink" href="#jira" title="Permalink to this headline">¶</a></h3>
+<img alt="_images/jira.png" src="_images/jira.png" />
+<p>With the JIRA Data Connector, you can select which projects you want to analyze. You can also specify a ticket type if desired. If nothing is specified, Signals will pull all of your JIRA data.</p>
+</div>
+<div class="section" id="uservoice">
+<h3>UserVoice<a class="headerlink" href="#uservoice" title="Permalink to this headline">¶</a></h3>
+<p>The UserVoice data connector requires a login and api key to connect to your uservoice data. The permissions associated with the login correspond with what data will be available through the connector.</p>
+<img alt="_images/uservoice.png" src="_images/uservoice.png" />
+<p>Users can specify which objects you want to analyze.</p>
+</div>
+<div class="section" id="zendesk">
+<h3>Zendesk<a class="headerlink" href="#zendesk" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="google-analytics">
+<h3>Google Analytics<a class="headerlink" href="#google-analytics" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="trello">
+<h3>Trello<a class="headerlink" href="#trello" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+<div class="section" id="public-data-connectors">
+<h2>Public Data Connectors<a class="headerlink" href="#public-data-connectors" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference internal" href="#ios-store-reviews">iOS Store Reviews</a></li>
+<li><a class="reference internal" href="#google-play-store-reviews">Google Play Store Reviews</a></li>
+<li><a class="reference internal" href="#home-depot-product-reviews">Home Depot Product Reviews</a></li>
+<li><a class="reference internal" href="#lowes-product-reviews">Lowes Product Reviews</a></li>
+<li><a class="reference internal" href="#best-buy-product-reviews">Best Buy Product Reviews</a></li>
+<li><a class="reference internal" href="#wal-mart-product-reviews">Wal Mart Product Reviews</a></li>
+<li><a class="reference internal" href="#etsy-shop-reviews">Etsy Shop Reviews</a></li>
+<li><a class="reference internal" href="#etsy-product-reviews">Etsy Product Reviews</a></li>
+<li><a class="reference internal" href="#amazon-product-reviews">Amazon Product Reviews</a></li>
+</ul>
+<ul class="simple">
+<li><a class="reference internal" href="#twitter">Twitter</a> (with twitter account credentials)</li>
+<li><a class="reference internal" href="#facebook">Facebook</a> (with facebook account credentials)</li>
+<li><a class="reference internal" href="#weibo-search">Weibo search</a></li>
+<li><a class="reference internal" href="#youku">Youku</a></li>
+<li><a class="reference internal" href="#youtube-comments">YouTube Comments</a></li>
+</ul>
+<ul class="simple">
+<li><a class="reference internal" href="#consumer-financial-protection-bureau">Consumer Financial Protection Bureau</a></li>
+<li><a class="reference internal" href="#indeed">Indeed</a></li>
+<li><a class="reference internal" href="#consumer-affairs">Consumer Affairs</a></li>
+</ul>
+<div class="section" id="ios-store-reviews">
+<h3>iOS Store Reviews<a class="headerlink" href="#ios-store-reviews" title="Permalink to this headline">¶</a></h3>
+<img alt="_images/iosstore.png" src="_images/iosstore.png" />
+</div>
+<div class="section" id="google-play-store-reviews">
+<h3>Google Play Store Reviews<a class="headerlink" href="#google-play-store-reviews" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="home-depot-product-reviews">
+<h3>Home Depot Product Reviews<a class="headerlink" href="#home-depot-product-reviews" title="Permalink to this headline">¶</a></h3>
+<img alt="_images/homedepot.png" src="_images/homedepot.png" />
+</div>
+<div class="section" id="lowes-product-reviews">
+<h3>Lowes Product Reviews<a class="headerlink" href="#lowes-product-reviews" title="Permalink to this headline">¶</a></h3>
+<img alt="_images/lowes.png" src="_images/lowes.png" />
+</div>
+<div class="section" id="best-buy-product-reviews">
+<h3>Best Buy Product Reviews<a class="headerlink" href="#best-buy-product-reviews" title="Permalink to this headline">¶</a></h3>
+<img alt="_images/bestbuy.png" src="_images/bestbuy.png" />
+</div>
+<div class="section" id="wal-mart-product-reviews">
+<h3>Wal Mart Product Reviews<a class="headerlink" href="#wal-mart-product-reviews" title="Permalink to this headline">¶</a></h3>
+<img alt="_images/walmart.png" src="_images/walmart.png" />
+</div>
+<div class="section" id="etsy-shop-reviews">
+<h3>Etsy Shop Reviews<a class="headerlink" href="#etsy-shop-reviews" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="etsy-product-reviews">
+<h3>Etsy Product Reviews<a class="headerlink" href="#etsy-product-reviews" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="amazon-product-reviews">
+<h3>Amazon Product Reviews<a class="headerlink" href="#amazon-product-reviews" title="Permalink to this headline">¶</a></h3>
+<img alt="_images/amazon.png" src="_images/amazon.png" />
+</div>
+<div class="section" id="twitter">
+<h3>Twitter<a class="headerlink" href="#twitter" title="Permalink to this headline">¶</a></h3>
+<img alt="_images/twittersearch.png" src="_images/twittersearch.png" />
+<img alt="_images/twitteruser.png" src="_images/twitteruser.png" />
+</div>
+<div class="section" id="facebook">
+<h3>Facebook<a class="headerlink" href="#facebook" title="Permalink to this headline">¶</a></h3>
+<img alt="_images/facebook.png" src="_images/facebook.png" />
+</div>
+<div class="section" id="weibo-search">
+<h3>Weibo search<a class="headerlink" href="#weibo-search" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="youku">
+<h3>Youku<a class="headerlink" href="#youku" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="youtube-comments">
+<h3>YouTube Comments<a class="headerlink" href="#youtube-comments" title="Permalink to this headline">¶</a></h3>
+<img alt="_images/youtube.png" src="_images/youtube.png" />
+</div>
+<div class="section" id="consumer-financial-protection-bureau">
+<h3>Consumer Financial Protection Bureau<a class="headerlink" href="#consumer-financial-protection-bureau" title="Permalink to this headline">¶</a></h3>
+<img alt="_images/cfpb.png" src="_images/cfpb.png" />
+</div>
+<div class="section" id="indeed">
+<h3>Indeed<a class="headerlink" href="#indeed" title="Permalink to this headline">¶</a></h3>
+<img alt="_images/indeed.png" src="_images/indeed.png" />
+</div>
+<div class="section" id="consumer-affairs">
+<h3>Consumer Affairs<a class="headerlink" href="#consumer-affairs" title="Permalink to this headline">¶</a></h3>
+<img alt="_images/consumeraffairs.png" src="_images/consumeraffairs.png" />
+</div>
 </div>
 <div class="section" id="signals-sdk">
 <span id="id1"></span><h2>Signals SDK<a class="headerlink" href="#signals-sdk" title="Permalink to this headline">¶</a></h2>
@@ -190,7 +383,7 @@ We collect data from Amazon, Facebook, the Google Play store, consumeraffairs.co
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="enterprisedataconnectors.html" class="btn btn-neutral float-right" title="Enterprise Data Connectors" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="mapdata.html" class="btn btn-neutral float-right" title="Mapping Data" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="createaccount.html" class="btn btn-neutral" title="Creating an Account" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>

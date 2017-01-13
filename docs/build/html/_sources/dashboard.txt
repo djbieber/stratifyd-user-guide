@@ -28,22 +28,24 @@ To create a new dashboard, from the homepage, click on the New Dashboard icon:
   styleguide
 
 
-Once you've created a dashboard, you can modify some of the properties by clicking on info in the dashboard menu:
+Dashboard Options
+^^^^^^^^^^^^^^^^^^^
+
+Once you've created a dashboard, you can :ref:`share`, delete, or modify properties by clicking on dashboard menu:
 
 .. image:: dashboardmenupermission.png
 
+
+Dashboard Properties
+~~~~~~~~~~~~~~~~~~~~~~
 
 This is where you can add tags, an image, or even a video, as well as see who else has access.
 
 
 .. figure:: dashboardproperties.png
-  
-  Dashboard Properties menu
 
 
-
-
-If a dashboard has been shared with you, you might see a dashboard menu that looks like this:
+.. Note:: If a dashboard has been shared with you, you might see a dashboard menu that looks like this:
 
 
 .. figure:: dashboardmenunopermission.png

@@ -10,14 +10,16 @@ When a dashboard is created with new data, the data goes through the Signals Ana
 .. image:: journey.png
 
 
-The sections below discuss how the output of the Signals Analytics Engine can be accessed and used.
+The sections below discuss how the output of the :ref:`Signals Analytics Engine <signalsanalyticsengine>` can be accessed and used.
 
 
 .. Note:: To learn how to tune the analytics engine, see the :doc:`advancedoptions` page.
 
 
-Data Processing
-~~~~~~~~~~~~~~~
+.. _signalsanalyticsengine:
+
+Signals Analytics Engine
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The Signals Analytics Engine leverages Machine Learning and Deep Learning algorithms to help navigate and pivot a large set of textual data.
 
@@ -49,3 +51,9 @@ Built on top of our proprietary Bayesian Neural Network and Generative Model, Si
 
 
   It joins the data with the N-Gram-based content network for you to pivot and construct analytics questions against your dataset.
+
+
+Reprocessing
+~~~~~~~~~~~~~~~~~~
+
+There are a number of :ref:`advanced options` that can be applied to customize the output of the Analytics Engine. When applying advanced options your data will need to be reprocessed. This can either be done directly through Edit Mode, or through clicking the reprocess button on your dataset under Manage Data.
