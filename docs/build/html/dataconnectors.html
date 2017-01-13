@@ -31,7 +31,7 @@
 
   
     <link rel="top" title="Signals User Guide 2.4 documentation" href="index.html"/>
-        <link rel="next" title="3rd Party Data Connectors" href="3rdpartydataconnectors.html"/>
+        <link rel="next" title="Enterprise Data Connectors" href="enterprisedataconnectors.html"/>
         <link rel="prev" title="Creating an Account" href="createaccount.html"/> 
 
   
@@ -85,21 +85,22 @@
 <li class="toctree-l1"><a class="reference internal" href="quickstartguide.html">Quick Start Guide</a></li>
 <li class="toctree-l1"><a class="reference internal" href="createaccount.html">Creating an Account</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="">Connecting to Data</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="enterprisedataconnectors.html">Enterprise Data Connectors</a></li>
 <li class="toctree-l2"><a class="reference internal" href="3rdpartydataconnectors.html">3rd Party Data Connectors</a></li>
 <li class="toctree-l2"><a class="reference internal" href="publicdataconnectors.html">Public Data Connectors</a></li>
-<li class="toctree-l2"><a class="reference internal" href="enterprisedataconnectors.html">Enterprise Data Connectors</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mapdata.html">Mapping Data</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#signals-sdk">Signals SDK</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="mapdata.html">Mapping Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="processingdata.html">Processing Data</a></li>
 <li class="toctree-l1"><a class="reference internal" href="dashboard.html">Creating a Dashboard</a></li>
 <li class="toctree-l1"><a class="reference internal" href="analysis.html">Analyzing Data</a></li>
 <li class="toctree-l1"><a class="reference internal" href="advancedoptions.html">Advanced Options</a></li>
 <li class="toctree-l1"><a class="reference internal" href="administration.html">Administration</a></li>
-<li class="toctree-l1"><a class="reference internal" href="miscellaneous.html">Misc.</a></li>
 <li class="toctree-l1"><a class="reference internal" href="releasenotes.html">Release Notes</a></li>
 <li class="toctree-l1"><a class="reference internal" href="faq.html">FAQ</a></li>
-<li class="toctree-l1"><a class="reference internal" href="contact.html">Contact Us:</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contact.html">Contact</a></li>
+<li class="toctree-l1"><a class="reference internal" href="miscellaneous.html">Misc.</a></li>
 </ul>
 
             
@@ -147,22 +148,23 @@
   <div class="section" id="connecting-to-data">
 <span id="dataconnector"></span><h1>Connecting to Data<a class="headerlink" href="#connecting-to-data" title="Permalink to this headline">¶</a></h1>
 <p>There are three categories of Data Connectors in Signals:</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="enterprisedataconnectors.html">Enterprise Data Connectors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="3rdpartydataconnectors.html">3rd Party Data Connectors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="publicdataconnectors.html">Public Data Connectors</a></li>
+</ul>
+</div>
+<p><a class="reference internal" href="enterprisedataconnectors.html"><em>Enterprise Data Connectors</em></a> are used to connect to internal databases or other 1st party data platforms in your organization.</p>
 <p><a class="reference internal" href="3rdpartydataconnectors.html"><em>3rd Party Data Connectors</em></a> provide access to data owned by your organization but stored in 3rd party systems.
 Examples include salesforce, Google Analytics, and Zendesk among many others.</p>
 <p><a class="reference internal" href="publicdataconnectors.html"><em>Public Data Connectors</em></a> allow you to access data that anyone can view on the internet, but in a uniform format.
 We collect data from Amazon, Facebook, the Google Play store, consumeraffairs.com, and many other sites.</p>
-<p>The <a class="reference internal" href="enterprisedataconnectors.html"><em>Enterprise Data Connectors</em></a> are used to connect to internal databases or other 1st party data platforms in your organization.</p>
+<p>You can also upload a csv or excel file from your local computer.</p>
+<img alt="_images/csvorexcel.png" src="_images/csvorexcel.png" />
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
 <p class="last">Enterprise Data Connectors and some 3rd Party Data Sources require you to map fields in your data prior to uploading. See <a class="reference internal" href="mapdata.html"><em>Mapping Data</em></a> to learn about this process.</p>
-</div>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="3rdpartydataconnectors.html">3rd Party Data Connectors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="publicdataconnectors.html">Public Data Connectors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="enterprisedataconnectors.html">Enterprise Data Connectors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="mapdata.html">Mapping Data</a></li>
-</ul>
 </div>
 <div class="section" id="signals-sdk">
 <span id="id1"></span><h2>Signals SDK<a class="headerlink" href="#signals-sdk" title="Permalink to this headline">¶</a></h2>
@@ -188,7 +190,7 @@ We collect data from Amazon, Facebook, the Google Play store, consumeraffairs.co
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="3rdpartydataconnectors.html" class="btn btn-neutral float-right" title="3rd Party Data Connectors" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="enterprisedataconnectors.html" class="btn btn-neutral float-right" title="Enterprise Data Connectors" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="createaccount.html" class="btn btn-neutral" title="Creating an Account" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>

@@ -15,7 +15,7 @@ Introduction
 *Signals is a powerful, yet easy-to-use augmented intelligence platform.*
 
 
-+ The :ref:`Analytics Engine <processing data>` leverages unsupervised deep machine learning to identify statistically significant topics within any unstructured data.
++ Signals' :ref:`Analytics Engine <processing data>` leverages unsupervised deep machine learning to identify statistically significant topics within any unstructured data.
 
 
 + Signals is completely web-based. The only software required is a modern web browser such as Google Chrome, Mozilla Firefox, Microsoft Edge (Microsoft IE is not recommended).
@@ -35,12 +35,13 @@ User Manual
   quickstartguide
   createaccount
   dataconnectors
+  mapdata
   processingdata
   dashboard
   analysis
   advancedoptions
   administration
-  miscellaneous
   releasenotes
   faq
   contact
+  miscellaneous

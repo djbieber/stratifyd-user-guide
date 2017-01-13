@@ -6,6 +6,16 @@ Connecting to Data
 
 There are three categories of Data Connectors in Signals:
 
+.. toctree::
+  :maxdepth: 1
+
+  enterprisedataconnectors
+  3rdpartydataconnectors
+  publicdataconnectors
+  
+
+:doc:`enterprisedataconnectors` are used to connect to internal databases or other 1st party data platforms in your organization.
+
 
 :doc:`3rdpartydataconnectors` provide access to data owned by your organization but stored in 3rd party systems.
 Examples include salesforce, Google Analytics, and Zendesk among many others.
@@ -15,21 +25,12 @@ Examples include salesforce, Google Analytics, and Zendesk among many others.
 We collect data from Amazon, Facebook, the Google Play store, consumeraffairs.com, and many other sites.
 
 
-The :doc:`enterprisedataconnectors` are used to connect to internal databases or other 1st party data platforms in your organization.
+You can also upload a csv or excel file from your local computer.
 
-
+.. image:: csvorexcel.png
 
 
 .. Note:: Enterprise Data Connectors and some 3rd Party Data Sources require you to map fields in your data prior to uploading. See :doc:`mapdata` to learn about this process.
-
-
-.. toctree::
-  :maxdepth: 1
-
-  3rdpartydataconnectors
-  publicdataconnectors
-  enterprisedataconnectors
-  mapdata
 
 
 .. _Signals SDK:
