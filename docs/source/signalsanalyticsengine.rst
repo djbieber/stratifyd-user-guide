@@ -2,7 +2,7 @@ Signals Analytics Engine
 ========================
 
 
-When a dashboard is created with new data, the data goes through the Signals Analytics Engine for processing.
+When a dashboard is created with new data, the data goes through the Signals Analytics Engine for processing. This chapter describes what occurs as the engine is processing data. The output is described in the :ref:`analyzing data` chapter.
 
 
 .. image:: journey.png

@@ -1,3 +1,5 @@
+.. _analyzing data:
+
 Analyzing Data
 ==============
 

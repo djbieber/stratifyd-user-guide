@@ -52,6 +52,8 @@ Let the visualizations guide your analysis. Click on areas of interest to drill-
 
 Click on the "Data" tab to view the original documents. If you've filtered down to a subset of your data in your dashboard, you'll see only those documents.
 
+For more information see the chapter on :ref:`analyzing data`.
+
 
 Share your results
 ~~~~~~~~~~~~~~~~~~~~~
