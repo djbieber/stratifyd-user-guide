@@ -7,14 +7,14 @@ Connecting to Data
 There are three categories of Data Connectors in Signals:
 
 
-:doc:`enterprisedataconnectors` are used to connect to internal databases or other 1st party data platforms in your organization.
+:ref:`Enterprise Data Connectors` are used to connect to internal databases or other 1st party data platforms in your organization.
 
 
-:doc:`3rdpartydataconnectors` provide access to data owned by your organization but stored in 3rd party systems.
+:ref:`3rd Party Data Connectors` provide access to data owned by your organization but stored in 3rd party systems.
 Examples include salesforce, Google Analytics, and Zendesk among many others.
 
 
-:doc:`publicdataconnectors` allow you to access data that anyone can view on the internet, but in a uniform format.
+:ref:`Public Data Connectors` allow you to access data that anyone can view on the internet, but in a uniform format.
 We collect data from Amazon, Facebook, the Google Play store, consumeraffairs.com, and many other sites.
 
 
@@ -25,6 +25,7 @@ You can also upload a csv or excel file from your local computer.
 
 .. Note:: Enterprise Data Connectors and some 3rd Party Data Sources require you to map fields in your data prior to uploading. See :doc:`mapdata` to learn about this process.
 
+.. _Enterprise Data Connectors:
 
 Enterprise Data Connectors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -41,6 +42,8 @@ Examples include:
 + PostgreSQL
 + Oracle SQL
 
+
+.. _3rd Party Data Connectors:
 
 3rd Party Data Connectors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -138,6 +141,8 @@ Google Analytics
 Trello
 ~~~~~~~
 
+
+.. _Public Data Connectors:
 
 Public Data Connectors
 ^^^^^^^^^^^^^^^^^^^^^^^^
