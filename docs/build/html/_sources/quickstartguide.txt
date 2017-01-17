@@ -22,7 +22,7 @@ To create your own dashboard, click "Create a new Dashboard".
 Connect to data
 ^^^^^^^^^^^^^^^
 
-Connect to your database, upload a CSV or Excel file, or use one of our :doc:`dataconnectors` for easy access to a wealth of publicly available data. Add as many data source to your dashboard as needed.
+Connect to your database, upload a CSV or Excel file, or use one of our :doc:`Data Connectors <dataconnector>` for easy access to a wealth of publicly available data. Add as many data source to your dashboard as needed.
 
 
 .. image:: dataconnectors.png
