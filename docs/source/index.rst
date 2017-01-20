@@ -113,6 +113,8 @@ Processing Data
 ===============
 .. toctree::
   :maxdepth: 3
+
+
   processingdata
   
 
@@ -120,6 +122,8 @@ Data Visualization
 ==================
 .. toctree::
   :maxdepth: 3
+
+  
   dashboard
   analysis
   advancedoptions
@@ -139,7 +143,7 @@ Additional Information
 .. toctree::
   :maxdepth: 3
 
-  
+
   releasenotes
   faq
   contact
