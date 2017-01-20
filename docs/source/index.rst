@@ -88,6 +88,10 @@ Share your results
 Make your dashboard public or :ref:`share <share>` with colleagues.
 
 
+The Complete Manual
+====================
+
+The chapters below go into detail about everything from getting data, to analyzing it, to sharing your newly gleaned insights.
 
 .. _table of contents:
 
@@ -106,7 +110,7 @@ Signals offers a variety of ways for you to get access to the right data.
 Map Data
 =========
 
-If you are uploading the data, you'll need to identify where the textual information resides within the dataset, as well as the temporal, geographical, and contributor.
+If you're uploading data, you'll need to identify where the textual information resides within the dataset, as well as the temporal, geographical, and contributor.
 
 .. toctree::
   :maxdepth: 3
