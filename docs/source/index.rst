@@ -96,6 +96,7 @@ Connect to Data
 ===============
 
 Signals offers a variety of ways for you to get access to the right data.
+
 .. toctree::
   :maxdepth: 3
   
@@ -106,6 +107,7 @@ Map Data
 =========
 
 If you are uploading the data, you'll need to identify where the textual information resides within the dataset, as well as the temporal, geographical, and contributor.
+
 .. toctree::
   :maxdepth: 3
 
