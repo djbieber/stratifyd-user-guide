@@ -19,11 +19,8 @@ For more information about Signals or Stratifyd, please visit `our website`_.
 
 .. _our website: http://www.stratifyd.com
 
-.. Note:: **For new users**: Follow the :doc:`quickstartguide` to get up and running in a matter of minutes.
-
-
-Quick Start Guide
-=================
+Quickstart
+==========
 
 
 Create an account
@@ -123,7 +120,7 @@ Data Visualization
 .. toctree::
   :maxdepth: 3
 
-  
+
   dashboard
   analysis
   advancedoptions
