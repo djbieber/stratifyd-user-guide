@@ -1,4 +1,4 @@
-Welcome to the Signals User Guide!
+Signals User Guide
 ==================================
 
 *Signals is a powerful, yet easy-to-use augmented intelligence platform.*
@@ -72,7 +72,7 @@ Now you're ready to :doc:`widgeteditor` using your other datapoints to home in o
 
 
 Find meaningful insights
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Let the visualizations guide your analysis. Click on areas of interest to drill-down into subsets of data
 
