@@ -22,6 +22,8 @@ For more information about Signals or Stratifyd, please visit `our website`_.
 Quickstart
 ==========
 
+By the end of this section you'll have access to data of your interest, and a dashboard that allows you to analyze and navigate through structured and unstructured data.
+
 
 Create an account
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -85,25 +87,29 @@ Share your results
 
 Make your dashboard public or :ref:`share <share>` with colleagues.
 
+
+
 .. _table of contents:
 
-
-
-Create an account
-=================
-.. toctree::
-  :maxdepth: 3
-
   
-  createaccount
-  
-Connect to data
+Connect to Data
 ===============
+
+Signals offers a variety of ways for you to get access to the right data.
 .. toctree::
   :maxdepth: 3
   
 
   dataconnectors
+
+Map Data
+=========
+
+If you are uploading the data, you'll need to identify where the textual information resides within the dataset, as well as the temporal, geographical, and contributor.
+.. toctree::
+  :maxdepth: 3
+
+
   mapdata
   
 Processing Data
@@ -122,6 +128,13 @@ Data Visualization
 
 
   dashboard
+
+Data Analysis
+=============
+.. toctree::
+  :maxdepth: 3
+
+
   analysis
   advancedoptions
   
@@ -132,13 +145,14 @@ Administration
   :maxdepth: 3
 
 
+  createaccount
   administration
 
 
 Additional Information
 ======================
 .. toctree::
-  :maxdepth: 3
+  :maxdepth: 1
 
 
   releasenotes
