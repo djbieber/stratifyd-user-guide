@@ -29,7 +29,7 @@ The chapters below go into detail about everything from getting data, to analyzi
 .. toctree::
   :maxdepth: 3
   
-  
+
   quickstartguide
   dataconnectors
   mapdata
