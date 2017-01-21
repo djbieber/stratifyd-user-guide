@@ -20,7 +20,7 @@ For more information about Signals or Stratifyd, please visit `our website`_.
 .. _our website: http://www.stratifyd.com
 
 Quickstart
-==========
+++++++++++
 
 By the end of this section you'll have access to data of your interest, and a dashboard that allows you to analyze and navigate through structured and unstructured data.
 
@@ -43,7 +43,7 @@ To create your own dashboard, click "Create a new Dashboard".
 
 
 Connect to data
-^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~
 
 Connect to your database, upload a CSV or Excel file, or use one of our :ref:`Data Connectors <dataconnector>` for easy access to a wealth of publicly available data. Add as many data source to your dashboard as needed.
 
@@ -61,7 +61,7 @@ If you're bringing your own data, specify which fields contain Textual, Temporal
 
 
 Create visualizations
-^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~
 Your dashboard will contain visualizations based on the type of data in your analysis by default. See the guide on :ref:`processing data` for information on how to interpret these visualizations. Every visualization is clickable, and clicking will apply a filter on your data based on your selection.
 
 .. image:: signalsgif1.gif
@@ -88,8 +88,7 @@ Share your results
 Make your dashboard public or :ref:`share <share>` with colleagues.
 
 
-The Complete Manual
-====================
+
 
 The chapters below go into detail about everything from getting data, to analyzing it, to sharing your newly gleaned insights.
 
