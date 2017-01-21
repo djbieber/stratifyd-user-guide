@@ -95,10 +95,8 @@ The chapters below go into detail about everything from getting data, to analyzi
 .. _table of contents:
 
   
-Connect to Data
-===============
-
-Signals offers a variety of ways for you to get access to the right data.
+The Manual
+===========
 
 .. toctree::
   :maxdepth: 3
