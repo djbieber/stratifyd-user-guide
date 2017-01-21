@@ -95,21 +95,71 @@ The chapters below go into detail about everything from getting data, to analyzi
 .. _table of contents:
 
   
-The Manual
-===========
+Connect to Data
+===============
+
+Signals offers a variety of ways for you to get access to the right data.
 
 .. toctree::
   :maxdepth: 3
   
 
   dataconnectors
+
+Map Data
+=========
+
+If you're uploading data, you'll need to identify where the textual information resides within the dataset, as well as the temporal, geographical, and contributor.
+
+.. toctree::
+  :maxdepth: 3
+
+
   mapdata
+  
+Processing Data
+===============
+.. toctree::
+  :maxdepth: 3
+
+
   processingdata
+  
+
+Data Visualization
+==================
+.. toctree::
+  :maxdepth: 3
+
+
   dashboard
+
+Data Analysis
+=============
+.. toctree::
+  :maxdepth: 3
+
+
   analysis
   advancedoptions
+  
+
+Administration
+==============
+.. toctree::
+  :maxdepth: 3
+
+
   createaccount
   administration
+
+
+Additional Information
+======================
+.. toctree::
+  :maxdepth: 1
+
+
   releasenotes
   faq
   contact
