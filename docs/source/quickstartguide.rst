@@ -1,6 +1,8 @@
 Quick Start Guide
 =================
 
+By the end of this section you'll have access to data of your interest, and a dashboard that allows you to analyze and navigate through structured and unstructured data.
+
 
 Create an account
 ~~~~~~~~~~~~~~~~~~~~~~
