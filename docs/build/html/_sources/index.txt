@@ -39,11 +39,6 @@ The chapters below go into detail about everything from getting data, to analyzi
   advancedoptions
   createaccount
   administration
-
-.. toctree::
-  :maxdepth: 1
-
-
   releasenotes
   faq
   contact
