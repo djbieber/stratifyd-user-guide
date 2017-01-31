@@ -2,12 +2,12 @@ Administration
 ==============
 
 
-Implementing Signals
+Deploying Signals
 ~~~~~~~~~~~~~~~~~~~~
 
 A **Cloud Deployment** is our most common method of deployment. Among other services, Amazon Web Services S3 and EC2 are used to provide an optimal experience in computing and visualization.
 
-:ref:`Contact us <contact>` for information on Virtual Private Cloud or On-Premise deployments.
+:ref:`Contact us <contact>` for information on alternative deployment methods.
 
 
 Account Info
@@ -20,53 +20,55 @@ Your account info and management console is all available on the Settings page.
 
 .. _share:
 
-User Groups
-~~~~~~~~~~~~~~~~~~~~
-
-Group management can be done from the Groups page on the main nav bar.
-
-Setting the permission of each individual in a group sets a **cap** on the **maximum** level of permission that the user can hold on anything shared to the group.
-
-In this group, I've given Silvia Group Admin permission, and Vivian Can View permission.
-
-.. image:: editgroup.png
-
-
-If I share a dashboard with Can Edit permission to this group, Vivian still only gets Can View permission, and Silvia will get the Can Edit permission.
-
-.. image:: groupshare.png
-
-
-The permission levels in the group also dictate what actions members can take within the group.
-
-**Can View** can access things shared to the group, but cannot share to the group
-
-
-**Can Edit** can share to the group, but cannot invite new members
-
-
-**Admin** can invite others, but only give them Can Edit permission
-
-
-**Group Admin** can invite others and give them equal privilege (Group Admin)
-
-.. Warning:: If you make someone else a Group Admin of your group, they can remove you from the group.
-
-
 Permission Levels
 ~~~~~~~~~~~~~~~~~~~~
 
 Permissions on any asset (dashboard, stopword list, taxonomy, etc.) are set by the creator of that object.
 
-**Can View** can view and use the asset but cannot permanently modify it
+**Can View** users can view and use the asset but cannot permanently modify it.
 
 
-**Can Edit** can view and modify the asset, but cannot share it with others
+**Can Edit** can view and modify the asset, but cannot share it with others.
 
 
-**Can Share** can edit and share the asset with others, but cannot remove others' access
+**Can Share** can edit and share the asset with others, but cannot remove others' access.
 
 
-**Owner** can edit, share, and create or remove other owners 
+**Owner** can edit, share, and add or remove users with less privilege. 
 
-.. Warning:: If you make someone else an Owner of your dashboard (or other asset), they can modify your privileges to that asset.
+
+User Groups
+~~~~~~~~~~~~~~~~~~~~
+
+Group management can be done from the Groups page on the main nav bar.
+
+There are 4 levels of access at a group level:
+  1) Group Admin
+  2) Admin
+  3) Can Edit
+  4) Can View
+
+The creator of a group is automatically a Group Admin for the group.
+
+**Group Admin** users:
++ have a maximum* access level of **Owner** to any asset shared with the group.
++ can add users to the group and give them **Group Admin** rights or lower to the group.
++ can remove users with less permission (Admin, Edit, and View Only users)
+
+
+**Admin** users:
++ have a maximum* access level of **Owner** to any asset shared with the group.
++ can add users to the group and give them **Admin** rights or lower to the group.
++ can remove users with less permission (Edit and View Only users)
+
+
+**Can Edit** users:
++ have a maximum* access level of **Can Edit** to any asset shared with the group.
++ cannot add or remove other users from the group.
+
+
+**Can View** users:
++ have a maximum* access level of **Can View** on any asset shared with the group.
+
+
+*the original owner of an asset dictates the level of permission granted when sharing with a group. The least privilege will take precedence for each user.

@@ -91,10 +91,10 @@
 <li class="toctree-l1"><a class="reference internal" href="advancedoptions.html">Advanced Options</a></li>
 <li class="toctree-l1"><a class="reference internal" href="createaccount.html">Creating an Account</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="">Administration</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#implementing-signals">Implementing Signals</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#deploying-signals">Deploying Signals</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#account-info">Account Info</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#user-groups">User Groups</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#permission-levels">Permission Levels</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#user-groups">User Groups</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="releasenotes.html">Release Notes</a></li>
@@ -145,45 +145,52 @@
             
   <div class="section" id="administration">
 <h1>Administration<a class="headerlink" href="#administration" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="implementing-signals">
-<h2>Implementing Signals<a class="headerlink" href="#implementing-signals" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="deploying-signals">
+<h2>Deploying Signals<a class="headerlink" href="#deploying-signals" title="Permalink to this headline">¶</a></h2>
 <p>A <strong>Cloud Deployment</strong> is our most common method of deployment. Among other services, Amazon Web Services S3 and EC2 are used to provide an optimal experience in computing and visualization.</p>
-<p><a class="reference internal" href="contact.html#contact"><span>Contact us</span></a> for information on Virtual Private Cloud or On-Premise deployments.</p>
+<p><a class="reference internal" href="contact.html#contact"><span>Contact us</span></a> for information on alternative deployment methods.</p>
 </div>
 <div class="section" id="account-info">
 <h2>Account Info<a class="headerlink" href="#account-info" title="Permalink to this headline">¶</a></h2>
 <p>Your account info and management console is all available on the Settings page.</p>
 <img alt="_images/settings.png" src="_images/settings.png" />
 </div>
-<div class="section" id="user-groups">
-<span id="share"></span><h2>User Groups<a class="headerlink" href="#user-groups" title="Permalink to this headline">¶</a></h2>
-<p>Group management can be done from the Groups page on the main nav bar.</p>
-<p>Setting the permission of each individual in a group sets a <strong>cap</strong> on the <strong>maximum</strong> level of permission that the user can hold on anything shared to the group.</p>
-<p>In this group, I&#8217;ve given Silvia Group Admin permission, and Vivian Can View permission.</p>
-<img alt="_images/editgroup.png" src="_images/editgroup.png" />
-<p>If I share a dashboard with Can Edit permission to this group, Vivian still only gets Can View permission, and Silvia will get the Can Edit permission.</p>
-<img alt="_images/groupshare.png" src="_images/groupshare.png" />
-<p>The permission levels in the group also dictate what actions members can take within the group.</p>
-<p><strong>Can View</strong> can access things shared to the group, but cannot share to the group</p>
-<p><strong>Can Edit</strong> can share to the group, but cannot invite new members</p>
-<p><strong>Admin</strong> can invite others, but only give them Can Edit permission</p>
-<p><strong>Group Admin</strong> can invite others and give them equal privilege (Group Admin)</p>
-<div class="admonition warning">
-<p class="first admonition-title">Warning</p>
-<p class="last">If you make someone else a Group Admin of your group, they can remove you from the group.</p>
-</div>
-</div>
 <div class="section" id="permission-levels">
-<h2>Permission Levels<a class="headerlink" href="#permission-levels" title="Permalink to this headline">¶</a></h2>
+<span id="share"></span><h2>Permission Levels<a class="headerlink" href="#permission-levels" title="Permalink to this headline">¶</a></h2>
 <p>Permissions on any asset (dashboard, stopword list, taxonomy, etc.) are set by the creator of that object.</p>
-<p><strong>Can View</strong> can view and use the asset but cannot permanently modify it</p>
-<p><strong>Can Edit</strong> can view and modify the asset, but cannot share it with others</p>
-<p><strong>Can Share</strong> can edit and share the asset with others, but cannot remove others&#8217; access</p>
-<p><strong>Owner</strong> can edit, share, and create or remove other owners</p>
-<div class="admonition warning">
-<p class="first admonition-title">Warning</p>
-<p class="last">If you make someone else an Owner of your dashboard (or other asset), they can modify your privileges to that asset.</p>
+<p><strong>Can View</strong> users can view and use the asset but cannot permanently modify it.</p>
+<p><strong>Can Edit</strong> can view and modify the asset, but cannot share it with others.</p>
+<p><strong>Can Share</strong> can edit and share the asset with others, but cannot remove others&#8217; access.</p>
+<p><strong>Owner</strong> can edit, share, and add or remove users with less privilege.</p>
 </div>
+<div class="section" id="user-groups">
+<h2>User Groups<a class="headerlink" href="#user-groups" title="Permalink to this headline">¶</a></h2>
+<p>Group management can be done from the Groups page on the main nav bar.</p>
+<dl class="docutils">
+<dt>There are 4 levels of access at a group level:</dt>
+<dd><ol class="first last arabic simple">
+<li>Group Admin</li>
+<li>Admin</li>
+<li>Can Edit</li>
+<li>Can View</li>
+</ol>
+</dd>
+</dl>
+<p>The creator of a group is automatically a Group Admin for the group.</p>
+<p><strong>Group Admin</strong> users:
++ have a maximum* access level of <strong>Owner</strong> to any asset shared with the group.
++ can add users to the group and give them <strong>Group Admin</strong> rights or lower to the group.
++ can remove users with less permission (Admin, Edit, and View Only users)</p>
+<p><strong>Admin</strong> users:
++ have a maximum* access level of <strong>Owner</strong> to any asset shared with the group.
++ can add users to the group and give them <strong>Admin</strong> rights or lower to the group.
++ can remove users with less permission (Edit and View Only users)</p>
+<p><strong>Can Edit</strong> users:
++ have a maximum* access level of <strong>Can Edit</strong> to any asset shared with the group.
++ cannot add or remove other users from the group.</p>
+<p><strong>Can View</strong> users:
++ have a maximum* access level of <strong>Can View</strong> on any asset shared with the group.</p>
+<p><a href="#id1"><span class="problematic" id="id2">*</span></a>the original owner of an asset dictates the level of permission granted when sharing with a group. The least privilege will take precedence for each user.</p>
 </div>
 </div>
 

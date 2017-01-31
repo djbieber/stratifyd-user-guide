@@ -7,9 +7,9 @@ The Enterprise Data Connector application allows users to connect with a variety
 
 Examples include:
 
++ MongoDB
 + Hive
 + mySQL
 + Microsoft SQL Server
 + PostgreSQL
 + Oracle SQL
-
