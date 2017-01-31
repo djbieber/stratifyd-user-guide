@@ -51,23 +51,27 @@ There are 4 levels of access at a group level:
 The creator of a group is automatically a Group Admin for the group.
 
 **Group Admin** users:
+
 + have a maximum* access level of **Owner** to any asset shared with the group.
 + can add users to the group and give them **Group Admin** rights or lower to the group.
 + can remove users with less permission (Admin, Edit, and View Only users)
 
 
 **Admin** users:
+
 + have a maximum* access level of **Owner** to any asset shared with the group.
 + can add users to the group and give them **Admin** rights or lower to the group.
 + can remove users with less permission (Edit and View Only users)
 
 
 **Can Edit** users:
+
 + have a maximum* access level of **Can Edit** to any asset shared with the group.
 + cannot add or remove other users from the group.
 
 
 **Can View** users:
+
 + have a maximum* access level of **Can View** on any asset shared with the group.
 
 
