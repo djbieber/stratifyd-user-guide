@@ -56,7 +56,7 @@ The creator of a group is automatically a Group Admin for the group.
 + can add users to the group and give them **Group Admin** rights or lower to the group.
 + can remove users with less permission (Admin, Edit, and View Only users)
 
-.. Warning:: If you make another user a Group Admin of your group, you will not be able to revoke their level of privilege.
+.. Note:: A group can only have one Group Admin. Group Admins can transfer ownership to another user, but this action demotes the transferer to Admin
 
 
 **Admin** users:
