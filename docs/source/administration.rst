@@ -77,4 +77,4 @@ The creator of a group is automatically a Group Admin for the group.
 + have a maximum* access level of **Can View** on any asset shared with the group.
 
 
-*when sharing an asset with a group, the sharer dictates the level of permission granted to the group. The lesser privilege (between permission granted to the asset and permission within the group) will then take precedence for each user. For example if a user grants **Admin** permissions on a dashboard to a group, group members with **Can View** in the group will only receive **Can View** on that object.
+*when sharing an asset with a group, the sharer dictates the level of permission granted to the group. The lesser privilege (between permission granted to the asset and permission within the group) will then take precedence for each user. For example if a user grants Admin permissions on a dashboard to a group, group members with Can View in the group will only receive Can View on that object.
