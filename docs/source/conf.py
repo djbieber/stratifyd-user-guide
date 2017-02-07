@@ -49,7 +49,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Signals User Guide'
+project = u'Stratifyd User Guide'
 copyright = u'2016-2017, Stratifyd, Inc'
 author = u'Stratifyd'
 
@@ -127,10 +127,10 @@ html_theme_path = ["_themes",]
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-html_title = "Signals User Guide"
+html_title = "Stratifyd User Guide"
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
-html_short_title = "Signals User Guide"
+html_short_title = "Stratifyd User Guide"
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
@@ -207,7 +207,7 @@ html_show_copyright = True
 #html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'SignalsUserGuidedoc'
+htmlhelp_basename = 'StratifydUserGuidedoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -229,7 +229,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'SignalsUserGuide.tex', u'Signals User Guide Documentation',
+    (master_doc, 'StratifydUserGuide.tex', u'Stratifyd User Guide',
      u'Stratifyd, Inc.', 'manual'),
 ]
 
@@ -259,7 +259,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'signalsuserguide', u'Signals User Guide Documentation',
+    (master_doc, 'stratifyduserguide', u'Stratifyd User Guide',
      [author], 1)
 ]
 
@@ -273,8 +273,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'SignalsUserGuide', u'Signals User Guide Documentation',
-     author, 'SignalsUserGuide', 'One line description of project.',
+    (master_doc, 'StratifydUserGuide', u'Stratifyd User Guide',
+     author, 'StratifydUserGuide', 'One line description of project.',
      'Miscellaneous'),
 ]
 
