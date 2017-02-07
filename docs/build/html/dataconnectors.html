@@ -119,7 +119,7 @@
 <li class="toctree-l3"><a class="reference internal" href="#consumer-affairs">Consumer Affairs</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#signals-sdk">Signals SDK</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#stratifyd-sdk">Stratifyd SDK</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="mapdata.html">Mapping Data</a></li>
@@ -177,7 +177,7 @@
             
   <div class="section" id="connecting-to-data">
 <span id="dataconnector"></span><h1>Connecting to Data<a class="headerlink" href="#connecting-to-data" title="Permalink to this headline">¶</a></h1>
-<p>There are three categories of Data Connectors in Signals:</p>
+<p>There are three categories of Data Connectors in Stratifyd:</p>
 <p><a class="reference internal" href="#enterprise-data-connectors"><span>Enterprise Data Connectors</span></a> are used to connect to internal databases or other 1st party data platforms in your organization.</p>
 <p><a class="reference internal" href="#rd-party-data-connectors"><span>3rd Party Data Connectors</span></a> provide access to data owned by your organization but stored in 3rd party systems.
 Examples include salesforce, Google Analytics, and Zendesk among many others.</p>
@@ -203,7 +203,7 @@ We collect data from Amazon, Facebook, the Google Play store, consumeraffairs.co
 </div>
 <div class="section" id="rd-party-data-connectors">
 <span id="id2"></span><h2>3rd Party Data Connectors<a class="headerlink" href="#rd-party-data-connectors" title="Permalink to this headline">¶</a></h2>
-<p>3rd Party Data Connectors usually have a pop-up window that allows you to enter your credentials with the 3rd party in order to authenticate with Signals.</p>
+<p>3rd Party Data Connectors usually have a pop-up window that allows you to enter your credentials with the 3rd party in order to authenticate with Stratifyd.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
 <p class="last">Make sure you have pop-up blocking disabled when connecting with a 3rd Party Data Connector</p>
@@ -249,7 +249,7 @@ We collect data from Amazon, Facebook, the Google Play store, consumeraffairs.co
 <div class="section" id="jira">
 <h3>JIRA<a class="headerlink" href="#jira" title="Permalink to this headline">¶</a></h3>
 <img alt="_images/jira.png" src="_images/jira.png" />
-<p>With the JIRA Data Connector, you can select which projects you want to analyze. You can also specify a ticket type if desired. If nothing is specified, Signals will pull all of your JIRA data.</p>
+<p>With the JIRA Data Connector, you can select which projects you want to analyze. You can also specify a ticket type if desired. If nothing is specified, Stratifyd will pull all of your JIRA data.</p>
 </div>
 <div class="section" id="uservoice">
 <h3>UserVoice<a class="headerlink" href="#uservoice" title="Permalink to this headline">¶</a></h3>
@@ -357,15 +357,15 @@ We collect data from Amazon, Facebook, the Google Play store, consumeraffairs.co
 <img alt="_images/consumeraffairs.png" src="_images/consumeraffairs.png" />
 </div>
 </div>
-<div class="section" id="signals-sdk">
-<span id="id4"></span><h2>Signals SDK<a class="headerlink" href="#signals-sdk" title="Permalink to this headline">¶</a></h2>
-<p>The Signals SDK should be used to upload files more than 500 MB.</p>
+<div class="section" id="stratifyd-sdk">
+<span id="id4"></span><h2>Stratifyd SDK<a class="headerlink" href="#stratifyd-sdk" title="Permalink to this headline">¶</a></h2>
+<p>The Stratifyd SDK should be used to upload files more than 500 MB.</p>
 <p>It can also be used to develop custom connections and/or schedule uploads.</p>
 <p>We offer a node.js wrapper for our SDK.
 <a class="reference external" href="https://www.npmjs.com/package/signals-api">https://www.npmjs.com/package/signals-api</a></p>
 <p>To generate an API key:</p>
 <ol class="arabic simple">
-<li>go to Settings in the left-hand menu from the Signals homepage.</li>
+<li>go to Settings in the left-hand menu from the Stratifyd homepage.</li>
 <li>In the Settings page, click the button to generate an api key towards the bottom.</li>
 <li>This API key will be generated and downloaded in JSON format to be included in your application.</li>
 </ol>

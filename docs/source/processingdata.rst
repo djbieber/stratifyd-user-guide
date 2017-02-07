@@ -4,27 +4,27 @@ Processing Data
 ========================
 
 
-When a dashboard is created with new data, the data goes through the Signals Analytics Engine for processing. This chapter describes what occurs as the engine is processing data. The output is described in the :ref:`analyzing data` chapter.
+When a dashboard is created with new data, the data goes through the Stratifyd Analytics Engine for processing. This chapter describes what occurs as the engine is processing data. The output is described in the :ref:`analyzing data` chapter.
 
 
 .. image:: journey.png
 
 
-The sections below discuss how the output of the :ref:`Signals Analytics Engine <signalsanalyticsengine>` can be accessed and used.
+The sections below discuss how the output of the :ref:`Stratifyd Analytics Engine <stratifydanalyticsengine>` can be accessed and used.
 
 
 .. Note:: To learn how to tune the analytics engine, see the :doc:`advancedoptions` page.
 
 
-.. _signalsanalyticsengine:
+.. _stratifydanalyticsengine:
 
-Signals Analytics Engine
-~~~~~~~~~~~~~~~~~~~~~~~~~
+Stratifyd Analytics Engine
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The Signals Analytics Engine leverages Machine Learning and Deep Learning algorithms to help navigate and pivot a large set of textual data.
+The Stratifyd Analytics Engine leverages Machine Learning and Deep Learning algorithms to help navigate and pivot a large set of textual data.
 
 
-Built on top of our proprietary Bayesian Neural Network and Generative Model, Signals dynamically identifies semantic topic groups based on the context in your input data.
+Built on top of our proprietary Bayesian Neural Network and Generative Model, Stratifyd dynamically identifies semantic topic groups based on the context in your input data.
 
 
 **This is all done in a three-step process:**
@@ -47,7 +47,7 @@ Built on top of our proprietary Bayesian Neural Network and Generative Model, Si
 
 
 
-3. **Signals automatically processes all geographical (Where), temporal (When), contributor (Who), as well as any other structured data.**
+3. **Stratifyd automatically processes all geographical (Where), temporal (When), contributor (Who), as well as any other structured data.**
 
 
   It joins the data with the N-Gram-based content network for you to pivot and construct analytics questions against your dataset.

@@ -86,7 +86,7 @@
 <li class="toctree-l1"><a class="reference internal" href="dataconnectors.html">Connecting to Data</a></li>
 <li class="toctree-l1"><a class="reference internal" href="mapdata.html">Mapping Data</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="">Processing Data</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#signals-analytics-engine">Signals Analytics Engine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#stratifyd-analytics-engine">Stratifyd Analytics Engine</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#reprocessing">Reprocessing</a></li>
 </ul>
 </li>
@@ -143,17 +143,17 @@
             
   <div class="section" id="processing-data">
 <span id="id1"></span><h1>Processing Data<a class="headerlink" href="#processing-data" title="Permalink to this headline">¶</a></h1>
-<p>When a dashboard is created with new data, the data goes through the Signals Analytics Engine for processing. This chapter describes what occurs as the engine is processing data. The output is described in the <a class="reference internal" href="analysis.html#analyzing-data"><span>Analyzing Data</span></a> chapter.</p>
+<p>When a dashboard is created with new data, the data goes through the Stratifyd Analytics Engine for processing. This chapter describes what occurs as the engine is processing data. The output is described in the <a class="reference internal" href="analysis.html#analyzing-data"><span>Analyzing Data</span></a> chapter.</p>
 <img alt="_images/journey.png" src="_images/journey.png" />
-<p>The sections below discuss how the output of the <a class="reference internal" href="#signalsanalyticsengine"><span>Signals Analytics Engine</span></a> can be accessed and used.</p>
+<p>The sections below discuss how the output of the <a class="reference internal" href="#stratifydanalyticsengine"><span>Stratifyd Analytics Engine</span></a> can be accessed and used.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
 <p class="last">To learn how to tune the analytics engine, see the <a class="reference internal" href="advancedoptions.html"><em>Advanced Options</em></a> page.</p>
 </div>
-<div class="section" id="signals-analytics-engine">
-<span id="signalsanalyticsengine"></span><h2>Signals Analytics Engine<a class="headerlink" href="#signals-analytics-engine" title="Permalink to this headline">¶</a></h2>
-<p>The Signals Analytics Engine leverages Machine Learning and Deep Learning algorithms to help navigate and pivot a large set of textual data.</p>
-<p>Built on top of our proprietary Bayesian Neural Network and Generative Model, Signals dynamically identifies semantic topic groups based on the context in your input data.</p>
+<div class="section" id="stratifyd-analytics-engine">
+<span id="stratifydanalyticsengine"></span><h2>Stratifyd Analytics Engine<a class="headerlink" href="#stratifyd-analytics-engine" title="Permalink to this headline">¶</a></h2>
+<p>The Stratifyd Analytics Engine leverages Machine Learning and Deep Learning algorithms to help navigate and pivot a large set of textual data.</p>
+<p>Built on top of our proprietary Bayesian Neural Network and Generative Model, Stratifyd dynamically identifies semantic topic groups based on the context in your input data.</p>
 <p><strong>This is all done in a three-step process:</strong></p>
 <ol class="arabic simple">
 <li><strong>The engine starts by performing NLP in over 24 languages.</strong></li>
@@ -168,7 +168,7 @@
 <p>The groups are generated and visualized by statistical significance (i.e. the percentage attributed to each topic category in the Semantic Topic Visualization). Each topic is tagged with top representative terms in Buzzwords.</p>
 </div></blockquote>
 <ol class="arabic simple" start="3">
-<li><strong>Signals automatically processes all geographical (Where), temporal (When), contributor (Who), as well as any other structured data.</strong></li>
+<li><strong>Stratifyd automatically processes all geographical (Where), temporal (When), contributor (Who), as well as any other structured data.</strong></li>
 </ol>
 <blockquote>
 <div>It joins the data with the N-Gram-based content network for you to pivot and construct analytics questions against your dataset.</div></blockquote>

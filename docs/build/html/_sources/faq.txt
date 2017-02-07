@@ -12,11 +12,11 @@ FAQ
 
   Trial accounts are limited to 30MB uploads.
 
-  While there is no limit on Enterprise accounts, the web interface supports up to 500MB of data. Larger files should be uploaded using a :ref:`Data Connector <dataconnector>` or via the :ref:`Signals SDK`.
+  While there is no limit on Enterprise accounts, the web interface supports up to 500MB of data. Larger files should be uploaded using a :ref:`Data Connector <dataconnector>` or via the :ref:`Stratifyd SDK`.
 
-**How many languages does Signals support?**
+**How many languages does Stratifyd support?**
   
-  Signals supports all NLP and Text Analytics functions natively in 25 languages including English, Chinese, Japanese, Spanish, Italian, German, and French.
+  Stratifyd supports all NLP and Text Analytics functions natively in 25 languages including English, Chinese, Japanese, Spanish, Italian, German, and French.
 
 **How do I interpret the word cloud and topic wheel?**
 

@@ -4,7 +4,7 @@ Connecting to Data
 ==================
 
 
-There are three categories of Data Connectors in Signals:
+There are three categories of Data Connectors in Stratifyd:
 
 
 :ref:`Enterprise Data Connectors` are used to connect to internal databases or other 1st party data platforms in your organization.
@@ -49,7 +49,7 @@ Examples include:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
-3rd Party Data Connectors usually have a pop-up window that allows you to enter your credentials with the 3rd party in order to authenticate with Signals.
+3rd Party Data Connectors usually have a pop-up window that allows you to enter your credentials with the 3rd party in order to authenticate with Stratifyd.
 
 
 .. Note:: Make sure you have pop-up blocking disabled when connecting with a 3rd Party Data Connector
@@ -114,7 +114,7 @@ JIRA
 .. image:: jira.png
 
 
-With the JIRA Data Connector, you can select which projects you want to analyze. You can also specify a ticket type if desired. If nothing is specified, Signals will pull all of your JIRA data.
+With the JIRA Data Connector, you can select which projects you want to analyze. You can also specify a ticket type if desired. If nothing is specified, Stratifyd will pull all of your JIRA data.
 
 
 UserVoice
@@ -273,12 +273,12 @@ Consumer Affairs
 
 
 
-.. _Signals SDK:
+.. _Stratifyd SDK:
 
-Signals SDK
-^^^^^^^^^^^
+Stratifyd SDK
+^^^^^^^^^^^^^^
 
-The Signals SDK should be used to upload files more than 500 MB.
+The Stratifyd SDK should be used to upload files more than 500 MB.
 
 It can also be used to develop custom connections and/or schedule uploads.
 
@@ -290,7 +290,7 @@ https://www.npmjs.com/package/signals-api
 
 To generate an API key:
 
-1. go to Settings in the left-hand menu from the Signals homepage.
+1. go to Settings in the left-hand menu from the Stratifyd homepage.
 
 2. In the Settings page, click the button to generate an api key towards the bottom.
 

@@ -145,8 +145,8 @@
             
   <div class="section" id="mapping-data">
 <h1>Mapping Data<a class="headerlink" href="#mapping-data" title="Permalink to this headline">¶</a></h1>
-<p>Signals can be used to analyze any type of data; structured or unstructured.</p>
-<p>However, there are 4 types of data that Signals treats differently to give users more information. Those data types are:</p>
+<p>Stratifyd can be used to analyze any type of data; structured or unstructured.</p>
+<p>However, there are 4 types of data that Stratifyd treats differently to give users more information. Those data types are:</p>
 <ol class="arabic simple">
 <li><a class="reference internal" href="#textual">Textual</a> - e.g. product review, customer feedback, news article text, etc.</li>
 <li><a class="reference internal" href="#temporal">Temporal</a> - a date, time, timestamp etc.</li>
@@ -157,7 +157,7 @@
 <p>On the left side of the Map Fields menu, you&#8217;ll see every field from your data source.
 Click on the <img alt="+" src="_images/plus.png" /> icon to identify any of the 4 data types mentioned earlier.</p>
 <img alt="_images/mapdata2.png" src="_images/mapdata2.png" />
-<p>When you&#8217;ve identified the fields, click next and this configuration will be used during processing in the Signals Analytics Engine.</p>
+<p>When you&#8217;ve identified the fields, click next and this configuration will be used during processing in the Stratifyd Analytics Engine.</p>
 <img alt="_images/mapdata3.png" src="_images/mapdata3.png" />
 <div class="section" id="textual">
 <h2>Textual<a class="headerlink" href="#textual" title="Permalink to this headline">¶</a></h2>
@@ -165,17 +165,17 @@ Click on the <img alt="+" src="_images/plus.png" /> icon to identify any of the 
 </div>
 <div class="section" id="temporal">
 <h2>Temporal<a class="headerlink" href="#temporal" title="Permalink to this headline">¶</a></h2>
-<p>Identifying where you temporal data is within your dataset allows the Signals Analytics Engine to normalize dates, allowing you the flexibility to roll-up data on different granularities like yearly, monthly, daily, hourly, etc.</p>
+<p>Identifying where you temporal data is within your dataset allows the Stratifyd Analytics Engine to normalize dates, allowing you the flexibility to roll-up data on different granularities like yearly, monthly, daily, hourly, etc.</p>
 <p>Temporal data can be represented in many different formats:</p>
 <ul class="simple">
 <li>If your data has a field that contains Day, Month, Year, and/or time in any order, you can simply select the &#8220;Date&#8221; option in the Map Fields menu.</li>
 <li>If your Day, Month and Year are all contained in separate columns, use the corresponding Map Fields menu items for each to indicate this.</li>
-<li>If your date is represented in some other format, select &#8220;Date&#8221; and the Signals Analytics Engine will do a best-guess to normalize the data.</li>
+<li>If your date is represented in some other format, select &#8220;Date&#8221; and the Stratifyd Analytics Engine will do a best-guess to normalize the data.</li>
 </ul>
 </div>
 <div class="section" id="geographical">
 <h2>Geographical<a class="headerlink" href="#geographical" title="Permalink to this headline">¶</a></h2>
-<p>The Signals Analytics Engine will create a geographical hierarchy based on the input you provide, giving you access to compare your data at any level, whether it&#8217;s by country, region, or zip code.</p>
+<p>The Stratifyd Analytics Engine will create a geographical hierarchy based on the input you provide, giving you access to compare your data at any level, whether it&#8217;s by country, region, or zip code.</p>
 <p>If your data contains multiple geographical or spatial data points, you can indicate where that data resides using the Map Fields menu.</p>
 <p>Some of the Geographical options are absolute and therefore don&#8217;t need additional information:</p>
 <ul class="simple">
