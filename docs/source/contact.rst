@@ -3,7 +3,7 @@
 Contact
 ~~~~~~~~~~~~
 
-United States
+Charlotte
 --------------
 - 1431 W. Morehead Street
   Charlotte, NC 28208
@@ -11,14 +11,14 @@ United States
 - webcontact@stratifyd.com
 
 
-Silicon Valley
+Santa Clara
 ---------------
 - 4500 Great America Pkwy
   Santa Clara, CA 95054
 - webcontact@stratifyd.com
 
 
-China
+Beijing
 -------
 - 9th, Guanghua road
   Chaoyang District, Beijing SOHO 2

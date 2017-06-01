@@ -4,12 +4,12 @@ Stratifyd User Guide
 *Stratifyd is a powerful, yet easy-to-use augmented intelligence platform.*
 
 
-+ Stratifyds' :ref:`Analytics Engine <processing data>` leverages unsupervised deep machine learning to identify statistically significant topics within any unstructured data.
++ Stratifyds' :ref:`Analytics Engine <processing data>` leverages unsupervised deep machine learning to identify relevant topics within any textual data.
 
 
-+ Stratifyd is completely web-based. The only software required is a modern web browser such as Google Chrome, Mozilla Firefox, Microsoft Edge (Microsoft IE is not recommended).
++ Stratifyd is completely web-based. The only software required is a modern web browser such as Google Chrome, Mozilla Firefox, or Microsoft Edge (Microsoft IE is not recommended).
 
-+ Stratifyds' web interface is point-and-click. No programming knowledge is required.
++ Stratifyds' web interface is intuitive for users of any background. No programming knowledge is required.
 
 
 This guide covers every feature and function within Stratifyd, if you're looking for information about a specific topic, jump to a chapter in the left nav bar.
