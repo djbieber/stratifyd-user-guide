@@ -189,7 +189,7 @@ Public Data Connectors
 
 
 Product Reviews & Ratings
---------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 + `iOS Store Reviews`_
 + `Google Play Store Reviews`_
@@ -203,7 +203,7 @@ Product Reviews & Ratings
 
 
 iOS Store Reviews
-~~~~~~~~~~~~~~~~~
+---------------------------
 
 Track ratings and reviews on any app in the iOS app store. Use Stratifyd's advanced analytics to automatically extract topics and themes and perform text analytics across thousands of reviews.
 
@@ -212,7 +212,7 @@ Track ratings and reviews on any app in the iOS app store. Use Stratifyd's advan
 Simply paste the URL of the app you wish to analyze and add it to your dashboard with as many other datasets as you like.
 
 Google Play Store Reviews
-~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 Track ratings and reviews on any app in the Google Play store. Use Stratifyd's advanced analytics to automatically extract topics and themes and perform text analytics across thousands of reviews.
 
@@ -221,7 +221,7 @@ Track ratings and reviews on any app in the Google Play store. Use Stratifyd's a
 Simply paste the URL of the page you wish to analyze and add it to your dashboard with as many other datasets as you like.
 
 Home Depot Product Reviews
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 Track ratings and reviews on any products from HomeDepot.com . Use Stratifyd's advanced analytics to automatically extract topics and themes and perform text analytics across thousands of reviews.
 
@@ -230,7 +230,7 @@ Track ratings and reviews on any products from HomeDepot.com . Use Stratifyd's a
 Simply paste the URL of the page you wish to analyze and add it to your dashboard with as many other datasets as you like.
 
 Lowes Product Reviews
-~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 Track ratings and reviews on any products from Lowes.com . Use Stratifyd's advanced analytics to automatically extract topics and themes and perform text analytics across thousands of reviews.
 
@@ -239,7 +239,7 @@ Track ratings and reviews on any products from Lowes.com . Use Stratifyd's advan
 Simply paste the URL of the page you wish to analyze and add it to your dashboard with as many other datasets as you like.
 
 Best Buy Product Reviews
-~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 Track ratings and reviews on any products from BestBuy.com . Use Stratifyd's advanced analytics to automatically extract topics and themes and perform text analytics across thousands of reviews.
 
@@ -248,7 +248,7 @@ Track ratings and reviews on any products from BestBuy.com . Use Stratifyd's adv
 Simply paste the URL of the page you wish to analyze and add it to your dashboard with as many other datasets as you like.
 
 Wal Mart Product Reviews
-~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 Track ratings and reviews on any products from Walmart.com . Use Stratifyd's advanced analytics to automatically extract topics and themes and perform text analytics across thousands of reviews.
 
@@ -257,7 +257,7 @@ Track ratings and reviews on any products from Walmart.com . Use Stratifyd's adv
 Simply paste the URL of the page you wish to analyze and add it to your dashboard with as many other datasets as you like.
 
 Etsy Shop Reviews
-~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 Understand customer sentiment about any Etsy shop by automatically collecting shop reviews and visualizing the structured data alongside topics extracted from reviews using unsupervised machine learning.
 
@@ -266,7 +266,7 @@ Understand customer sentiment about any Etsy shop by automatically collecting sh
 Simply paste the URL of the page you wish to analyze and add it to your dashboard with as many other datasets as you like.
 
 Etsy Product Reviews
-~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 Track ratings and reviews on any products from Etsy.com . Use Stratifyd's advanced analytics to automatically extract topics and themes and perform text analytics across thousands of reviews.
 
@@ -275,7 +275,7 @@ Track ratings and reviews on any products from Etsy.com . Use Stratifyd's advanc
 Simply paste the URL of the page you wish to analyze and add it to your dashboard with as many other datasets as you like.
 
 Amazon Product Reviews
-~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 Track ratings and reviews on any products from Amazon.com . Use Stratifyd's advanced analytics to automatically extract topics and themes and perform text analytics across thousands of reviews.
 
@@ -285,7 +285,7 @@ Simply paste the URL of the product page you wish to analyze and add it to your 
 
 
 Social Media
--------------
+~~~~~~~~~~~~~
 
 + `Twitter`_
 + `Facebook`_
@@ -294,7 +294,7 @@ Social Media
 
 
 Twitter
-~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 Search across millions of tweets to find relevant content. Understand trending topics and sentiment relevant to you on social media.
 
@@ -306,7 +306,7 @@ Pull tweets from any twitter users to monitor their activity and visualize the t
 
 
 Facebook
-~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 Pull posts and comments from any public facebook page to analyze comments and social metrics.
 
@@ -316,7 +316,7 @@ Simply paste the URL of the page you wish to analyze and add it to your dashboar
 
 
 YouTube Comments
-~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 Analyze comments from any YouTube video and automatically extract common themes using text analysis.
 
@@ -327,7 +327,7 @@ Simply paste the URL of the video you wish to analyze and add it to your dashboa
 
 
 Customer/HR Feedback
----------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 + `Consumer Financial Protection Bureau`_
 + `Indeed`_
@@ -336,7 +336,7 @@ Customer/HR Feedback
 
 
 Consumer Financial Protection Bureau
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------------------
 
 Explore the CFPB database, full of hundreds of thousands of consumer reports about financial institutions. Compare across products, companies, or consumer issue. Leverage Stratifyd's unsupervised learning to automatically detect topics and trends within the consumer responses.
 
@@ -345,7 +345,7 @@ Explore the CFPB database, full of hundreds of thousands of consumer reports abo
 Simply select the companies or products you wish to analyze. If left blank, Stratifyd will analyze all companies and products in CFPB. Add this data to your dashboard along with as many other datasets as you like.
 
 Indeed
-~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 Understand employee reviews about any company on indeed.com . Use Stratifyd's unsupervised learning to correlate topics within reviews to employee ratings in categories like Work/Life Balance, Benefits & Compensation, or Job Culture.
 
@@ -354,7 +354,7 @@ Understand employee reviews about any company on indeed.com . Use Stratifyd's un
 Simply select the companies you wish to analyze and add it to your dashboard with as many other datasets as you like.
 
 Consumer Affairs
-~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 Analyze consumer complaints about hundreds of companies on ConsumerAffairs.com . Use Stratifyd's unsupervised learning to correlate automatically extracted topics within reviews to customer ratings or compare across competitors.
 
