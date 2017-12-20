@@ -10,9 +10,6 @@ Create an account
 Begin by :doc:`createaccount`. Once you've logged in, check out some of the pre-built public dashboards in the folders on the homepage.
 
 
-.. image:: examplefolders.png
-
-
 Create your first dashboard
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -21,8 +18,31 @@ To create your own dashboard, click "Create a new Dashboard".
 .. image:: newdashboard.png
 
 
+Choose a template
+^^^^^^^^^^^^^^^^^
+
+The template library has a variety of pre-built dashboards to use as a starting point.
+If you already have a template you can search for the template in the search bar.
+You can always start from a blank dashboard and build your own from scratch.
+
+
+.. image:: templates.png
+
+
 Connect to data
 ^^^^^^^^^^^^^^^
+
+Next, you can replace the data in your template with the data you'd like to analyze by clicking replace data, or you can start importing new data sources by clicking on import data.
+
+
+.. image:: importdata.png
+
+
+Select an existing dataset or start with a new dataset.
+
+
+.. image:: newdata.png
+
 
 Connect to your database, upload a CSV or Excel file, or use one of our :ref:`Data Connectors <dataconnector>` for easy access to a wealth of publicly available data. Add as many data source to your dashboard as needed.
 

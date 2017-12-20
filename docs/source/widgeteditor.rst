@@ -15,13 +15,13 @@ There are two entry points to begin creating a widget:
 2. You can start by choosing the Visualization type you want to use.
 
 
-.. image:: blankeditor.png
+.. image:: widgeteditor.png
 
 
 Visualizations
 ~~~~~~~~~~~~~~
 
-.. image:: vizzes.png
+.. image:: visualizations.png
 
 
 Each visualization supports certain combinations of data types. By selecting a viz first, your available dimensions and metrics will be highlighted.
