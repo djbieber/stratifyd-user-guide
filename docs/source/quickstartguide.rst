@@ -48,7 +48,6 @@ Connect to your database, upload a CSV or Excel file, or use one of our :ref:`Da
 
 
 .. image:: dataconnectors.png
-  :scale: 50
 
 
 If you're bringing your own data, specify which fields contain Textual, Temporal, or Geographical information for analysis and normalization. All other fields will be brought in as pivot points and additional visualizations. 
