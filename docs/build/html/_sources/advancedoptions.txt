@@ -3,13 +3,17 @@
 Advanced Options
 ================
 
-Advanced options allow users to customize the way data is processed. These options are not always needed, but there are some scenarios in which they are very useful. For example:
+Advanced options allow users to customize the way data is processed. These options are not always needed, but there are some scenarios in which they are very useful. They can be applied when uploading new data, or reprocessing existing data.
 
+.. image:: advanced.png
 
 
 
 Stopwords
 ~~~~~~~~~
+
+Stopwords are a list of terms that you wish to ignore for analysis. Adding terms to the list simply signifies to the analytics engine that it should ignore those terms when looking for patterns and connections between your data.
+
 
 Stratifyd provides an out-of-the-box list of stopwords that include the main commonly used non-informative words such as: "the", "an", "I", etc.
 
@@ -18,9 +22,6 @@ You can create additional lists that can be applied as needed to cut through noi
 
 
 Typically a brand new data-source is run with the default stopword list, noisy Stratifyd can be easily identified in the dashboard and our in-dashboard editor (below) allows you to select N-Grams, topics, contributors, or other features to suppress.
-
-
-.. image:: stopwordeditor.gif
 
 
 For example, RSS news feeds typically contain the same few sentences at the end of every article::
@@ -34,7 +35,7 @@ Appears at the end of every news article in some publications. "Reporting By" an
 
 To suppress the noise caused by these terms, in the edit menu, click "Tune up data" and select the terms that are non-informative.
 
-.. image:: tunedata.png
+.. image:: stopwordsinteractive.png
 
 
 When finished, click submit and your data will begin reprocessing with the feedback you've provided.
@@ -73,8 +74,37 @@ Certain terms are generally neutral, but when used in the context of a specific 
 Taxonomy
 ~~~~~~~~
 
-Stratifyd supports importing existing taxonomies or you can easily build your own from the ground up. The in-dashboard taxonomy editor allows you to tweak your taxonomy as you analyze your data. Drag and drop buzzwords into your label logic to increase your coverage of existing categories, or as you find new categories.
-
+Stratifyd supports importing existing taxonomies or you can easily build your own from the ground up. The in-dashboard taxonomy editor allows you to tweak your taxonomy as you analyze your data.
 
 .. image:: taxonomyeditor.png
 
+
+To add a taxonomy, open the data panel:
+
+.. image:: datapanel.png
+
+
+Click on the name of the data stream and go to "Edit" in the dropdown menu to open the data manager:
+
+.. image:: datamanager.png
+
+Under "Deploy New Model", click on "Taxonomy" to open the taxonomy wizard.
+
+The first step is to choose the field in your stream you want to apply the taxonomy to.
+
+.. image:: taxonomyworkflow1.png
+
+Next, choose the taxonomy you want to apply. You can choose more than one if you want to manage them together.
+
+.. image:: taxonomyworkflow2.png
+
+.. image:: taxonomyworkflow3.png
+
+
+Once you've chosen the taxonomies, give this analysis a name. It's best practice to be as descriptive as possible with your naming convention.
+
+.. image:: taxonomyworkflow5.png
+
+Once you click submit, your taxonomy analysis will begin. Clicking submit again on the data manager will add that taxonomy to your dashboard.
+
+.. image:: taxonomysubmission.png

@@ -1,7 +1,7 @@
 Quick Start Guide
 =================
 
-By the end of this section you'll have access to data of your interest, and a dashboard that allows you to analyze and navigate through structured and unstructured data.
+By the end of this section you'll be able to load data, create a dashboard with visualizations, and analyze your data all from scratch.
 
 
 Create an account
@@ -26,7 +26,7 @@ If you already have a template you can search for the template in the search bar
 You can always start from a blank dashboard and build your own from scratch.
 
 
-.. image:: templates.png
+.. image:: blankdashboard.png
 
 
 Connect to data

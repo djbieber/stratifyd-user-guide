@@ -31,35 +31,18 @@ Enterprise Data Connectors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
-The Enterprise Data Connector application allows users to connect with a variety of internal data sources:
+The Enterprise Data Connector (EDC) application allows users to connect with a variety of enterprise data sources including:
 
-+ `PostgreSQL`_
-+ `Microsoft SQL`_
-+ `Hive`_
-+ `MySQL`_
-+ `MongoDB`_
++ HPE Vertica
++ PostgreSQL
++ Microsoft SQL
++ Hive
++ MySQL
++ MongoDB
++ IBM DB2
 
-Or connect to any database using our SDK
+The EDC can connect to any JDBC-based database
 
-
-PostgreSQL
-~~~~~~~~~~~~~~~
-
-
-Microsoft SQL
-~~~~~~~~~~~~~~~
-
-
-Hive
-~~~~~~~~~~~~~~~
-
-
-MySQL
-~~~~~~~~~~~~~~~
-
-
-MongoDB
-~~~~~~~~~~~~~~~
 
 
 .. _3rd Party Data Connectors:
@@ -76,7 +59,6 @@ MongoDB
 
 - `Foresee`_
 - `Gmail`_
-- `Google Analytics`_
 - `Google Play Developer`_
 - `Intercom`_
 - `JIRA`_
@@ -106,12 +88,10 @@ Gmail allows you to connect with a Gmail account and enter a query that will pul
 .. image:: gmail.png
 
 
-Google Analytics
-~~~~~~~~~~~~~~~~~
-
 
 Google Play Developer
 ~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 
 Intercom
@@ -145,6 +125,11 @@ salesforce
 
 Slack
 ~~~~~~~
+
+The slack data connector allows users to select one or more channels or direct messages from which to pull data.
+
+
+.. image:: slack.png
 
 
 SurveyGizmo

@@ -87,18 +87,10 @@
                 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="quickstartguide.html">Quick Start Guide</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="">Connecting to Data</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#enterprise-data-connectors">Enterprise Data Connectors</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#postgresql">PostgreSQL</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#microsoft-sql">Microsoft SQL</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#hive">Hive</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#mysql">MySQL</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#mongodb">MongoDB</a></li>
-</ul>
-</li>
+<li class="toctree-l2"><a class="reference internal" href="#enterprise-data-connectors">Enterprise Data Connectors</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#rd-party-data-connectors">3rd Party Data Connectors</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#foresee">Foresee</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#gmail">Gmail</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#google-analytics">Google Analytics</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#google-play-developer">Google Play Developer</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#intercom">Intercom</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#jira">JIRA</a></li>
@@ -211,30 +203,17 @@ We collect data from Amazon, Facebook, the Google Play store, consumeraffairs.co
 </div>
 <div class="section" id="enterprise-data-connectors">
 <span id="id1"></span><h2>Enterprise Data Connectors<a class="headerlink" href="#enterprise-data-connectors" title="Permalink to this headline">¶</a></h2>
-<p>The Enterprise Data Connector application allows users to connect with a variety of internal data sources:</p>
+<p>The Enterprise Data Connector (EDC) application allows users to connect with a variety of enterprise data sources including:</p>
 <ul class="simple">
-<li><a class="reference internal" href="#postgresql">PostgreSQL</a></li>
-<li><a class="reference internal" href="#microsoft-sql">Microsoft SQL</a></li>
-<li><a class="reference internal" href="#hive">Hive</a></li>
-<li><a class="reference internal" href="#mysql">MySQL</a></li>
-<li><a class="reference internal" href="#mongodb">MongoDB</a></li>
+<li>HPE Vertica</li>
+<li>PostgreSQL</li>
+<li>Microsoft SQL</li>
+<li>Hive</li>
+<li>MySQL</li>
+<li>MongoDB</li>
+<li>IBM DB2</li>
 </ul>
-<p>Or connect to any database using our SDK</p>
-<div class="section" id="postgresql">
-<h3>PostgreSQL<a class="headerlink" href="#postgresql" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="microsoft-sql">
-<h3>Microsoft SQL<a class="headerlink" href="#microsoft-sql" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="hive">
-<h3>Hive<a class="headerlink" href="#hive" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="mysql">
-<h3>MySQL<a class="headerlink" href="#mysql" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="mongodb">
-<h3>MongoDB<a class="headerlink" href="#mongodb" title="Permalink to this headline">¶</a></h3>
-</div>
+<p>The EDC can connect to any JDBC-based database</p>
 </div>
 <div class="section" id="rd-party-data-connectors">
 <span id="id2"></span><h2>3rd Party Data Connectors<a class="headerlink" href="#rd-party-data-connectors" title="Permalink to this headline">¶</a></h2>
@@ -246,7 +225,6 @@ We collect data from Amazon, Facebook, the Google Play store, consumeraffairs.co
 <ul class="simple">
 <li><a class="reference internal" href="#foresee">Foresee</a></li>
 <li><a class="reference internal" href="#gmail">Gmail</a></li>
-<li><a class="reference internal" href="#google-analytics">Google Analytics</a></li>
 <li><a class="reference internal" href="#google-play-developer">Google Play Developer</a></li>
 <li><a class="reference internal" href="#intercom">Intercom</a></li>
 <li><a class="reference internal" href="#jira">JIRA</a></li>
@@ -267,9 +245,6 @@ We collect data from Amazon, Facebook, the Google Play store, consumeraffairs.co
 <h3>Gmail<a class="headerlink" href="#gmail" title="Permalink to this headline">¶</a></h3>
 <p>Gmail allows you to connect with a Gmail account and enter a query that will pull data matching the query.</p>
 <img alt="_images/gmail.png" src="_images/gmail.png" />
-</div>
-<div class="section" id="google-analytics">
-<h3>Google Analytics<a class="headerlink" href="#google-analytics" title="Permalink to this headline">¶</a></h3>
 </div>
 <div class="section" id="google-play-developer">
 <h3>Google Play Developer<a class="headerlink" href="#google-play-developer" title="Permalink to this headline">¶</a></h3>
@@ -293,6 +268,8 @@ We collect data from Amazon, Facebook, the Google Play store, consumeraffairs.co
 </div>
 <div class="section" id="slack">
 <h3>Slack<a class="headerlink" href="#slack" title="Permalink to this headline">¶</a></h3>
+<p>The slack data connector allows users to select one or more channels or direct messages from which to pull data.</p>
+<img alt="_images/slack.png" src="_images/slack.png" />
 </div>
 <div class="section" id="surveygizmo">
 <h3>SurveyGizmo<a class="headerlink" href="#surveygizmo" title="Permalink to this headline">¶</a></h3>

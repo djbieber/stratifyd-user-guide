@@ -148,13 +148,14 @@
             
   <div class="section" id="advanced-options">
 <span id="id1"></span><h1>Advanced Options<a class="headerlink" href="#advanced-options" title="Permalink to this headline">¶</a></h1>
-<p>Advanced options allow users to customize the way data is processed. These options are not always needed, but there are some scenarios in which they are very useful. For example:</p>
+<p>Advanced options allow users to customize the way data is processed. These options are not always needed, but there are some scenarios in which they are very useful. They can be applied when uploading new data, or reprocessing existing data.</p>
+<img alt="_images/advanced.png" src="_images/advanced.png" />
 <div class="section" id="stopwords">
 <h2>Stopwords<a class="headerlink" href="#stopwords" title="Permalink to this headline">¶</a></h2>
+<p>Stopwords are a list of terms that you wish to ignore for analysis. Adding terms to the list simply signifies to the analytics engine that it should ignore those terms when looking for patterns and connections between your data.</p>
 <p>Stratifyd provides an out-of-the-box list of stopwords that include the main commonly used non-informative words such as: &#8220;the&#8221;, &#8220;an&#8221;, &#8220;I&#8221;, etc.</p>
 <p>You can create additional lists that can be applied as needed to cut through noise in your textual data on a per-data-source basis.</p>
 <p>Typically a brand new data-source is run with the default stopword list, noisy Stratifyd can be easily identified in the dashboard and our in-dashboard editor (below) allows you to select N-Grams, topics, contributors, or other features to suppress.</p>
-<img alt="_images/stopwordeditor.gif" src="_images/stopwordeditor.gif" />
 <p>For example, RSS news feeds typically contain the same few sentences at the end of every article:</p>
 <div class="highlight-python"><div class="highlight"><pre>Reporting By Laila Bassam in Aleppo and Tom Perry, John Davison and Lisa Barrington in Beirut;
 
@@ -163,7 +164,7 @@ Writing by Angus McDowall in Beirut, editing by Peter Millership
 </div>
 <p>Appears at the end of every news article in some publications. &#8220;Reporting By&#8221; and &#8220;Writing By&#8221; will likely be identified as Buzzwords. These terms could potentially link unlrelated documents since they aren&#8217;t related to the article topics.</p>
 <p>To suppress the noise caused by these terms, in the edit menu, click &#8220;Tune up data&#8221; and select the terms that are non-informative.</p>
-<img alt="_images/tunedata.png" src="_images/tunedata.png" />
+<img alt="_images/stopwordsinteractive.png" src="_images/stopwordsinteractive.png" />
 <p>When finished, click submit and your data will begin reprocessing with the feedback you&#8217;ve provided.</p>
 </div>
 <div class="section" id="junk-spam">
@@ -187,8 +188,22 @@ Writing by Angus McDowall in Beirut, editing by Peter Millership
 </div>
 <div class="section" id="taxonomy">
 <h2>Taxonomy<a class="headerlink" href="#taxonomy" title="Permalink to this headline">¶</a></h2>
-<p>Stratifyd supports importing existing taxonomies or you can easily build your own from the ground up. The in-dashboard taxonomy editor allows you to tweak your taxonomy as you analyze your data. Drag and drop buzzwords into your label logic to increase your coverage of existing categories, or as you find new categories.</p>
+<p>Stratifyd supports importing existing taxonomies or you can easily build your own from the ground up. The in-dashboard taxonomy editor allows you to tweak your taxonomy as you analyze your data.</p>
 <img alt="_images/taxonomyeditor.png" src="_images/taxonomyeditor.png" />
+<p>To add a taxonomy, open the data panel:</p>
+<img alt="_images/datapanel.png" src="_images/datapanel.png" />
+<p>Click on the name of the data stream and go to &#8220;Edit&#8221; in the dropdown menu to open the data manager:</p>
+<img alt="_images/datamanager.png" src="_images/datamanager.png" />
+<p>Under &#8220;Deploy New Model&#8221;, click on &#8220;Taxonomy&#8221; to open the taxonomy wizard.</p>
+<p>The first step is to choose the field in your stream you want to apply the taxonomy to.</p>
+<img alt="_images/taxonomyworkflow1.png" src="_images/taxonomyworkflow1.png" />
+<p>Next, choose the taxonomy you want to apply. You can choose more than one if you want to manage them together.</p>
+<img alt="_images/taxonomyworkflow2.png" src="_images/taxonomyworkflow2.png" />
+<img alt="_images/taxonomyworkflow3.png" src="_images/taxonomyworkflow3.png" />
+<p>Once you&#8217;ve chosen the taxonomies, give this analysis a name. It&#8217;s best practice to be as descriptive as possible with your naming convention.</p>
+<img alt="_images/taxonomyworkflow5.png" src="_images/taxonomyworkflow5.png" />
+<p>Once you click submit, your taxonomy analysis will begin. Clicking submit again on the data manager will add that taxonomy to your dashboard.</p>
+<img alt="_images/taxonomysubmission.png" src="_images/taxonomysubmission.png" />
 </div>
 </div>
 

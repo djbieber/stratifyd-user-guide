@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Search &mdash; Stratifyd User Guide</title>
+  <title>Equation Syntax &mdash; Stratifyd User Guide</title>
   
 
   
@@ -68,7 +68,7 @@
 
           
 <div role="search">
-  <form id="rtd-search-form" class="wy-form" action="#" method="get">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
@@ -118,7 +118,7 @@
         <div class="rst-content">
           
 
-
+ 
 
 
 
@@ -126,8 +126,10 @@
   <ul class="wy-breadcrumbs">
     <li><a href="index.html">Docs</a> &raquo;</li>
       
-    <li></li>
+    <li>Equation Syntax</li>
       <li class="wy-breadcrumbs-aside">
+        
+          
         
       </li>
   </ul>
@@ -136,19 +138,37 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <noscript>
-  <div id="fallback" class="admonition warning">
-    <p class="last">
-      Please activate JavaScript to enable the search
-      functionality.
-    </p>
-  </div>
-  </noscript>
+  <div class="section" id="equation-syntax">
+<h1>Equation Syntax<a class="headerlink" href="#equation-syntax" title="Permalink to this headline">¶</a></h1>
+<p>Available dimensions appear in the top left menu. Dimensions should always be encapsulated by square brackets.</p>
+</div>
+<div class="section" id="operator-notations">
+<h1>Operator Notations<a class="headerlink" href="#operator-notations" title="Permalink to this headline">¶</a></h1>
+<p>The supported operators are listed in the bottom left menu. Hovering over an operator will show a description of what the operator does. Both Prefix and Infix notations are supported, by clicking on an operator in the menu, it will use Prefix Notation. Infix Notation can be added by typing out the equation. Additionally, both styles can be combined in one equation.</p>
+<div class="section" id="prefix-notation">
+<h2>Prefix Notation<a class="headerlink" href="#prefix-notation" title="Permalink to this headline">¶</a></h2>
+<p>With Prefix Notation the operator precedes the operands. For example:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="nb">abs</span><span class="p">(</span><span class="n">sub</span><span class="p">([</span><span class="n">incoming</span><span class="p">],[</span><span class="n">outgoing</span><span class="p">]))</span>
+</pre></div>
+</div>
+<p>This equation will subtract incoming from outgoing, and then take the absolute value</p>
+</div>
+<div class="section" id="infix-notation">
+<h2>Infix Notation<a class="headerlink" href="#infix-notation" title="Permalink to this headline">¶</a></h2>
+<p>Infix Notation is what is most commonly used in written expressions.:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="p">[</span><span class="n">incoming</span><span class="p">]</span> <span class="o">-</span> <span class="p">[</span><span class="n">outgoing</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="mixed">
+<h2>Mixed<a class="headerlink" href="#mixed" title="Permalink to this headline">¶</a></h2>
+<p>The following example shows how both notations can be combined.:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="nb">abs</span><span class="p">([</span><span class="n">incoming</span><span class="p">]</span><span class="o">-</span><span class="p">[</span><span class="n">outgoing</span><span class="p">])</span>
+</pre></div>
+</div>
+</div>
+</div>
 
-  
-  <div id="search-results">
-  
-  </div>
 
            </div>
           </div>
@@ -189,7 +209,6 @@
       <script type="text/javascript" src="_static/jquery.js"></script>
       <script type="text/javascript" src="_static/underscore.js"></script>
       <script type="text/javascript" src="_static/doctools.js"></script>
-      <script type="text/javascript" src="_static/searchtools.js"></script>
 
   
 
@@ -205,14 +224,7 @@
           SphinxRtdTheme.StickyNav.enable();
       });
   </script>
-  
-  <script type="text/javascript">
-    jQuery(function() { Search.loadIndex("searchindex.js"); });
-  </script>
-  
-  <script type="text/javascript" id="searchindexloader"></script>
    
-
 
 </body>
 </html>
