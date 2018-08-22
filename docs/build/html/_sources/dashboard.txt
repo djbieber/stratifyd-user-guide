@@ -33,3 +33,39 @@ Anatomy of a Dashboard
 
 
 .. image:: dashboardanatomy.png
+
+
+Dashboard Menu
+^^^^^^^^^^^^^^^^^
+
+
+Dashboard Tabs
+^^^^^^^^^^^^^^^^^
+
+
+Filter Panel
+^^^^^^^^^^^^^^
+
+
+Data Panel
+^^^^^^^^^^^^^^
+
+
+Case Panel
+^^^^^^^^^^^^^
+
+
+Alert Panel
+^^^^^^^^^^^^^^^^
+
+
+Analysis Tuning Panel
+^^^^^^^^^^^^^^^^^^^^^^
+
+
+Data Detail
+^^^^^^^^^^^^^^
+
+
+Filter Shelf
+^^^^^^^^^^^^^^^

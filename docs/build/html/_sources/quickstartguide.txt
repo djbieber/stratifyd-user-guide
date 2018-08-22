@@ -7,7 +7,11 @@ By the end of this section you'll be able to load data, create a dashboard with 
 Create an account
 ~~~~~~~~~~~~~~~~~~~~~~
 
-Begin by :doc:`createaccount`. Once you've logged in, check out some of the pre-built public dashboards in the folders on the homepage.
+Begin by :doc:`createaccount`. Once you've logged in, take a quick tour of the left Nav Bar to familiarize yourself with the platform.
+
+.. image:: navbar.png
+
+The main entry point to get started is on the dashboards page. Clicking on Dashboards will bring you to this view and you'll be ready to create your first dashboard.
 
 
 Create your first dashboard

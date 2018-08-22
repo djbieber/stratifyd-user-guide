@@ -1,34 +1,47 @@
-Glossary
-========
+Glossary of Terms
+^^^^^^^^^^^^^^^^^^^
 
-**Data Connector**
-
-
-**Data Source**
+Stream
+---------
 
 
-**Dashboard**
+Model
+----------
 
 
-**Dataset**
+Analysis
+----------
 
 
-**Dimension**
+Dashboard
+------------
 
 
-**Field-mapping Menu**
+Widget
+----------
 
 
-**Metric**
+Dataset
+----------
 
 
-**Representative Feedback**
+Random Forest
+---------------
 
 
-**Reprocess**
+Taxonomy
+----------
 
 
-**Tab**
+Unsupervised NLU Model
+------------------------
 
 
-**Widget**
+Template
+------------
+
+
+Data Connector
+-----------------
+
+
