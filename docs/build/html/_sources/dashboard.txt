@@ -21,7 +21,7 @@ To create a new dashboard, from the homepage, click on the New Dashboard icon:
 
 
 Anatomy of a Dashboard
-========================
+------------------------
 
 
 .. image:: dashboardanatomy.png

@@ -386,3 +386,5 @@ Data Stream Manager
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Once you've established a connection to your data, Stratifyd will automatically generate a "Stream"
+
+.. image:: streammanager.png

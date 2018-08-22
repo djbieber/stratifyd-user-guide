@@ -89,8 +89,20 @@
 <li class="toctree-l1"><a class="reference internal" href="dataconnectors.html">Connecting to Data</a></li>
 <li class="toctree-l1"><a class="reference internal" href="mapdata.html">Mapping Data</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="">Processing Data</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#stratifyd-analytics-engine">Stratifyd Analytics Engine</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#reprocessing">Reprocessing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#unsupervised-nlu-model">Unsupervised NLU Model</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#autolearn">AutoLearn</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#how-it-works">How it works</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id2">Random Forest</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#semi-auto-taxonomy">Semi-auto Taxonomy</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#model-overview">Model overview</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#input-training">Input (Training)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#output-training">Output (Training)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#input-deployment">Input (Deployment)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#output-deployment">Output (Deployment)</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="dashboard.html">Creating a Dashboard</a></li>
@@ -102,6 +114,7 @@
 <li class="toctree-l1"><a class="reference internal" href="faq.html">FAQ</a></li>
 <li class="toctree-l1"><a class="reference internal" href="contact.html">Contact</a></li>
 <li class="toctree-l1"><a class="reference internal" href="miscellaneous.html">Misc.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="glossary.html">Glossary of Terms</a></li>
 </ul>
 
             
@@ -146,16 +159,13 @@
             
   <div class="section" id="processing-data">
 <span id="id1"></span><h1>Processing Data<a class="headerlink" href="#processing-data" title="Permalink to this headline">¶</a></h1>
-<p>When a dashboard is created with new data, the data goes through the Stratifyd Analytics Engine for processing. This chapter describes what occurs as the engine is processing data. The output is described in the <a class="reference internal" href="analysis.html#analyzing-data"><span>Analyzing Data</span></a> chapter.</p>
-<img alt="_images/journey.png" src="_images/journey.png" />
-<p>The sections below discuss how the output of the <a class="reference internal" href="#stratifydanalyticsengine"><span>Stratifyd Analytics Engine</span></a> can be accessed and used.</p>
-<div class="admonition note">
-<p class="first admonition-title">Note</p>
-<p class="last">To learn how to tune the analytics engine, see the <a class="reference internal" href="advancedoptions.html"><em>Advanced Options</em></a> page.</p>
-</div>
-<div class="section" id="stratifyd-analytics-engine">
-<span id="stratifydanalyticsengine"></span><h2>Stratifyd Analytics Engine<a class="headerlink" href="#stratifyd-analytics-engine" title="Permalink to this headline">¶</a></h2>
-<p>The Stratifyd Analytics Engine leverages Machine Learning and Deep Learning algorithms to help navigate and pivot a large set of textual data.</p>
+<p>When a dashboard is created with new data, the raw data will automatically be processed, preparing it for analysis and visualization. This preparation is done by applying a structured data model.</p>
+<img alt="_images/structuredanalysis.png" src="_images/structuredanalysis.png" />
+<p>Other models can be applied once the structured data analysis is complete.</p>
+<img alt="_images/datamanager.png" src="_images/datamanager.png" />
+<div class="section" id="unsupervised-nlu-model">
+<h2>Unsupervised NLU Model<a class="headerlink" href="#unsupervised-nlu-model" title="Permalink to this headline">¶</a></h2>
+<p>The Unsupervised NLU Model is designed to automatically analyze large textual datasets as a method of topic and theme discovery</p>
 <p>Built on top of our proprietary Bayesian Neural Network and Generative Model, Stratifyd dynamically identifies semantic topic groups based on the context in your input data.</p>
 <p><strong>This is all done in a three-step process:</strong></p>
 <ol class="arabic simple">
@@ -176,9 +186,58 @@
 <blockquote>
 <div>It joins the data with the N-Gram-based content network for you to pivot and construct analytics questions against your dataset.</div></blockquote>
 </div>
-<div class="section" id="reprocessing">
-<h2>Reprocessing<a class="headerlink" href="#reprocessing" title="Permalink to this headline">¶</a></h2>
-<p>There are a number of <a class="reference internal" href="advancedoptions.html#advanced-options"><span>Advanced Options</span></a> that can be applied to customize the output of the Analytics Engine. When applying advanced options your data will need to be reprocessed. This can either be done directly through Edit Mode, or through clicking the reprocess button on your dataset under Manage Data.</p>
+<div class="section" id="autolearn">
+<h2>AutoLearn<a class="headerlink" href="#autolearn" title="Permalink to this headline">¶</a></h2>
+<p>AutoLearn builds custom machine learning models based on your data and chooses the most suitable ensemble model based on the F1 score. After training the model with your dataset, you can apply the model to a new dataset that has the same input dimension.</p>
+<div class="section" id="how-it-works">
+<h3>How it works<a class="headerlink" href="#how-it-works" title="Permalink to this headline">¶</a></h3>
+<p>During training, the first step is to select the training field. Traning field can be textual or numerical. If your textual field is categorical rather than free-form, you have the option to indicate this before you submit for training.</p>
+<p>After the training field is selected, AutoLearn pre-processes the data you selected. For numerical training fields a 0 will be used to replace empty fields. For textual fields, AutoLearn removes stopwords and lemmatizes the text as part of the text pre-processing.</p>
+<p>After the pre-processing we now have at most three types of feature vectors, and the classification model can be trained. The classification models:</p>
+<ol class="arabic simple">
+<li><a class="reference external" href="https://en.wikipedia.org/wiki/Logistic_regression">Logistic Regression</a></li>
+</ol>
+<ol class="arabic simple" start="2">
+<li><a class="reference external" href="https://en.wikipedia.org/wiki/Random_forest">Random Forest</a></li>
+</ol>
+<ol class="arabic simple" start="3">
+<li><a class="reference external" href="https://en.wikipedia.org/wiki/Feedforward_neural_network">Feedforward Neural Network</a></li>
+</ol>
+<ol class="arabic simple" start="4">
+<li>Label Embedding Attention Network</li>
+</ol>
+<p>are used with all features available and the best model is chosen for each feature. An ensemble model is generated and trained in addition to each individual model. The most performant model will be chosen as the final model and will then be ready to deploy on your data.</p>
+<p>Performance is evaluated through a weighted average of <a class="reference external" href="https://en.wikipedia.org/wiki/F1_score">F1 score</a> for each class.</p>
+</div>
+</div>
+<div class="section" id="id2">
+<h2>Random Forest<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="semi-auto-taxonomy">
+<h2>Semi-auto Taxonomy<a class="headerlink" href="#semi-auto-taxonomy" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="model-overview">
+<h3>Model overview<a class="headerlink" href="#model-overview" title="Permalink to this headline">¶</a></h3>
+<p>Semi-Auto Taxonomy (SAT) Model is designed to be a hybrid model, leveraging the features of the Unsupervised NLU Model and a traditional taxonomy model.</p>
+<p>Given a data stream (text) as training set, the SAT model will apply an existing taxonomy tree on the stream. Each record in the stream will be given one or more labels from the taxonomy tree (if applicable). Then, SAT model will be trained on the stream, with the information from the labels as initialized parameters. When the traning is finished, the trained model will be pushed to the model tab for further usage.</p>
+<p>In the deployment phase, the trained model will be applied on a selected data stream. The data stream can either be the training set, or a new one. Note that the stream should come from the same source as the training set if it is a new one. The reason is that the sample distribution should be consistent for the test and training set.</p>
+</div>
+<div class="section" id="input-training">
+<h3>Input (Training)<a class="headerlink" href="#input-training" title="Permalink to this headline">¶</a></h3>
+<p>The input of the training phase is 1. a taxonomy tree. and 2. a data stream.</p>
+</div>
+<div class="section" id="output-training">
+<h3>Output (Training)<a class="headerlink" href="#output-training" title="Permalink to this headline">¶</a></h3>
+<p>The output of the training phase is model added into the model tab.</p>
+</div>
+<div class="section" id="input-deployment">
+<h3>Input (Deployment)<a class="headerlink" href="#input-deployment" title="Permalink to this headline">¶</a></h3>
+<p>The input of the deployment phase is a data stream selected by the user.</p>
+</div>
+<div class="section" id="output-deployment">
+<h3>Output (Deployment)<a class="headerlink" href="#output-deployment" title="Permalink to this headline">¶</a></h3>
+<p>The output of the deployment phase is one or more labels and keywords associated with each record in the stream. Each label and keyword are internally associated with a confidence score. The confidence score are also given by the SAT model.</p>
+<p>The number of labels for each record depends on how many labels have a confidence score larger than a dynamic threshold (1/(topic # + 1)). In other words, if the confidence score of a label is greater than the threshold, then the label will be given to the record. The confidence score for a label can be roughly regarded as the occurence of sampled tokens from the input document, under the label.</p>
+</div>
 </div>
 </div>
 

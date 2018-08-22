@@ -1,19 +1,18 @@
 Mapping Data
 ============
 
+Data mapping occurs when an unknown data source is introduced to the platform. CSV, Excel files, :doc:`enterprisedataconnectors` and *certain* :doc:`3rdpartydataconnectors` require this before analysis.
+
+This process is done automatically for most data connectors.
+
 Stratifyd can be used to analyze any type of data; structured or unstructured.
 
-
-However, there are 4 types of data that Stratifyd treats differently to give users more information. Those data types are:
-
+There are 4 types of data that Stratifyd treats differently to give users more information. Those data types are:
 
 1) `Textual`_ - e.g. product review, customer feedback, news article text, etc.
 2) `Temporal`_ - a date, time, timestamp etc.
 3) `Geographical`_ - location, lat/lon, ip address, etc.
 4) `Contributor`_ - a 1:1 identifier for the creator of the textual data e.g. name, email, GUID, etc.
-
-
-Data mapping occurs when a new data source is introduced to the platform. CSV, Excel files, :doc:`enterprisedataconnectors` and *certain* :doc:`3rdpartydataconnectors` require this before analysis.
 
 
 On the left side of the Map Fields menu, you'll see every field from your data source.
