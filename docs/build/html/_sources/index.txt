@@ -43,3 +43,4 @@ The chapters below go into detail about everything from getting data, to analyzi
   faq
   contact
   miscellaneous
+  glossary
