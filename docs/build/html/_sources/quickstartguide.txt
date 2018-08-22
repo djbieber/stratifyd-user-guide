@@ -18,15 +18,35 @@ To create your own dashboard, click "Create a new Dashboard".
 .. image:: newdashboard.png
 
 
-Choose a template
-^^^^^^^^^^^^^^^^^
+Starting from a template
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The template library has a variety of pre-built dashboards to use as a starting point.
-If you already have a template you can search for the template in the search bar.
-You can always start from a blank dashboard and build your own from scratch.
+The data source you plan on using should match the one already in the template.
 
+
+.. image:: templatelibrary.png
+
+
+Once you've selected a template, you'll see the original dataset and be given the option to replace it with a new dataset. 
+
+.. Note:: The new dataset must have the same fields as the original dataset in order for the template visualizations to automatically populate.
+
+.. image:: replacedata.png
+
+The new data will begin processing and will automatically populate the visualizations once finished.
+
+Save the dashboard to your portfolio and you have successfully created a new dashboard from a template.
+
+
+Creating a blank dashboard
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+To create a brand new dashboard, you can start from scratch by clicking on "Blank Dashboard".
 
 .. image:: blankdashboard.png
+
+The next two sections cover how to bring data into your new dashboard and create visualizations.
 
 
 Connect to data
