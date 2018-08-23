@@ -41,6 +41,4 @@ The chapters below go into detail about everything from getting data, to analyzi
   administration
   releasenotes
   faq
-  contact
-  miscellaneous
   glossary

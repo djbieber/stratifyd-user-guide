@@ -2,14 +2,6 @@ Administration
 ==============
 
 
-Deploying Stratifyd
-~~~~~~~~~~~~~~~~~~~~
-
-A **Cloud Deployment** is our most common method of deployment. Among other services, Amazon Web Services S3 and EC2 are used to provide an optimal experience in computing and visualization.
-
-:ref:`Contact us <contact>` for information on alternative deployment methods.
-
-
 Account Info
 ~~~~~~~~~~~~~~~~~~~~
 

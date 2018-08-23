@@ -1,7 +1,7 @@
 Quick Start Guide
 =================
 
-By the end of this section you'll be able to load data, create a dashboard with visualizations, and analyze your data all from scratch.
+By the end of this section you'll be able to load data, create a dashboard, and analyze your data, all from scratch.
 
 
 Create an account
@@ -17,9 +17,21 @@ The main entry point to get started is on the dashboards page. Clicking on Dashb
 Create your first dashboard
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-To create your own dashboard, click "Create a new Dashboard".
+To create a dashboard, click on the blue plus sign.
 
 .. image:: newdashboard.png
+
+.. note:: Keep an eye out for the blue plus sign on other pages. This indicates that you can create new content from that space.
+
+
+Creating a blank dashboard
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+To create a brand new dashboard, you can start from scratch by clicking on "Blank Dashboard".
+
+.. image:: blankdashboard.png
+
+The next two sections cover how to bring data into your new dashboard and create visualizations.
 
 
 Starting from a template
@@ -42,15 +54,8 @@ The new data will begin processing and will automatically populate the visualiza
 
 Save the dashboard to your portfolio and you have successfully created a new dashboard from a template.
 
+You can also turn your custom dashboards into a template from the dashboard properties menu.
 
-Creating a blank dashboard
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-To create a brand new dashboard, you can start from scratch by clicking on "Blank Dashboard".
-
-.. image:: blankdashboard.png
-
-The next two sections cover how to bring data into your new dashboard and create visualizations.
 
 
 Connect to data
